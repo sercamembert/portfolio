@@ -1,0 +1,50 @@
+{
+  "Navbar": {
+    "services": "Nasze Usługi",
+    "about": "O nas",
+    "talk": "Porozmawiajmy"
+  },
+  "Hero": {
+    "text": "Wyróżniamy się w tworzeniu aplikacji webowych i mobilnych przy użyciu innowacyjnych rozwiązań oraz różnorodnych projektów, kładąc nacisk na nowoczesne technologie i kreatywność."
+  },
+  "Unique": {
+    "title": "Co nas wyróżnia",
+    "projects": "Zrealizowane projekty",
+    "years": "Lata w branży",
+    "commitment": "Zobowiązanie do Ciągłego Rozwoju",
+    "text": "W outofplace.space skupiamy się na ciągłym rozwoju. Jako pionierzy, wychodzimy poza początkową koncepcję, tworząc nowe pomysły i skutecznie je wdrażając.",
+    "description": "Jesteśmy nastolatkami, w wieku 15 i 16 lat, oddanymi ciągłemu rozwojowi. Pomimo naszego młodego wieku, dążymy do stałego doskonalenia naszych umiejętności, odkrywania nowych obszarów i tworzenia innowacyjnych rozwiązań."
+  },
+  "Services": {
+    "title": "Nasze usługi",
+    "design-desc": "Mamy doświadczenie z zakresu marketingu i wiemy, jak zaprojektować interfejs.",
+    "apps": "Aplikacje mobilne",
+    "apps-desc": "Znamy się na implementacji hybrydowych aplikacji mobilnych przy użyciu Native Script.",
+    "websites": "Strony internetowe",
+    "websites-desc": "Wysoka wydajność, optymalizacja pod kątem SEO i łatwy w obsłudze system zarządzania treścią.",
+    "explore": "Zobacz wszystkie usługi"
+  },
+  "Experience": {
+    "notice": "Twoja marka nie jest zauważana",
+    "notice-text": "Nie martw się, nie jesteś sam. I to nie jest Twoja wina: po prostu rynek cyfrowy jest zbyt zatłoczony, a trudno dla Twojej publiczności nawigować przez szum, nie mówiąc już o odróżnieniu Ciebie od Twojego głównego konkurenta.",
+    "catch": "Przyciągnij uwagę swojego następnego klienta",
+    "catch-text": "Zwiększamy widoczność i unikalność Twojej marki poprzez klarowne pozycjonowanie, konsekwentną reprezentację oraz dostarczanie wyjątkowych treści i produktów, które przyciągają potencjalnych klientów."
+  },
+  "Portfolio": {
+    "websites": "Strony internetowe",
+    "company": "firma",
+    "renovations": "Strona internetowa Renowacji Wnętrz - Projekt i Transformacja",
+    "quizportal": "QuizPortal.pl - platforma online umożliwiająca tworzenie i korzystanie z fiszek.",
+    "clothes": "Marka odzieżowa - Projekt i Tworzenie Marki",
+    "more": "Zobacz więcej"
+  },
+  "Team": {
+    "title": "Nasz Profesjonalny Duet"
+  },
+  "Tech": {
+    "title": "Technologie, których używamy"
+  },
+  "Footer": {
+    "contact": "Skontaktuj się z nami"
+  }
+}

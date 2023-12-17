@@ -1,0 +1,50 @@
+{
+  "Navbar": {
+    "services": "Our Services",
+    "about": "About us",
+    "talk": "Let’s talk"
+  },
+  "Hero": {
+    "text": "We stand out in Web & Mobile Development with innovative apps and diverse projects, emphasizing modern technology and creativity."
+  },
+  "Unique": {
+    "title": "What makes us unique",
+    "projects": "Completed projects",
+    "years": "Years in the industry",
+    "commitment": "Continuous Development Commitment",
+    "text": "At outofplace.space, we focus on continuous development. As pioneers, we go beyond the initial concept, creating new ideas and successfully implementing them.",
+    "description": "We're a teen duo, aged 15 and 16, dedicated to constant growth. Despite our youth, we strive to continually improve our skills, explore new frontiers, and create innovative solutions."
+  },
+  "Services": {
+    "title": "Our services",
+    "design-desc": "We have marketing background and know how to design an interface",
+    "apps": "Mobile apps",
+    "apps-desc": "We know how to implement hybrid mobile applications using Native Script.",
+    "websites": "Websites",
+    "websites-desc": "High performance, SEO optimization and easy to use CMS",
+    "explore": "Explore all servicies"
+  },
+  "Experience": {
+    "notice": "Your brand is not getting noticed",
+    "notice-text": "Don't worry, you're not alone. And it's not your fault: it's just the fact that the digital market is too crowded and it's difficult for your audience to navigate through the noise, let alone make a distinction between you and your number one competitor.",
+    "catch": "Catch the eye of your next customer",
+    "catch-text": "We enhance your brand's visibility and uniqueness through clear positioning, consistent representation, and delivering standout content and products that captivate your potential customers."
+  },
+  "Portfolio": {
+    "websites": "Websites",
+    "company": "company",
+    "renovations": "Interior Renovation Website - Design and Transformation",
+    "quizportal": "QuizPortal.pl - online platform that allows users to create and utilize flashcards.",
+    "clothes": "Clothing Brand - Design and Brand Creation",
+    "more": "See more"
+  },
+  "Team": {
+    "title": "Our Professional Duo"
+  },
+  "Tech": {
+    "title": "Tech stack we use"
+  },
+  "Footer": {
+    "contact": "Contact us"
+  }
+}
