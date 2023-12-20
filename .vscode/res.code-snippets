@@ -1,0 +1,8 @@
+{
+  "carti": {
+    "scope": "javascript,typescript",
+    "prefix": "carti",
+    "body": ["lg: xl: 2xl: desktop: "],
+    "description": "Log output to console"
+  }
+}
