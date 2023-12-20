@@ -5,10 +5,10 @@ interface Props {}
 const Language = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div className="w-[30px] flex justify-center mx-[31px] lg:mx-[40px] xl:mx-[57px] 2xl:mx-[60px]">
+    <div className="md:w-[30px] flex justify-start md:justify-center md:mx-[31px] lg:mx-[40px] xl:mx-[57px] 2xl:mx-[60px]">
       {!isOpen ? (
         <svg
-          className="w-[14.08px] lg:w-[22.59px] xl:w-[23.06px] 2xl:w-[26.4px] desktop:w-[31.53px] cursor-pointer
+          className="w-[33px] md:w-[14.08px] lg:w-[22.59px] xl:w-[23.06px] 2xl:w-[26.4px] desktop:w-[31.53px] cursor-pointer
         "
           viewBox="0 0 27 27"
           fill="none"
@@ -21,13 +21,13 @@ const Language = () => {
           />
         </svg>
       ) : (
-        <div className="absolute bottom-[-2px] bg-white flex flex-col gap-3 rounded-[12px] p-3">
+        <div className="md:absolute bottom-[-2px] bg-white flex flex-col gap-3 rounded-[12px] p-3">
           <Link href={"/en"}>
             <svg
               viewBox="0 0 13 8"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              className="w-[14.08px] lg:w-[22.59px] xl:w-[23.06px] 2xl:w-[26.4px] desktop:w-[31.53px] "
+              className="w-[33px] md:w-[14.08px] lg:w-[22.59px] xl:w-[23.06px] 2xl:w-[26.4px] desktop:w-[31.53px] "
               onClick={() => setIsOpen(false)}
             >
               <g clip-path="url(#clip0_596_110)">
@@ -82,7 +82,7 @@ const Language = () => {
 
           <Link href={"/pl"}>
             <svg
-              className="w-[14.08px] lg:w-[22.59px] xl:w-[23.06px] 2xl:w-[26.4px] desktop:w-[31.53px]"
+              className="w-[33px] md:w-[14.08px] lg:w-[22.59px] xl:w-[23.06px] 2xl:w-[26.4px] desktop:w-[31.53px]"
               viewBox="0 0 13 8"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"

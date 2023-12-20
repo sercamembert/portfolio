@@ -12,6 +12,7 @@ export default function Home() {
         about={navbarText("about")}
         services={navbarText("services")}
         talk={navbarText("talk")}
+        contact={navbarText("contact")}
       />
     </div>
   );
