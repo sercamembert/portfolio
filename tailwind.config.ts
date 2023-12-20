@@ -25,6 +25,9 @@ const config: Config = {
       fontFamily: {
         primary: ["Inter Tight", "sans-serif"],
       },
+      colors: {
+        primary: "#5F43B2",
+      },
     },
   },
   plugins: [],

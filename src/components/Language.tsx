@@ -1,14 +1,37 @@
 import Link from "next/link";
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
+import { motion } from "framer-motion";
 interface Props {}
 
 const Language = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const languageRef = useRef<HTMLDivElement | null>(null);
+
+  useEffect(() => {
+    const handleOutsideClick = (event: MouseEvent) => {
+      if (
+        languageRef.current &&
+        !languageRef.current.contains(event.target as Node)
+      ) {
+        setIsOpen(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleOutsideClick);
+
+    return () => {
+      document.removeEventListener("mousedown", handleOutsideClick);
+    };
+  }, []);
+
   return (
-    <div className="md:w-[30px] flex justify-start md:justify-center md:mx-[31px] lg:mx-[40px] xl:mx-[57px] 2xl:mx-[60px]">
+    <div
+      ref={languageRef}
+      className="md:w-[30px] flex justify-start md:justify-center md:mx-[31px] lg:mx-[40px] xl:mx-[57px] 2xl:mx-[60px]"
+    >
       {!isOpen ? (
         <svg
-          className="w-[33px] md:w-[14.08px] lg:w-[22.59px] xl:w-[23.06px] 2xl:w-[26.4px] desktop:w-[31.53px] cursor-pointer
+          className="w-[33px] md:w-[14.08px] lg:w-[22.59px] xl:w-[23.06px] 2xl:w-[26.4px] desktop:w-[31.53px] cursor-pointer hover:brightness-75 hover:scale-110 duration-[500ms]
         "
           viewBox="0 0 27 27"
           fill="none"
@@ -21,9 +44,17 @@ const Language = () => {
           />
         </svg>
       ) : (
-        <div className="md:absolute bottom-[-2px] bg-white flex flex-col gap-3 rounded-[12px] p-3">
+        <motion.div
+          initial={{ height: 0, y: -15 }}
+          animate={{ height: isOpen ? "auto" : 0 }}
+          transition={{ duration: 0.3 }}
+          className="md:absolute  bg-white flex flex-col gap-3 rounded-[12px] p-3 overflow-hidden"
+        >
           <Link href={"/en"}>
-            <svg
+            <motion.svg
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 0.3, delay: 0.4 }}
               viewBox="0 0 13 8"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -77,11 +108,14 @@ const Language = () => {
                   <rect width="12.3333" height="7.4" rx="1" fill="white" />
                 </clipPath>
               </defs>
-            </svg>
+            </motion.svg>
           </Link>
 
-          <Link href={"/pl"}>
-            <svg
+          <Link href={"/pl"} onClick={() => setIsOpen(false)}>
+            <motion.svg
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 0.3, delay: 0.4 }}
               className="w-[33px] md:w-[14.08px] lg:w-[22.59px] xl:w-[23.06px] 2xl:w-[26.4px] desktop:w-[31.53px]"
               viewBox="0 0 13 8"
               fill="none"
@@ -106,9 +140,9 @@ const Language = () => {
                   <rect width="12.33" height="7.4" rx="1" fill="white" />
                 </clipPath>
               </defs>
-            </svg>
+            </motion.svg>
           </Link>
-        </div>
+        </motion.div>
       )}
     </div>
   );
