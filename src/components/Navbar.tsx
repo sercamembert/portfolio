@@ -44,7 +44,7 @@ const Navbar = ({ services, about, talk, contact }: Props) => {
         <Language />
       </motion.div>
 
-      <nav className="w-full padding h-[80px] fixed top-0 flex items-center justify-between xl:h-[100px]">
+      <nav className="w-full padding h-[80px] fixed top-0 flex items-center justify-between xl:h-[100px] bg-black">
         <Logo />
 
         <div className="md:hidden">
