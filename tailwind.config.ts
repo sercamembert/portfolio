@@ -27,6 +27,7 @@ const config: Config = {
       },
       colors: {
         primary: "#5F43B2",
+        text: "rgba(255, 255, 255, 0.66)",
       },
     },
   },
