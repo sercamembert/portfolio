@@ -4,10 +4,13 @@ import flutterflowImg from "../../public/images/hero/flutterflow.png";
 import googleImg from "../../public/images/hero/google.png";
 import quizportalImg from "../../public/images/hero/quizportal.png";
 import microsoftImg from "../../public/images/hero/microsoft.png";
-
+import { motion } from "framer-motion";
 const HeroIcons = () => {
   return (
-    <div
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.3, delay: 0.3 }}
       className="md:flex items-center justify-between max-md:flex-wrap hidden gap-[20px] lg:gap-[25px] xl:gap-[33px] 2xl:gap-[37px] desktop:gap-[42px]
       md:mt-[31px] lg:mt-[40px] xl:mt-[51px] 2xl:mt-[59px] desktop:mt-[68px]
 "
@@ -36,7 +39,7 @@ const HeroIcons = () => {
         className="aspect-[4.84] object-contain object-center overflow-hidden shrink-0 max-w-full w-[70.81px] lg:w-[92.19px] xl:w-[117.63px] 2xl:w-[135.52px] 3xl:w-[137.55px]"
         alt="microsoft"
       />
-    </div>
+    </motion.div>
   );
 };
 
