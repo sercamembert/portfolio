@@ -5,12 +5,14 @@ import Hero from "@/components/Hero";
 import Unique from "@/components/Unique";
 import Concept from "@/components/Concept";
 import Services from "@/components/Services";
+import Team from "@/components/Team";
 
 export default function Home() {
   const navbarText = useTranslations("Navbar");
   const heroText = useTranslations("Hero");
   const uniqueText = useTranslations("Unique");
   const servicesText = useTranslations("Services");
+  const teamText = useTranslations("Team");
 
   return (
     <div className="w-full">
@@ -39,6 +41,7 @@ export default function Home() {
         websites={servicesText("websites")}
         websitesdesc={servicesText("websitesdesc")}
       />
+      <Team title={teamText("title")} />
     </div>
   );
 }

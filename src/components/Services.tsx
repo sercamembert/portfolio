@@ -101,7 +101,7 @@ const Services = ({
       <Link
         href="/services"
         className="mx-auto hidden md:block font-semibold text-[12.38px] lg:text-[16.01px] xl:text-[20.42px] 3xl:text-[23.88px] desktop:text-[26.31px]
-        border-b hover:border-b-2 border-transparent hover:border-white transition duration-200 ease-in-out
+        hover:brightness-[80%] hover:scale-110 duration-[400ms]
         "
       >
         {explore}
