@@ -18,11 +18,11 @@
   },
   "Services": {
     "title": "Our services",
-    "design-desc": "We have marketing background and know how to design an interface",
+    "designdesc": "We have marketing background and know how to design an interface",
     "apps": "Mobile apps",
-    "apps-desc": "We know how to implement hybrid mobile applications using Native Script.",
+    "appsdesc": "We know how to implement hybrid mobile applications using flutter.",
     "websites": "Websites",
-    "websites-desc": "High performance, SEO optimization and easy to use CMS",
+    "websitesdesc": "High performance, SEO optimization and easy to use CMS",
     "explore": "Explore all servicies"
   },
   "Experience": {

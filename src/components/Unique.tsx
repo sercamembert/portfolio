@@ -46,20 +46,34 @@ const Unique = ({
                 boxShadow:
                   "box-shadow: 0px 5.574px 5.574px 0px rgba(0, 0, 0, 0.25);",
               }}
-              className=" rounded-[15px] md:w-1/2 flex flex-col items-center justify-center py-[28px] md:py-0 md:h-full w-full max-w-[360px] md:max-w-full mx-auto
-              gap-y-[10px]
+              className=" rounded-[15px] md:w-1/2 flex md:flex-col  items-center justify-center py-[40px] md:py-0 md:h-full w-full max-w-[360px] md:max-w-full mx-auto
+              gap-y-[10px] gap-x-[75px]
             "
             >
-              <Image
-                src={projectsImg}
-                alt="10 projects completed"
-                width={160.62}
-                height={160.62}
-                className="w-[80px] md:w-[76px] lg:w-[98.29px] xl:w-[125.41px] 3xl:w-[146.65px] desktop:w-[160.62px]"
-              />
-              <p className="whitespace-pre-line font-medium text-center text-text text-[15.68px] md:text-[13.51px] lg:text-[17.47px] xl:text-[22.29px] 3xl:text-[26.07px] desktop:text-[28.55px] leading-tight">
-                {projects}
-              </p>
+              <div>
+                <Image
+                  src={projectsImg}
+                  alt="10 projects completed"
+                  width={160.62}
+                  height={160.62}
+                  className="w-[80px] md:w-[76px] lg:w-[98.29px] xl:w-[125.41px] 3xl:w-[146.65px] desktop:w-[160.62px]"
+                />
+                <p className="whitespace-pre-line font-medium text-center text-text text-[15.68px] md:text-[13.51px] lg:text-[17.47px] xl:text-[22.29px] 3xl:text-[26.07px] desktop:text-[28.55px] leading-tight mt-[10px]">
+                  {projects}
+                </p>
+              </div>
+              <div className="block md:hidden">
+                <Image
+                  src={yearsImg}
+                  alt="1+ years in industry"
+                  width={160.62}
+                  height={160.62}
+                  className="w-[80px] md:w-[76px] lg:w-[98.29px] xl:w-[125.41px] 3xl:w-[146.65px] desktop:w-[160.62px]"
+                />
+                <p className="whitespace-pre-line font-medium text-center text-text text-[15.68px] md:text-[13.51px] lg:text-[17.47px] xl:text-[22.29px] 3xl:text-[26.07px] desktop:text-[28.55px] leading-tight mt-[10px]">
+                  {years}
+                </p>
+              </div>
             </div>
             <div
               style={{
@@ -67,7 +81,7 @@ const Unique = ({
                   "radial-gradient(371.89% 134.33% at 3.21% 1.26%, rgba(255, 255, 255, 0.07) 0%, rgba(217, 217, 217, 0.00) 100%)",
                 boxShadow: "0px 5.574px 5.574px 0px rgba(0, 0, 0, 0.25)",
               }}
-              className="bg-[#191919] rounded-[15px] md:w-1/2 flex flex-col items-center justify-center py-[28px] md:py-0 md:h-full w-full max-w-[360px] md:max-w-full mx-auto
+              className="hidden rounded-[15px] md:w-1/2 md:flex flex-col items-center justify-center py-[40px] md:py-0 md:h-full w-full max-w-[360px] md:max-w-full mx-auto
               gap-y-[10px]
             "
             >
@@ -89,7 +103,7 @@ const Unique = ({
                 "linear-gradient(180deg, rgba(255, 255, 255, 0.10) 0%, rgba(217, 217, 217, 0.00) 100%)",
               boxShadow: "0px 5.574px 5.574px 0px rgba(0, 0, 0, 0.25)",
             }}
-            className=" rounded-[15px] md:h-1/2 py-[28px] flex flex-col items-center justify-center w-full max-w-[360px] md:max-w-full mx-auto
+            className=" rounded-[15px] md:h-1/2 py-[40px] flex flex-col items-center justify-center w-full max-w-[360px] md:max-w-full mx-auto
             md:py-[23px] lg:py-[30px] xl:py-[35px] 3xl:py-[45px]
             "
           >
@@ -111,7 +125,7 @@ const Unique = ({
               "radial-gradient(81.17% 71.06% at 50% 31.06%, rgba(58, 48, 83, 0.71) 0%, rgba(96, 69, 165, 0.25) 52.6%, rgba(58, 48, 83, 0.00) 100%)",
             boxShadow: "0px 5.574px 5.574px 0px rgba(0, 0, 0, 0.25)",
           }}
-          className="h-full rounded-[15px] md:w-[41.4%] flex flex-col items-center justify-center w-full max-w-[360px] md:max-w-full mx-auto py-[28px]
+          className="h-full rounded-[15px] md:w-[41.4%] flex flex-col items-center justify-center w-full max-w-[360px] md:max-w-full mx-auto py-[40px]
           md:py-[15px] lg:py-[20px] xl:py-[25px] 3xl:py-[29px] desktop:py-[32px]
           "
         >

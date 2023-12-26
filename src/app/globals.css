@@ -20,3 +20,7 @@
     @apply gap-x-[18.62px] lg:gap-x-[24.08px] xl:gap-x-[30.73px] 3xl:gap-x-[36px] desktop:gap-x-[39px];
   }
 }
+
+video {
+  transform: scale(1.1);
+}

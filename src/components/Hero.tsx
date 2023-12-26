@@ -29,7 +29,7 @@ const Hero = ({ text, talk }: Props) => {
 
         <button
           className="bg-white text-black rounded-[10px] xl:rounded-[15px]  h-[32.58px] md:h-[21.1px]  lg:h-[27.29px]  xl:h-[34.82px]  2xl:h-[40.12px]  desktop:h-[44.86px]
-        font-semibold text-[12.97px] md:text-[8.25px] lg:text-[10.68px] xl:text-[13.62px] 2xl:text-[15.69px] desktop:text-[17.54px] px-3 xl:px-6 hover:brightness-75 hover:scale-110 duration-[400ms]
+        font-semibold text-[12.97px] md:text-[8.25px] lg:text-[10.68px] xl:text-[13.62px] 2xl:text-[15.69px] desktop:text-[17.54px] px-3 xl:px-6 hover:brightness-[80%] hover:scale-110 duration-[400ms]
         w-[179.54px] md:w-auto md:min-w-[116.3px] lg:min-w-[150.42px] xl:min-w-[191.92px] 2xl:min-w-[221.11px] 3xl:min-w-[224.42px] desktop:min-w-[247.22px]
         mt-[15px] md:mt-[13px] lg:mt-[16px] xl:mt-[21px] 2xl:mt-[24px] desktop:mt-[27px]
         "
@@ -38,7 +38,7 @@ const Hero = ({ text, talk }: Props) => {
         </button>
         <HeroIcons />
       </div>
-      <div className="w-full h-[300px] md:h-[270px] xl:h-[350px] 2xl:h-[400px] desktop:h-[500px]">
+      <div className="w-full h-[250px] md:h-[270px] xl:h-[350px] 2xl:h-[400px] desktop:h-[500px]">
         <Spline scene="https://prod.spline.design/Gu59AIyqqsViESbU/scene.splinecode" />
       </div>
     </div>

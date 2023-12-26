@@ -44,7 +44,7 @@ const Navbar = ({ services, about, talk, contact }: Props) => {
         <Language />
       </motion.div>
 
-      <nav className="w-full padding h-[80px] fixed top-0 flex items-center justify-between xl:h-[100px] bg-black">
+      <nav className="w-full padding h-[80px] fixed top-0 flex items-center justify-between xl:h-[100px] bg-black z-50">
         <Logo />
 
         <div className="md:hidden">
@@ -75,7 +75,7 @@ const Navbar = ({ services, about, talk, contact }: Props) => {
 
           <button
             className="bg-white text-black rounded-[10px] xl:rounded-[15px]  h-[24px]  lg:h-[30px]  xl:h-[39.31px]  2xl:h-[45px]  desktop:h-[53px]
-        font-semibold text-[7.82px] lg:text-[10px] xl:text-[12.81px] 2xl:text-[14.67px] desktop:text-[17.52px] px-3 xl:px-6 hover:brightness-75 hover:scale-110 duration-[400ms]
+        font-semibold text-[7.82px] lg:text-[10px] xl:text-[12.81px] 2xl:text-[14.67px] desktop:text-[17.52px] px-3 xl:px-6 hover:brightness-[80%] hover:scale-110 duration-[400ms]
 
         "
           >

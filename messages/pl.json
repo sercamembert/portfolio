@@ -18,11 +18,11 @@
   },
   "Services": {
     "title": "Nasze usługi",
-    "design-desc": "Mamy doświadczenie z zakresu marketingu i wiemy, jak zaprojektować interfejs, tak aby był atrakcyjny dla użytkownika.",
+    "designdesc": "Mamy doświadczenie z zakresu marketingu i wiemy, jak zaprojektować interfejs, tak aby był atrakcyjny dla użytkownika.",
     "apps": "Aplikacje mobilne",
-    "apps-desc": "Specjalizujemy się w tworzeniu mobilnych aplikacji hybrydowych przy użyciu flutter.",
+    "appsdesc": "Specjalizujemy się w tworzeniu mobilnych aplikacji hybrydowych przy użyciu flutter.",
     "websites": "Strony internetowe",
-    "websites-desc": "Wysoka wydajność, optymalizacja pod kątem SEO i łatwy w obsłudze system zarządzania treścią.",
+    "websitesdesc": "Wysoka wydajność, optymalizacja pod kątem SEO i łatwy w obsłudze system zarządzania treścią.",
     "explore": "Zobacz wszystkie usługi"
   },
   "Experience": {
