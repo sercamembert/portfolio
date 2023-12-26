@@ -45,9 +45,10 @@ const Services = ({
            rounded-[24.38px] md:rounded-[14.4px] xl:rounded-[18.37px] 3xl:rounded-[21.48px] desktop:rounded-[40.48px]
            min-h-[185.25px]
            md:min-h-full
+           gap-y-[5px]
           "
         >
-          <h1 className="font-semibold text-[27px] md:text-[25.66px] lg:text-[33.19px] xl:text-[42.34px] 3xl:text-[49.52px] desktop:text-[54.55px]">
+          <h1 className="font-semibold leading-tight text-[27px] md:text-[25.66px] lg:text-[33.19px] xl:text-[42.34px] 3xl:text-[49.52px] desktop:text-[54.55px]">
             Design
           </h1>
           <p className="whitespace-pre-line font-medium text-center text-text text-[15.68px] md:text-[13.51px] lg:text-[17.47px] xl:text-[22.29px] 3xl:text-[26.07px] desktop:text-[28.55px] leading-tight">
@@ -65,6 +66,7 @@ const Services = ({
            rounded-[24.38px] md:rounded-[14.4px] xl:rounded-[18.37px] 3xl:rounded-[21.48px] desktop:rounded-[40.48px]
            min-h-[185.25px]
            md:min-h-full
+           gap-y-[5px]
           "
         >
           <h1 className="font-semibold text-[27px] text-center leading-tight md:text-[25.66px] lg:text-[33.19px] xl:text-[42.34px] 3xl:text-[49.52px] desktop:text-[54.55px]">
@@ -85,6 +87,7 @@ const Services = ({
            rounded-[24.38px] md:rounded-[14.4px] xl:rounded-[18.37px] 3xl:rounded-[21.48px] desktop:rounded-[40.48px]
            min-h-[185.25px]
            md:min-h-full
+           gap-y-[5px]
           "
         >
           <h1 className="text-center leading-tight font-semibold text-[27px] md:text-[25.66px] lg:text-[33.19px] xl:text-[42.34px] 3xl:text-[49.52px] desktop:text-[54.55px]">
@@ -98,7 +101,7 @@ const Services = ({
       <Link
         href="/services"
         className="mx-auto hidden md:block font-semibold text-[12.38px] lg:text-[16.01px] xl:text-[20.42px] 3xl:text-[23.88px] desktop:text-[26.31px]
-        underline
+        border-b hover:border-b-2 border-transparent hover:border-white transition duration-200 ease-in-out
         "
       >
         {explore}

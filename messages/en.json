@@ -18,11 +18,11 @@
   },
   "Services": {
     "title": "Our services",
-    "designdesc": "We have marketing background and know how to design an interface",
+    "designdesc": "We have marketing background\nand know how to design an\ninterface",
     "apps": "Mobile apps",
-    "appsdesc": "We know how to implement hybrid mobile applications using flutter.",
+    "appsdesc": "We know how to implement\nhybrid mobile applications\nusing flutter.",
     "websites": "Websites",
-    "websitesdesc": "High performance, SEO optimization and easy to use CMS",
+    "websitesdesc": "High performance, SEO\noptimization and easy to use\nCMS",
     "explore": "Explore all servicies"
   },
   "Experience": {
