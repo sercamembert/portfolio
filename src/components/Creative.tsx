@@ -36,7 +36,11 @@ const Creative = ({ notice, noticetext, eye, catchtext }: Props) => {
             <h1 className="font-semibold text-[18.82px] md:text-[24.52px] lg:text-[31.7px] xl:text-[40.44px] 2xl:text-[43.79px] 3xl:text-[47.29px] desktop:text-[52.12px]">
               {notice}
             </h1>
-            <p className="whitespace-normal md:whitespace-pre-line font-medium text-text text-[15.68px] md:text-[11.83px] lg:text-[15.29px] xl:text-[19.5px] 2xl:text-[21.12px] 3xl:text-[22.81px] desktop:text-[25.14x]">
+            <p
+              className="whitespace-normal md:whitespace-pre-line font-medium text-text text-[15.68px] md:text-[11.83px] lg:text-[15.29px] xl:text-[19.5px] 2xl:text-[21.12px] 3xl:text-[22.81px] desktop:text-[25.14x]
+            md:max-w-[400px] lg:max-w-[515px] xl:max-w-[657px] 2xl:max-w-[712px] 3xl:max-w-[770px] desktop:max-w-[820px]
+            "
+            >
               {noticetext}
             </p>
           </div>
@@ -44,7 +48,11 @@ const Creative = ({ notice, noticetext, eye, catchtext }: Props) => {
             <h1 className="font-semibold text-[18.82px] md:text-[24.52px] lg:text-[31.7px] xl:text-[40.44px] 2xl:text-[43.79px] 3xl:text-[47.29px] desktop:text-[52.12px]">
               {eye}
             </h1>
-            <p className="whitespace-normal md:whitespace-pre-line font-medium text-text text-[15.68px] md:text-[11.83px] lg:text-[15.29px] xl:text-[19.5px] 2xl:text-[21.12px] 3xl:text-[22.81px] desktop:text-[25.14x]">
+            <p
+              className="whitespace-normal md:whitespace-pre-line font-medium text-text text-[15.68px] md:text-[11.83px] lg:text-[15.29px] xl:text-[19.5px] 2xl:text-[21.12px] 3xl:text-[22.81px] desktop:text-[25.14x]
+            md:max-w-[400px] lg:max-w-[515px] xl:max-w-[657px] 2xl:max-w-[712px] 3xl:max-w-[770px] desktop:max-w-[820px]
+            "
+            >
               {catchtext}
             </p>
           </div>
