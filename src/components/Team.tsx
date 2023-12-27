@@ -11,14 +11,14 @@ const Team = ({ title }: Props) => {
   return (
     <div className="padding flex flex-col my-[200px] gap-y-[7px] md:gap-y-[24px] lg:gap-y-[31px] xl:gap-y-[41px] 3xl:gap-y-[47px] desktop:gap-y-[53px]">
       <h1 className="title text-center md:text-left">{title}</h1>
-      <div className="flex flex-col md:flex-row gap-y-[50px] md:gap-x-[127px] lg:gap-x-[163px] xl:gap-x-[208px] 2xl:gap-x-[215px] 3xl:gap-x-[243px] desktop:gap-x-[268px]">
+      <div className="flex flex-col md:flex-row gap-y-[50px] justify-between md:gap-x-[127px] lg:gap-x-[163px] xl:gap-x-[208px] 2xl:gap-x-[215px] 3xl:gap-x-[243px] desktop:gap-x-[268px]">
         <div className="md:w-1/2 z-10 flex flex-col mx-auto">
           <Image
             src={FilipImg}
             alt="Filip Maszota"
             width={575.65}
             height={568.48}
-            className="max-w-[360px] md:max-w-full"
+            className="max-w-[360px] md:max-w-full w-full"
           />
           <h1 className="font-semibold text-[20px] md:text-[25.65px] lg:text-[33.18px] xl:text-[42.34px] 3xl:text-[49.51px] desktop:text-[54.53px]">
             Filip Maszota
@@ -43,7 +43,7 @@ const Team = ({ title }: Props) => {
             alt="Marcel Bogdan"
             width={575.65}
             height={568.48}
-            className="max-w-[360px] md:max-w-full"
+            className="max-w-[360px] md:max-w-full w-full"
           />
           <h1 className="font-semibold text-[20px] md:text-[25.65px] lg:text-[33.18px] xl:text-[42.34px] 3xl:text-[49.51px] desktop:text-[54.53px]">
             Marcel Bogdan
