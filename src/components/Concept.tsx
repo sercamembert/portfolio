@@ -34,7 +34,7 @@ const Concept = () => {
 
   return (
     <div className="padding my-[20px] md:my-[50px] z-0">
-      <video ref={videoRef} muted>
+      <video ref={videoRef} muted className="mx-auto">
         <source
           src="https://cdn.discordapp.com/attachments/1091042166022869143/1189146337820803162/animacja.webm?ex=659d19d4&is=658aa4d4&hm=6aee0a31b6198d7816b0cebf85b2dd8868f6df9eb0703ceed066fac71d7496d6&"
           type="video/webm"
