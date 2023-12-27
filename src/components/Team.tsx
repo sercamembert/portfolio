@@ -31,8 +31,8 @@ const Team = ({ title }: Props) => {
         <Image
           src={shadowImg}
           alt="shadow"
-          width={542.59}
-          height={330.49}
+          width={700}
+          height={500}
           className="hidden z-0 absolute md:block left-1/2 -translate-x-1/2
           
           "

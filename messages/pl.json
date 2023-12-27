@@ -27,9 +27,9 @@
   },
   "Experience": {
     "notice": "Twoja marka nie jest zauważana",
-    "notice-text": "Nie martw się, nie jesteś sam,i z pewnością nie jest to Twoja wina. Problem polega na tym, że rynek jest obecnie przepełniony, co utrudnia potencjalnym klientom dotarcie do ciebie. Jesteśmy tutaj, aby pomóc ci to zmienić.",
-    "catch": "Przyciągnij uwagę swojego następnego klienta",
-    "catch-text": "Naszym celem jest efektywne wypozycjonowanie Twojej firmy, zapewniając jej widoczność i przyciągający wizerunek. Dążymy do tego, abyś wyróżniał się na tle konkurencji, budując trwałe pozytywne wrażenie na użytkownikach. Poprzez konsekwentne działania, tworzymy spójny obraz firmy, który przyciąga potencjalnych klientów."
+    "noticetext": "Nie martw się, nie jesteś sam,i z pewnością nie jest to Twoja wina. Problem polega na tym, że rynek jest obecnie przepełniony, co utrudnia potencjalnym klientom dotarcie do ciebie. Jesteśmy tutaj, aby pomóc ci to zmienić.",
+    "eye": "Przyciągnij uwagę swojego następnego klienta",
+    "catchtext": "Naszym celem jest efektywne wypozycjonowanie Twojej firmy, zapewniając jej widoczność i przyciągający wizerunek. Dążymy do tego, abyś wyróżniał się na tle konkurencji, budując trwałe pozytywne wrażenie na użytkownikach. Poprzez konsekwentne działania, tworzymy spójny obraz firmy, który przyciąga potencjalnych klientów."
   },
   "Portfolio": {
     "websites": "Strony internetowe",

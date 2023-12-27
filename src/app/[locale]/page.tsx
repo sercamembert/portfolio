@@ -6,6 +6,7 @@ import Unique from "@/components/Unique";
 import Concept from "@/components/Concept";
 import Services from "@/components/Services";
 import Team from "@/components/Team";
+import Creative from "@/components/Creative";
 
 export default function Home() {
   const navbarText = useTranslations("Navbar");
@@ -13,6 +14,7 @@ export default function Home() {
   const uniqueText = useTranslations("Unique");
   const servicesText = useTranslations("Services");
   const teamText = useTranslations("Team");
+  const creativeText = useTranslations("Experience");
 
   return (
     <div className="w-full">
@@ -40,6 +42,12 @@ export default function Home() {
         title={servicesText("title")}
         websites={servicesText("websites")}
         websitesdesc={servicesText("websitesdesc")}
+      />
+      <Creative
+        notice={creativeText("notice")}
+        noticetext={creativeText("noticetext")}
+        catchtext={creativeText("catchtext")}
+        eye={creativeText("eye")}
       />
       <Team title={teamText("title")} />
     </div>
