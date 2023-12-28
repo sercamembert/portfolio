@@ -7,6 +7,7 @@ import Concept from "@/components/Concept";
 import Services from "@/components/Services";
 import Team from "@/components/Team";
 import Creative from "@/components/Creative";
+import Portfolio from "@/components/Portfolio";
 
 export default function Home() {
   const navbarText = useTranslations("Navbar");
@@ -15,6 +16,7 @@ export default function Home() {
   const servicesText = useTranslations("Services");
   const teamText = useTranslations("Team");
   const creativeText = useTranslations("Experience");
+  const portfolioText = useTranslations("Portfolio");
 
   return (
     <div className="w-full">
@@ -48,6 +50,14 @@ export default function Home() {
         noticetext={creativeText("noticetext")}
         catchtext={creativeText("catchtext")}
         eye={creativeText("eye")}
+      />
+      <Portfolio
+        clothes={portfolioText("clothes")}
+        company={portfolioText("company")}
+        more={portfolioText("more")}
+        quizportal={portfolioText("quizportal")}
+        renovations={portfolioText("renovations")}
+        websites={portfolioText("websites")}
       />
       <Team title={teamText("title")} />
     </div>

@@ -38,7 +38,7 @@ const Creative = ({ notice, noticetext, eye, catchtext }: Props) => {
             </h1>
             <p
               className="whitespace-normal md:whitespace-pre-line font-medium text-text text-[15.68px] md:text-[11.83px] lg:text-[15.29px] xl:text-[19.5px] 2xl:text-[21.12px] 3xl:text-[22.81px] desktop:text-[25.14x]
-            md:max-w-[400px] lg:max-w-[515px] xl:max-w-[657px] 2xl:max-w-[712px] 3xl:max-w-[770px] desktop:max-w-[820px]
+            w-[85%]
             "
             >
               {noticetext}
@@ -50,7 +50,7 @@ const Creative = ({ notice, noticetext, eye, catchtext }: Props) => {
             </h1>
             <p
               className="whitespace-normal md:whitespace-pre-line font-medium text-text text-[15.68px] md:text-[11.83px] lg:text-[15.29px] xl:text-[19.5px] 2xl:text-[21.12px] 3xl:text-[22.81px] desktop:text-[25.14x]
-            md:max-w-[400px] lg:max-w-[515px] xl:max-w-[657px] 2xl:max-w-[712px] 3xl:max-w-[770px] desktop:max-w-[820px]
+              w-[85%]
             "
             >
               {catchtext}
