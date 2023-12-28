@@ -100,7 +100,7 @@ const Services = ({
       </div>
       <Link
         href="/services"
-        className="mx-auto hidden md:block font-semibold text-[12.38px] lg:text-[16.01px] xl:text-[20.42px] 3xl:text-[23.88px] desktop:text-[26.31px]
+        className="mx-auto font-semibold mt-[15px] md:mt-0 text-[17px] md:text-[12.38px] lg:text-[16.01px] xl:text-[20.42px] 3xl:text-[23.88px] desktop:text-[26.31px]
         hover:brightness-[80%] hover:scale-110 duration-[400ms]
         "
       >

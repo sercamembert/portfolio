@@ -8,6 +8,8 @@ import Services from "@/components/Services";
 import Team from "@/components/Team";
 import Creative from "@/components/Creative";
 import Portfolio from "@/components/Portfolio";
+import MarqueeText from "@/components/Marquee";
+import TechStack from "@/components/TechStack";
 
 export default function Home() {
   const navbarText = useTranslations("Navbar");
@@ -17,6 +19,7 @@ export default function Home() {
   const teamText = useTranslations("Team");
   const creativeText = useTranslations("Experience");
   const portfolioText = useTranslations("Portfolio");
+  const techText = useTranslations("Tech");
 
   return (
     <div className="w-full">
@@ -60,6 +63,8 @@ export default function Home() {
         websites={portfolioText("websites")}
       />
       <Team title={teamText("title")} />
+      <MarqueeText talk={navbarText("talk")} />
+      <TechStack title={techText("title")} />
     </div>
   );
 }

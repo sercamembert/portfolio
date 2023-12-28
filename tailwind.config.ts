@@ -29,6 +29,7 @@ const config: Config = {
         primary: "#5F43B2",
         text: "rgba(255, 255, 255, 0.66)",
         class: "rgba(255, 255, 255, 0.2)",
+        tech: "#B2B2B2",
       },
     },
   },
