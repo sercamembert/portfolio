@@ -46,6 +46,10 @@
     "title": "Tech stack we use"
   },
   "Footer": {
-    "contact": "Contact us"
+    "contact": "Contact us",
+    "renovation": "Interior Renovation",
+    "unique": "What makes us unique",
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy"
   }
 }

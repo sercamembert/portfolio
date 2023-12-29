@@ -33,7 +33,7 @@
   },
   "Portfolio": {
     "websites": "Strony internetowe",
-    "company": "firma",
+    "company": "Firma",
     "renovations": "Strona internetowa Renowacji Wnętrz - Projekt i Transformacja",
     "quizportal": "QuizPortal.pl - platforma online umożliwiająca tworzenie i korzystanie z fiszek.",
     "clothes": "Marka odzieżowa - Projekt i Tworzenie Marki",
@@ -46,6 +46,10 @@
     "title": "Technologie których używamy"
   },
   "Footer": {
-    "contact": "Skontaktuj się z nami"
+    "contact": "Skontaktuj się z nami",
+    "renovation": "Renowacja wnętrz",
+    "unique": "Co czyni nas wyjątkowymi",
+    "terms": "Regulamin",
+    "privacy": "Polityka prywatności"
   }
 }

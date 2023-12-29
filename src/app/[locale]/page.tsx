@@ -10,6 +10,7 @@ import Creative from "@/components/Creative";
 import Portfolio from "@/components/Portfolio";
 import MarqueeText from "@/components/Marquee";
 import TechStack from "@/components/TechStack";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   const navbarText = useTranslations("Navbar");
@@ -20,6 +21,7 @@ export default function Home() {
   const creativeText = useTranslations("Experience");
   const portfolioText = useTranslations("Portfolio");
   const techText = useTranslations("Tech");
+  const footerText = useTranslations("Footer");
 
   return (
     <div className="w-full">
@@ -65,6 +67,18 @@ export default function Home() {
       <Team title={teamText("title")} />
       <MarqueeText talk={navbarText("talk")} />
       <TechStack title={techText("title")} />
+      <Footer
+        contact={footerText("contact")}
+        apps={servicesText("apps")}
+        duo={teamText("title")}
+        services={navbarText("services")}
+        unique={footerText("unique")}
+        websites={servicesText("websites")}
+        about={navbarText("about")}
+        renovation={footerText("renovation")}
+        privacy={footerText("privacy")}
+        terms={footerText("terms")}
+      />
     </div>
   );
 }
