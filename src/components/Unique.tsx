@@ -2,6 +2,7 @@ import React from "react";
 import projectsImg from "../../public/images/unique/projects.png";
 import yearsImg from "../../public/images/unique/years.png";
 import Image from "next/image";
+import { UniqueAnimation, UniqueAnimationYears } from "./UniqueAnimation";
 interface Props {
   title: string;
   projects: string;
@@ -51,25 +52,13 @@ const Unique = ({
             "
             >
               <div>
-                <Image
-                  src={projectsImg}
-                  alt="10 projects completed"
-                  width={160.62}
-                  height={160.62}
-                  className="w-[80px] md:w-[76px] lg:w-[98.29px] xl:w-[125.41px] 3xl:w-[146.65px] desktop:w-[160.62px]"
-                />
+                <UniqueAnimation />
                 <p className="whitespace-pre-line font-medium text-center text-text text-[15.68px] md:text-[13.51px] lg:text-[17.47px] xl:text-[22.29px] 3xl:text-[26.07px] desktop:text-[28.55px] leading-tight mt-[10px]">
                   {projects}
                 </p>
               </div>
               <div className="block md:hidden">
-                <Image
-                  src={yearsImg}
-                  alt="1+ years in industry"
-                  width={160.62}
-                  height={160.62}
-                  className="w-[80px] md:w-[76px] lg:w-[98.29px] xl:w-[125.41px] 3xl:w-[146.65px] desktop:w-[160.62px]"
-                />
+                <UniqueAnimationYears />
                 <p className="whitespace-pre-line font-medium text-center text-text text-[15.68px] md:text-[13.51px] lg:text-[17.47px] xl:text-[22.29px] 3xl:text-[26.07px] desktop:text-[28.55px] leading-tight mt-[10px]">
                   {years}
                 </p>
@@ -85,13 +74,7 @@ const Unique = ({
               gap-y-[10px]
             "
             >
-              <Image
-                src={yearsImg}
-                alt="1+ years in industry"
-                width={160.62}
-                height={160.62}
-                className="w-[80px] md:w-[76px] lg:w-[98.29px] xl:w-[125.41px] 3xl:w-[146.65px] desktop:w-[160.62px]"
-              />
+              <UniqueAnimationYears />
               <p className="whitespace-pre-line font-medium text-center text-text text-[15.68px] md:text-[13.51px] lg:text-[17.47px] xl:text-[22.29px] 3xl:text-[26.07px] desktop:text-[28.55px] leading-tight">
                 {years}
               </p>
