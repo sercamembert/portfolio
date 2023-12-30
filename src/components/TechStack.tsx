@@ -23,62 +23,46 @@ const TechStack = ({ title }: Props) => {
       <div className="flex justify-between items-center">
         <Image
           src={nextImg}
-          alt="next.js"
-          width={81.75}
-          height={81.75}
+          alt="Next.js"
           className="w-[19.29px] md:w-[38.42px] lg:w-[49.69px] xl:w-[63.4px] 2xl:w-[66.65px] 3xl:w-[74.13px] desktop:w-[81.66px]"
         />
         <Image
           src={reactImg}
-          alt="next.js"
-          width={81.75}
-          height={81.75}
+          alt="React"
           className="w-[19.29px] md:w-[38.42px] lg:w-[49.69px] xl:w-[63.4px] 2xl:w-[66.65px] 3xl:w-[74.13px] desktop:w-[81.66px]"
         />
         <Image
           src={typescriptImg}
-          alt="next.js"
-          width={81.75}
-          height={81.75}
+          alt="Typescript"
           className="w-[19.29px] md:w-[38.42px] lg:w-[49.69px] xl:w-[63.4px] 2xl:w-[66.65px] 3xl:w-[74.13px] desktop:w-[81.66px]"
         />
         <Image
           src={tailwindImg}
-          alt="next.js"
-          width={81.75}
-          height={49}
+          alt="tailwind CSS"
           className="w-[19.29px] md:w-[38.42px] lg:w-[49.69px] xl:w-[63.4px] 2xl:w-[66.65px] 3xl:w-[74.13px] desktop:w-[81.66px]
           h-[11.6px] md:h-[23.07px] lg:h-[29.85px] xl:h-[38.08px] 2xl:h-[40.09px] 3xl:h-[44.64px] desktop:h-[49.05px]
           "
         />
         <Image
           src={figmaImg}
-          alt="next.js"
-          width={81.75}
-          height={81.75}
+          alt="figma"
           className="w-[19.29px] md:w-[38.42px] lg:w-[49.69px] xl:w-[63.4px] 2xl:w-[66.65px] 3xl:w-[74.13px] desktop:w-[81.66px]"
         />
         <Image
           src={flutterImg}
-          alt="next.js"
-          width={329.19}
-          height={69.76}
+          alt="flutter"
           className="w-[77.66px] md:w-[154.86px] lg:w-[200.29px] xl:w-[255.55px] 2xl:w-[268.36px] 3xl:w-[298.83px] desktop:w-[329.19px]"
         />
         <Image
           src={adsImg}
-          alt="next.js"
-          width={81.75}
-          height={101.92}
+          alt="google ads"
           className="w-[19.29px] md:w-[38.42px] lg:w-[49.69px] xl:w-[63.4px] 2xl:w-[66.65px] 3xl:w-[74.13px] desktop:w-[81.66px]
           h-[24.05px] md:h-[47.95px] lg:h-[62.02px] xl:h-[79.11px] 2xl:h-[83.08px] 3xl:h-[92.52px] desktop:h-[101.92px]
           "
         />
         <Image
           src={googleImg}
-          alt="next.js"
-          width={237.54}
-          height={81.75}
+          alt="google"
           className="w-[56.04px] md:w-[111.75px] lg:w-[144.53px] xl:w-[184.4px] 2xl:w-[193.65px] 3xl:w-[215.64px] desktop:w-[237.54px]
           "
         />

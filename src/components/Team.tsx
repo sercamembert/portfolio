@@ -1,8 +1,8 @@
 import React from "react";
-import shadowImg from "../../public/images/shadow.svg";
+import shadowImg from "../../public/images/team/shadow.svg";
 import Image from "next/image";
-import FilipImg from "../../public/images/Filip.png";
-import MarcelImg from "../../public/images/Marcel.png";
+import FilipImg from "../../public/images/team/Filip.png";
+import MarcelImg from "../../public/images/team/Marcel.png";
 interface Props {
   title: string;
 }
@@ -16,8 +16,6 @@ const Team = ({ title }: Props) => {
           <Image
             src={FilipImg}
             alt="Filip Maszota"
-            width={575.65}
-            height={568.48}
             className="max-w-[360px] md:max-w-full w-full"
           />
           <h1 className="font-semibold text-[20px] md:text-[25.65px] lg:text-[33.18px] xl:text-[42.34px] 3xl:text-[49.51px] desktop:text-[54.53px]">
@@ -31,8 +29,6 @@ const Team = ({ title }: Props) => {
         <Image
           src={shadowImg}
           alt="shadow"
-          width={700}
-          height={500}
           className="hidden z-0 absolute md:block left-1/2 -translate-x-1/2
           
           "
@@ -41,8 +37,6 @@ const Team = ({ title }: Props) => {
           <Image
             src={MarcelImg}
             alt="Marcel Bogdan"
-            width={575.65}
-            height={568.48}
             className="max-w-[360px] md:max-w-full w-full"
           />
           <h1 className="font-semibold text-[20px] md:text-[25.65px] lg:text-[33.18px] xl:text-[42.34px] 3xl:text-[49.51px] desktop:text-[54.53px]">

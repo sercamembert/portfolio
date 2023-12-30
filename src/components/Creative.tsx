@@ -1,7 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import titleImg from "../../public/images/creative/title.png";
-import creativeImg from "../../public/images/creative/creative.png";
 interface Props {
   notice: string;
   noticetext: string;
@@ -15,7 +13,7 @@ const Creative = ({ notice, noticetext, eye, catchtext }: Props) => {
       <div className="flex gap-1">
         <h1 className="text-[27px] font-bold md:title">The</h1>
         <Image
-          src={titleImg}
+          src="/images/creative/title.png"
           alt="The creative experience"
           width={252.25}
           height={77.37}
@@ -25,7 +23,7 @@ const Creative = ({ notice, noticetext, eye, catchtext }: Props) => {
       </div>
       <div className="flex flex-col md:flex-row gap-y-[23px] md:gap-y-0 md:gap-x-[66px] lg:gap-x-[85px] xl:gap-x-[114px] 2xl:gap-x-[124px] 3xl:gap-x-[134px] desktop:gap-x-[147px]">
         <Image
-          src={creativeImg}
+          src="/images/creative/creative.png"
           alt="The creative experience"
           width={357.08}
           height={558.24}
@@ -36,25 +34,13 @@ const Creative = ({ notice, noticetext, eye, catchtext }: Props) => {
             <h1 className="font-semibold text-[18.82px] md:text-[24.52px] lg:text-[31.7px] xl:text-[40.44px] 2xl:text-[43.79px] 3xl:text-[47.29px] desktop:text-[52.12px]">
               {notice}
             </h1>
-            <p
-              className="whitespace-normal md:whitespace-pre-line font-medium text-text text-[15.68px] md:text-[11.83px] lg:text-[15.29px] xl:text-[19.5px] 2xl:text-[21.12px] 3xl:text-[22.81px] desktop:text-[25.14x]
-            w-[85%]
-            "
-            >
-              {noticetext}
-            </p>
+            <p className="creative-text">{noticetext}</p>
           </div>
           <div>
             <h1 className="font-semibold text-[18.82px] md:text-[24.52px] lg:text-[31.7px] xl:text-[40.44px] 2xl:text-[43.79px] 3xl:text-[47.29px] desktop:text-[52.12px]">
               {eye}
             </h1>
-            <p
-              className="whitespace-normal md:whitespace-pre-line font-medium text-text text-[15.68px] md:text-[11.83px] lg:text-[15.29px] xl:text-[19.5px] 2xl:text-[21.12px] 3xl:text-[22.81px] desktop:text-[25.14x]
-              w-[85%]
-            "
-            >
-              {catchtext}
-            </p>
+            <p className="creative-text">{catchtext}</p>
           </div>
         </div>
       </div>

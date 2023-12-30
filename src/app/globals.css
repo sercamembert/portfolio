@@ -19,6 +19,56 @@
   .unigapx {
     @apply gap-x-[18.62px] lg:gap-x-[24.08px] xl:gap-x-[30.73px] 3xl:gap-x-[36px] desktop:gap-x-[39px];
   }
+
+  .hover-animation {
+    @apply hover:brightness-[80%] hover:scale-110 duration-[400ms];
+  }
+}
+
+@layer footer {
+  .link-text {
+    @apply font-medium text-[5.5px] md:text-[11.26px] lg:text-[15.02px] xl:text-[18.77px] 2xl:text-[21.12px] 3xl:text-[22.56px] desktop:text-[25.23px];
+  }
+  .links-col {
+    @apply flex flex-col gap-y-[3px] md:gap-y-[6px] lg:gap-y-[10px] xl:gap-y-[12px] 2xl:gap-y-[13px] 3xl:gap-y-[14px] desktop:gap-y-[20px];
+  }
+  .terms {
+    @apply text-[3.82px] md:text-[7.82px] lg:text-[10.43px] xl:text-[13.04px] 2xl:text-[14.67px] 3xl:text-[15.67px] desktop:text-[17.52px];
+  }
+  .footer-title {
+    @apply font-bold text-[6.6px] md:text-[13.51px] lg:text-[18.02px] xl:text-[22.52px] 2xl:text-[25.34px] 3xl:text-[27.06px] desktop:text-[30px];
+  }
+}
+
+@layer services {
+  .services-container {
+    @apply w-full max-w-[360px] md:max-w-full mx-auto flex flex-col items-center justify-center
+    px-[18px] md:px-[14px] lg:px-[18px] xl:px-[23px] 3xl:px-[27px] desktop:px-[29px]
+    py-[45px] md:py-[35px] lg:py-[45px] xl:py-[58px] 2xl:py-[60px] 3xl:py-[67px]
+    rounded-[24.38px] md:rounded-[14.4px] xl:rounded-[18.37px] 3xl:rounded-[21.48px] desktop:rounded-[40.48px]
+    min-h-[185.25px]
+    md:min-h-full
+    gap-y-[5px];
+  }
+
+  .services-text {
+    @apply whitespace-pre-line font-medium text-center text-text text-[15.68px] md:text-[13.51px] lg:text-[17.47px] xl:text-[22.29px] 3xl:text-[26.07px] desktop:text-[28.55px] leading-tight;
+  }
+}
+
+@layer creative {
+  .creative-text {
+    @apply whitespace-normal md:whitespace-pre-line font-medium text-text text-[15.68px] md:text-[11.83px] lg:text-[15.29px] xl:text-[19.5px] 2xl:text-[21.12px] 3xl:text-[22.81px] desktop:text-[25.14x] w-[85%];
+  }
+}
+
+@layer portfolio {
+  .portfolio-class {
+    @apply bg-class text-[#888888] w-1/3 flex justify-center items-center font-medium
+    h-[21.94px] md:h-[14px] lg:h-[18.19px] xl:h-[23.21px] 2xl:h-[24px] 3xl:h-[27.14px] desktop:h-[29.89px]
+    text-[9.76px] md:text-[6.26px] lg:text-[8.09px] xl:text-[10.33px] 2xl:text-[10.68px] 3xl:text-[12.08px] desktop:text-[13.3px]
+    rounded-[4.57px] md:rounded-[3px] lg:rounded-[5px];
+  }
 }
 
 video {
