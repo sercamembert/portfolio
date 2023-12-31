@@ -31,7 +31,7 @@ const Services = ({
       <div
         className="w-full grid grid-cols-1 md:grid-cols-3
         gap-y-[26px] md:gap-x-[26px] lg:gap-x-[34px] xl:gap-x-[43px] 2xl:gap-x-[45px] 3xl:gap-x-[50px] desktop:gap-x-[56px]
-        h-auto md:min-h-[144.73px] lg:min-h-[187.2px] xl:h-[238.84px] 2xl:h-[247px] 3xl:h-[279.29px] desktop:h-[307.67px]"
+        h-auto md:h-[144.73px] lg:h-[200.2px] xl:h-[238.84px] 2xl:h-[247px] 3xl:h-[279.29px] desktop:h-[307.67px]"
       >
         <ServicesBlock
           background={background}
@@ -47,7 +47,7 @@ const Services = ({
       </div>
       <Link
         href="/services"
-        className="mx-auto font-semibold mt-[15px] md:mt-0 text-[17px] md:text-[12.38px] lg:text-[16.01px] xl:text-[20.42px] 3xl:text-[23.88px] desktop:text-[26.31px]
+        className="mx-auto font-semibold mt-[15px] md:mt-[0] text-[17px] md:text-[12.38px] lg:text-[16.01px] xl:text-[20.42px] 3xl:text-[23.88px] desktop:text-[26.31px]
         hover:brightness-[80%] hover:scale-110 duration-300"
       >
         {explore}

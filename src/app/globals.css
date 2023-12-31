@@ -42,8 +42,7 @@
     px-[18px] md:px-[14px] lg:px-[18px] xl:px-[23px] 3xl:px-[27px] desktop:px-[29px]
     py-[45px] md:py-[35px] lg:py-[45px] xl:py-[58px] 2xl:py-[60px] 3xl:py-[67px]
     rounded-[24.38px] md:rounded-[14.4px] xl:rounded-[18.37px] 3xl:rounded-[21.48px] desktop:rounded-[40.48px]
-    min-h-[185.25px]
-    md:min-h-full
+    min-h-[185.25px] md:min-h-[144.73px]
     gap-y-[5px];
   }
 
