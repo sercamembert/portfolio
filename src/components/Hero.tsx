@@ -49,7 +49,14 @@ const Hero = ({ text, talk }: Props) => {
         <HeroIcons />
       </div>
       <div className="w-full h-[250px] md:h-[270px] xl:h-[350px] 2xl:h-[400px] desktop:h-[500px]">
-        <Spline scene="https://prod.spline.design/Gu59AIyqqsViESbU/scene.splinecode" />
+        <Spline
+          scene="https://prod.spline.design/Gu59AIyqqsViESbU/scene.splinecode"
+          className="ultra:hidden"
+        />
+        <Spline
+          scene="https://prod.spline.design/p6f7jUbKNjOv-gs4/scene.splinecode"
+          className="hidden ultra:block"
+        />
       </div>
     </div>
   );

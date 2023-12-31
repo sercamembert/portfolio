@@ -176,7 +176,6 @@ const FooterMobile = ({
           </details>
         </div>
         <div className="flex pt-[40px] pb-[25px] padding justify-end gap-[36px]">
-          <p className="font-medium text-[9px] text-footer">{terms}</p>
           <a
             className="font-medium text-[9px] text-footer"
             href={
@@ -268,7 +267,6 @@ const FooterMain = ({
           className="flex justify-end opacity-30 items-center gap-[7px] md:gap-[16px] lg:gap-[20px] xl:gap-[26px] 2xl:gap-[30px] 3xl:gap-[32px] desktop:gap-[36px]
           pb-[12px] md:pb-[27px] lg:pb-[35px] xl:pb-[45px] 2xl:pb-[49px] 3xl:pb-[52px] desktop:pb-[59px] pr-[17.4%]"
         >
-          <p className="terms">{terms}</p>
           <a
             className="terms"
             href={

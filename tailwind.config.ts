@@ -21,6 +21,7 @@ const config: Config = {
         "2xl": "1440px",
         "3xl": "1536px",
         desktop: "1720px",
+        ultra: "2000px",
       },
       fontFamily: {
         primary: ["Inter Tight", "sans-serif"],
