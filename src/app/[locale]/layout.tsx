@@ -63,6 +63,7 @@ export default function RootLayout({
           />
         </NextIntlClientProvider>
       </body>
+      <script async src="https://tally.so/widgets/embed.js"></script>
     </html>
   );
 }

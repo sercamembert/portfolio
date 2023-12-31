@@ -1,32 +1,15 @@
-import React from "react";
-import { useTranslations } from "next-intl";
 import Contact from "@/components/contact/Contact";
 
-const page = () => {
-  const contactText = useTranslations("Contact");
+interface Props {}
+
+const Page = () => {
   return (
-    <Contact
-      agree={contactText("agree")}
-      directly={contactText("directly")}
-      email={contactText("email")}
-      fill={contactText("fill")}
-      first={contactText("first")}
-      form={contactText("form")}
-      last={contactText("last")}
-      send={contactText("send")}
-      text={contactText("text")}
-      title={contactText("title")}
-      success={contactText("success")}
-      nameMinLength={contactText("nameMinLength")}
-      nameMaxLength={contactText("nameMaxLength")}
-      lastNameMinLength={contactText("lastNameMinLength")}
-      lastNameMaxLength={contactText("lastNameMaxLength")}
-      emailMinLength={contactText("emailMinLength")}
-      emailMaxLength={contactText("emailMaxLength")}
-      messageMinLength={contactText("messageMinLength")}
-      messageMaxLength={contactText("messageMaxLength")}
-    />
+    <iframe
+      data-tally-src="https://tally.so/r/mB7K1e?transparentBackground=1"
+      className="w-full h-full min-h-screen mb-[100px] mt-[100px]  border-0"
+      title="Rozpocznijmy razem naszą przygodę w świecie sieci"
+    ></iframe>
   );
 };
 
-export default page;
+export default Page;
