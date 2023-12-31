@@ -45,6 +45,7 @@ export default function RootLayout({
             services={navbarText("services")}
             talk={navbarText("talk")}
             contact={navbarText("contact")}
+            locale={locale}
           />
           {children}
           <Toaster />

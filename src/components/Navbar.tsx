@@ -5,12 +5,13 @@ import { Squash as Hamburger } from "hamburger-react";
 import Link from "next/link";
 import Language from "./Language";
 import { motion } from "framer-motion";
-
+import { usePathname, useSearchParams } from "next/navigation";
 interface Props {
   services: string;
   about: string;
   talk: string;
   contact: string;
+  locale: string;
 }
 
 const variants = {
@@ -18,8 +19,10 @@ const variants = {
   closed: { x: 800 },
 };
 
-const Navbar = ({ services, about, talk, contact }: Props) => {
+const Navbar = ({ services, about, talk, contact, locale }: Props) => {
   const [isOpen, setIsOpen] = useState(false);
+  const pathname = usePathname();
+
   return (
     <>
       <motion.div
@@ -41,6 +44,7 @@ const Navbar = ({ services, about, talk, contact }: Props) => {
         <Link href="" className="font-bold">
           {about}
         </Link>
+
         <Language />
       </motion.div>
 
@@ -73,7 +77,7 @@ const Navbar = ({ services, about, talk, contact }: Props) => {
 
           <Language />
 
-          <Link href="/en/contact">
+          <a href={`/${locale}/contact`}>
             <button
               className="bg-white text-black rounded-[10px] xl:rounded-[15px]  h-[24px]  lg:h-[30px]  xl:h-[39.31px]  2xl:h-[45px]  desktop:h-[53px]
         font-semibold text-[7.82px] lg:text-[10px] xl:text-[12.81px] 2xl:text-[14.67px] desktop:text-[17.52px] px-3 xl:px-6 hover:brightness-[80%] hover:scale-110 duration-300
@@ -82,7 +86,7 @@ const Navbar = ({ services, about, talk, contact }: Props) => {
             >
               {talk}
             </button>
-          </Link>
+          </a>
         </div>
       </nav>
     </>
