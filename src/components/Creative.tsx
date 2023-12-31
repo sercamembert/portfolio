@@ -27,7 +27,7 @@ const Creative = ({ notice, noticetext, eye, catchtext }: Props) => {
       </div>
       <div className="flex flex-col md:flex-row gap-y-[23px] md:gap-y-0 md:gap-x-[66px] lg:gap-x-[85px] xl:gap-x-[114px] 2xl:gap-x-[124px] 3xl:gap-x-[134px] desktop:gap-x-[147px]">
         <Image
-          src="/images/creative/creative.png"
+          src="/images/creative/creative.svg"
           alt="The creative experience"
           width={357.08}
           height={558.24}

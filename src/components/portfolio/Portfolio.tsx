@@ -3,6 +3,7 @@ import Spline from "@splinetool/react-spline";
 import React from "react";
 import PortfolioBlock from "./PortfolioBlock";
 import Link from "next/link";
+import Image from "next/image";
 
 interface Props {
   websites: string;
@@ -23,10 +24,16 @@ const Portfolio = ({
 }: Props) => {
   return (
     <div className="padding flex flex-col">
-      <Spline
-        scene="https://prod.spline.design/nT3VNbaoR9BeE3b3/scene.splinecode"
-        className="mx-auto"
-      />
+      <div className="w-full ">
+        <Image
+          src="/images/portfolio/title.svg"
+          width={900}
+          height={90}
+          alt="Portfolio"
+          className="mx-auto mb-[51px] md:mb-[41px] lg:mb-[53px] xl:mb-[68px] 3xl:mb-[80px] desktop:mb-[87px] md:w-1/2"
+        />
+      </div>
+
       <div
         className="w-full grid grid-cols-1 md:grid-cols-3
         gap-y-[60px] md:gap-x-[47px] lg:gap-x-[61px] xl:gap-x-[78px] 2xl:gap-x-[81px] 3xl:gap-x-[91px] desktop:gap-x-[100px]

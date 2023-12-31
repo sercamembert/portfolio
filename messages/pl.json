@@ -72,5 +72,9 @@
     "emailMaxLength": "Adres email nie może mieć więcej niż 50 znaków.",
     "messageMinLength": "Wiadomość musi mieć co najmniej 12 znaków.",
     "messageMaxLength": "Wiadomość nie może mieć więcej niż 5000 znaków."
+  },
+  "Thanks": {
+    "title": "Dziękujemy za zaufanie",
+    "text": "Odpowiemy na twoje zapytanie w ciągu 48h"
   }
 }

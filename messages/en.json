@@ -72,5 +72,9 @@
     "emailMaxLength": "Email must be less than 50 characters.",
     "messageMinLength": "Message must be at least 12 characters.",
     "messageMaxLength": "Message must be less than 5000 characters."
+  },
+  "Thanks": {
+    "title": "Thank you for your trust",
+    "text": "We will respond to your inquiry within 48 hours"
   }
 }
