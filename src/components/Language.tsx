@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React, { useState, useRef, useEffect } from "react";
 import { motion } from "framer-motion";
+
 interface Props {}
 
 const Language = () => {
@@ -31,7 +32,7 @@ const Language = () => {
     >
       {!isOpen ? (
         <svg
-          className="w-[33px] md:w-[14.08px] lg:w-[22.59px] xl:w-[23.06px] 2xl:w-[26.4px] desktop:w-[31.53px] cursor-pointer hover:brightness-[80%] hover:scale-110 duration-[500ms]
+          className="w-[33px] md:w-[14.08px] lg:w-[22.59px] xl:w-[23.06px] 2xl:w-[26.4px] desktop:w-[31.53px] cursor-pointer hover:brightness-[80%] hover:scale-110 duration-500
         "
           viewBox="0 0 27 27"
           fill="none"

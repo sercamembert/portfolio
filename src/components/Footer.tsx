@@ -28,7 +28,171 @@ const Footer = ({
   privacy,
 }: Props) => {
   return (
-    <div className="flex mt-[22px] md:mt-[66px] lg:mt-[79px] desktop:mt-[97px] border-t border-footer w-full h-[141.93px] md:h-[290.67px] lg:h-[387.56px] xl:h-[506px] 2xl:h-[545px] 3xl:h-[582.09px] desktop:h-[650.97px">
+    <>
+      <FooterMain
+        contact={contact}
+        apps={services}
+        duo={duo}
+        services={services}
+        unique={unique}
+        websites={websites}
+        about={about}
+        renovation={renovation}
+        privacy={privacy}
+        terms={terms}
+      />
+      <FooterMobile
+        contact={contact}
+        apps={services}
+        duo={duo}
+        services={services}
+        unique={unique}
+        websites={websites}
+        about={about}
+        renovation={renovation}
+        privacy={privacy}
+        terms={terms}
+      />
+    </>
+  );
+};
+
+const FooterMobile = ({
+  contact,
+  services,
+  websites,
+  apps,
+  duo,
+  unique,
+  about,
+  renovation,
+  terms,
+  privacy,
+}: Props) => {
+  return (
+    <div className="flex md:hidden flex-col mt-[18px] ">
+      <div className="flex flex-col padding gap-y-[15px]">
+        <h1 className="font-bold text-[14px]">{contact}</h1>
+        <div className="flex gap-[3px]">
+          <p className="text-[11px]">support@outofplace.space</p>
+          <Image
+            src={copyImg}
+            alt="support@outofplace.space"
+            width={14}
+            height={14}
+            className="w-[14px]"
+          />
+        </div>
+        <p className="opacity-30 text-[9px] mb-[8px]">
+          © outofplace 2023 All Rights Reserved
+        </p>
+      </div>
+      <div className="flex flex-col">
+        <div className="py-[12px] border-y border-footer">
+          <details className="group padding">
+            <summary className="flex justify-between items-center font-medium cursor-pointer list-none">
+              <span className="font-bold text-[14px]">{services}</span>
+              <span className="transition group-open:rotate-180">
+                <svg
+                  fill="none"
+                  height="24"
+                  shape-rendering="geometricPrecision"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.5"
+                  viewBox="0 0 24 24"
+                  width="24"
+                >
+                  <path d="M6 9l6 6 6-6"></path>
+                </svg>
+              </span>
+            </summary>
+            <div className="group-open:animate-fadeIn flex flex-col mt-[12px] gap-[11px]">
+              <p className="text-[11px] font-medium">{websites}</p>
+              <p className="text-[11px] font-medium">{apps}</p>
+              <p className="text-[11px] font-medium">Design</p>
+            </div>
+          </details>
+        </div>
+        <div className="py-[12px] border-b border-footer">
+          <details className="group padding">
+            <summary className="flex justify-between items-center font-medium cursor-pointer list-none">
+              <span className="font-bold text-[14px]">{about}</span>
+              <span className="transition group-open:rotate-180">
+                <svg
+                  fill="none"
+                  height="24"
+                  shape-rendering="geometricPrecision"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.5"
+                  viewBox="0 0 24 24"
+                  width="24"
+                >
+                  <path d="M6 9l6 6 6-6"></path>
+                </svg>
+              </span>
+            </summary>
+            <div className="group-open:animate-fadeIn flex flex-col mt-[12px] gap-[11px]">
+              <p className="text-[11px] font-medium">{duo}</p>
+              <p className="text-[11px] font-medium">{unique}</p>
+              <p className="text-[11px] font-medium">The creative Experience</p>
+            </div>
+          </details>
+        </div>
+        <div className="py-[12px] border-b border-footer">
+          <details className="group padding">
+            <summary className="flex justify-between items-center font-medium cursor-pointer list-none">
+              <span className="font-bold text-[14px]">Portfolio</span>
+              <span className="transition group-open:rotate-180">
+                <svg
+                  fill="none"
+                  height="24"
+                  shape-rendering="geometricPrecision"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.5"
+                  viewBox="0 0 24 24"
+                  width="24"
+                >
+                  <path d="M6 9l6 6 6-6"></path>
+                </svg>
+              </span>
+            </summary>
+            <div className="group-open:animate-fadeIn flex flex-col mt-[12px] gap-[11px]">
+              <p className="text-[11px] font-medium">{renovation}</p>
+              <p className="text-[11px] font-medium">Quizportal</p>
+              <p className="text-[11px] font-medium">Pous</p>
+              <p className="text-[11px] font-medium">Agromalz</p>
+            </div>
+          </details>
+        </div>
+        <div className="flex pt-[40px] pb-[25px] padding justify-end gap-[36px]">
+          <p className="font-medium text-[9px] text-footer">{terms}</p>
+          <p className="font-medium text-[9px] text-footer">{privacy}</p>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+const FooterMain = ({
+  contact,
+  services,
+  websites,
+  apps,
+  duo,
+  unique,
+  about,
+  renovation,
+  terms,
+  privacy,
+}: Props) => {
+  return (
+    <div className="hidden md:flex mt-[22px] md:mt-[66px] lg:mt-[79px] desktop:mt-[97px] border-t border-footer w-full h-[141.93px] md:h-[290.67px] lg:h-[387.56px] xl:h-[506px] 2xl:h-[545px] 3xl:h-[582.09px] desktop:h-[650.97px">
       <div
         className="flex flex-col w-[37.6%] pl-[39px] md:pl-[80px] lg:pl-[107px] xl:pl-[134px] 2xl:pl-[151px] 3xl:pl-[161px] desktop:pl-[181px]
         pt-[27px] md:pt-[56px] lg:pt-[75px] xl:pt-[98px] 2xl:pt-[106px] 3xl:pt-[113px] desktop:pt-[126px]"

@@ -3,7 +3,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
+@layer basic {
   .padding {
     @apply px-[20px] sm:px-[40px] md:px-[50px] lg:px-[80px] xl:px-[85px] 2xl:px-[90px] 3xl:px-[120px] desktop:px-[150px];
   }
@@ -18,10 +18,6 @@
 
   .unigapx {
     @apply gap-x-[18.62px] lg:gap-x-[24.08px] xl:gap-x-[30.73px] 3xl:gap-x-[36px] desktop:gap-x-[39px];
-  }
-
-  .hover-animation {
-    @apply hover:brightness-[80%] hover:scale-110 duration-[400ms];
   }
 }
 

@@ -3,7 +3,7 @@
 <path d="M12.33 0H0V7.4H12.33V0Z" fill="#DC143C"/>
 <path d="M12.33 0H0V3.7H12.33V0Z" fill="white"/>
 </g>
-<rect x="0.05" y="0.05" width="12.23" height="7.3" rx="0.95" stroke="black" stroke-opacity="0.5" stroke-width="0.1"/>
+<rect x="0.05" y="0.05" width="12.23" height="7.3" rx="0.95" stroke="black" stroke-opacity=""="0.5" stroke-width="0.1"/>
 <defs>
 <clipPath id="clip0_596_121">
 <rect width="12.33" height="7.4" rx="1" fill="white"/>

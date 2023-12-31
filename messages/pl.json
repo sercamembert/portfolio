@@ -51,5 +51,26 @@
     "unique": "Co czyni nas wyjątkowymi",
     "terms": "Regulamin",
     "privacy": "Polityka prywatności"
+  },
+  "Contact": {
+    "title": "Skontaktuj się z nami",
+    "form": "Formularz kontaktowy",
+    "fill": "Wypełnij formularz, a skontaktujemy się z Tobą w ciągu 24 godzin. Nie możemy się doczekać, aby zacząć pracę z Tobą!",
+    "first": "Imię",
+    "last": "Nazwisko",
+    "email": "Adres e-mail",
+    "text": "Opowiedz nam kilka słów o swoim projekcie",
+    "agree": "Zgadzam się na otrzymywanie informacji handlowych na podany adres e-mail od outofplace",
+    "send": "Wyślij wiadomość",
+    "directly": "lub napisz bezpośrednio:",
+    "success": "Twoja wiadomość została wysłana!",
+    "nameMinLength": "Imię musi mieć co najmniej 3 znaki.",
+    "nameMaxLength": "Imię nie może mieć więcej niż 50 znaków.",
+    "lastNameMinLength": "Nazwisko musi mieć co najmniej 3 znaki.",
+    "lastNameMaxLength": "Nazwisko nie może mieć więcej niż 50 znaków.",
+    "emailMinLength": "Adres email musi mieć co najmniej 5 znaków.",
+    "emailMaxLength": "Adres email nie może mieć więcej niż 50 znaków.",
+    "messageMinLength": "Wiadomość musi mieć co najmniej 12 znaków.",
+    "messageMaxLength": "Wiadomość nie może mieć więcej niż 5000 znaków."
   }
 }

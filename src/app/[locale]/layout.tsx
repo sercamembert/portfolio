@@ -2,6 +2,11 @@ import type { Metadata } from "next";
 import "@/app/globals.css";
 import { notFound } from "next/navigation";
 import { NextIntlClientProvider, useMessages } from "next-intl";
+import { useTranslations } from "next-intl";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+import TechStack from "@/components/TechStack";
+import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
   title: "outofplace",
@@ -17,6 +22,12 @@ export default function RootLayout({
   children: React.ReactNode;
   params: any;
 }) {
+  const navbarText = useTranslations("Navbar");
+  const servicesText = useTranslations("Services");
+  const teamText = useTranslations("Team");
+  const techText = useTranslations("Tech");
+  const footerText = useTranslations("Footer");
+
   if (!locales.includes(locale as any)) notFound();
 
   const messages = useMessages();
@@ -29,7 +40,27 @@ export default function RootLayout({
         }
       >
         <NextIntlClientProvider locale={locale} messages={messages}>
+          <Navbar
+            about={navbarText("about")}
+            services={navbarText("services")}
+            talk={navbarText("talk")}
+            contact={navbarText("contact")}
+          />
           {children}
+          <Toaster />
+          <TechStack title={techText("title")} />
+          <Footer
+            contact={footerText("contact")}
+            apps={servicesText("apps")}
+            duo={teamText("title")}
+            services={navbarText("services")}
+            unique={footerText("unique")}
+            websites={servicesText("websites")}
+            about={navbarText("about")}
+            renovation={footerText("renovation")}
+            privacy={footerText("privacy")}
+            terms={footerText("terms")}
+          />
         </NextIntlClientProvider>
       </body>
     </html>

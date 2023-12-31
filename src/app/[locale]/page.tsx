@@ -1,6 +1,5 @@
 import React from "react";
 import { useTranslations } from "next-intl";
-import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import Unique from "@/components/unique/Unique";
 import Concept from "@/components/Concept";
@@ -9,8 +8,6 @@ import Team from "@/components/Team";
 import Creative from "@/components/Creative";
 import Portfolio from "@/components/portfolio/Portfolio";
 import MarqueeText from "@/components/Marquee";
-import TechStack from "@/components/TechStack";
-import Footer from "@/components/Footer";
 
 export default function Home() {
   const navbarText = useTranslations("Navbar");
@@ -20,17 +17,9 @@ export default function Home() {
   const teamText = useTranslations("Team");
   const creativeText = useTranslations("Experience");
   const portfolioText = useTranslations("Portfolio");
-  const techText = useTranslations("Tech");
-  const footerText = useTranslations("Footer");
 
   return (
     <div className="w-full">
-      <Navbar
-        about={navbarText("about")}
-        services={navbarText("services")}
-        talk={navbarText("talk")}
-        contact={navbarText("contact")}
-      />
       <Hero text={heroText("text")} talk={navbarText("talk")} />
       <Unique
         title={uniqueText("title")}
@@ -66,19 +55,6 @@ export default function Home() {
       />
       <Team title={teamText("title")} />
       <MarqueeText talk={navbarText("talk")} />
-      <TechStack title={techText("title")} />
-      <Footer
-        contact={footerText("contact")}
-        apps={servicesText("apps")}
-        duo={teamText("title")}
-        services={navbarText("services")}
-        unique={footerText("unique")}
-        websites={servicesText("websites")}
-        about={navbarText("about")}
-        renovation={footerText("renovation")}
-        privacy={footerText("privacy")}
-        terms={footerText("terms")}
-      />
     </div>
   );
 }

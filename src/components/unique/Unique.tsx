@@ -21,7 +21,7 @@ const Unique = ({
   const boxShadow = "0px 5.574px 5.574px 0px rgba(0, 0, 0, 0.25)";
   return (
     <div className="padding flex flex-col w-full gap-[7px] mt-[90px] md:mt-[112px] lg:mt-[201px] xl:mt-[257px] 2xl:mt-[360px] 3xl:mt-[300px] ">
-      <h1 className="title text-center whitespace-pre-line md:whitespace-normal md:text-left">
+      <h1 className="font-bold text-[39.02px] md:text-[30px] lg:text-[39px] xl:text-[49.76px] 2xl:text-[52.55px] 3xl:text-[58.19px] desktop:text-[63.73px] text-center whitespace-pre-line md:whitespace-normal md:text-left">
         {title}
       </h1>
       <div className="flex flex-col md:flex-row md:min-h-[362.5px] lg:min-h-[468.86px] xl:min-h-[598.2px] 3xl:min-h-[699.52px] desktop:mih-h-[766.15px] unigapx unigapy">

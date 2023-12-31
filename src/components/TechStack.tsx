@@ -16,7 +16,7 @@ interface Props {
 
 const TechStack = ({ title }: Props) => {
   return (
-    <div className="padding flex flex-col gap-y-[12px] md:gap-y-[23px] lg:gap-y-[30px] xl:gap-y-[40px] 3xl:gap-y-[46px] desktop:gap-y-[51px]">
+    <div className=" padding flex flex-col gap-y-[12px] md:gap-y-[23px] lg:gap-y-[30px] xl:gap-y-[40px] 3xl:gap-y-[46px] desktop:gap-y-[51px]">
       <h1 className="text-tech font-bold text-[12px] md:text-[25.27px] lg:text-[32px] xl:text-[41.7px] 2xl:text-[43.79px] 3xl:text-[48.76px] desktop:text-[53.71px]">
         {title}
       </h1>

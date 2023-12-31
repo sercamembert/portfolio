@@ -10,7 +10,9 @@ interface Props {
 const Team = ({ title }: Props) => {
   return (
     <div className="padding flex flex-col my-[200px] gap-y-[7px] md:gap-y-[24px] lg:gap-y-[31px] xl:gap-y-[41px] 3xl:gap-y-[47px] desktop:gap-y-[53px]">
-      <h1 className="title text-center md:text-left">{title}</h1>
+      <h1 className="font-bold text-[39.02px] md:text-[30px] lg:text-[39px] xl:text-[49.76px] 2xl:text-[52.55px] 3xl:text-[58.19px] desktop:text-[63.73px] text-center md:text-left">
+        {title}
+      </h1>
       <div className="flex flex-col md:flex-row gap-y-[50px] justify-between md:gap-x-[127px] lg:gap-x-[163px] xl:gap-x-[208px] 2xl:gap-x-[215px] 3xl:gap-x-[243px] desktop:gap-x-[268px]">
         <div className="md:w-1/2 z-10 flex flex-col mx-auto">
           <Image

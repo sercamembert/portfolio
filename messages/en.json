@@ -51,5 +51,26 @@
     "unique": "What makes us unique",
     "terms": "Terms of Service",
     "privacy": "Privacy Policy"
+  },
+  "Contact": {
+    "title": "Contact us",
+    "form": "Contact Form",
+    "fill": "Fill in the form and we will contact you within 24 hours. We can't wait to start working with you!",
+    "first": "First name",
+    "last": "Last name",
+    "email": "Email address",
+    "text": "Tell us few words about your project",
+    "agree": "I agree to receive commercial information at the e-mail address provided to outofplace",
+    "send": "Send Message",
+    "directly": "or write directly:",
+    "success": "Your message has been sent!",
+    "nameMinLength": "Name must be at least 3 characters.",
+    "nameMaxLength": "Name must be less than 50 characters.",
+    "lastNameMinLength": "Last Name must be at least 3 characters.",
+    "lastNameMaxLength": "Last Name must be less than 50 characters.",
+    "emailMinLength": "Email must be at least 5 characters.",
+    "emailMaxLength": "Email must be less than 50 characters.",
+    "messageMinLength": "Message must be at least 12 characters.",
+    "messageMaxLength": "Message must be less than 5000 characters."
   }
 }

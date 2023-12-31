@@ -16,15 +16,15 @@ const MarqueeText = ({ talk }: Props) => {
         flex
       "
       >
-        <h1 className="cursor-pointer hover:text-primary duration-[400ms]">
+        <h1 className="cursor-pointer hover:text-primary duration-300">
           {talk}
         </h1>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <h1 className="cursor-pointer hover:text-primary duration-[400ms]">
+        <h1 className="cursor-pointer hover:text-primary duration-300">
           {talk}
         </h1>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <h1 className="cursor-pointer hover:text-primary duration-[400ms]">
+        <h1 className="cursor-pointer hover:text-primary duration-300">
           {talk}
         </h1>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
