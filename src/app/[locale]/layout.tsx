@@ -61,6 +61,7 @@ export default function RootLayout({
             renovation={footerText("renovation")}
             privacy={footerText("privacy")}
             terms={footerText("terms")}
+            locale={locale}
           />
         </NextIntlClientProvider>
       </body>

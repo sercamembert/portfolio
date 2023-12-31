@@ -13,6 +13,7 @@ interface Props {
   renovation: string;
   terms: string;
   privacy: string;
+  locale: string;
 }
 
 const Footer = ({
@@ -26,6 +27,7 @@ const Footer = ({
   renovation,
   terms,
   privacy,
+  locale,
 }: Props) => {
   return (
     <>
@@ -40,6 +42,7 @@ const Footer = ({
         renovation={renovation}
         privacy={privacy}
         terms={terms}
+        locale={locale}
       />
       <FooterMobile
         contact={contact}
@@ -52,6 +55,7 @@ const Footer = ({
         renovation={renovation}
         privacy={privacy}
         terms={terms}
+        locale={locale}
       />
     </>
   );
@@ -68,6 +72,7 @@ const FooterMobile = ({
   renovation,
   terms,
   privacy,
+  locale,
 }: Props) => {
   return (
     <div className="flex md:hidden flex-col mt-[18px] ">
@@ -172,7 +177,17 @@ const FooterMobile = ({
         </div>
         <div className="flex pt-[40px] pb-[25px] padding justify-end gap-[36px]">
           <p className="font-medium text-[9px] text-footer">{terms}</p>
-          <p className="font-medium text-[9px] text-footer">{privacy}</p>
+          <a
+            className="font-medium text-[9px] text-footer"
+            href={
+              locale === "en"
+                ? "/statue/statue_en.pdf"
+                : "/statue/statue_pl.pdf"
+            }
+            target="_blank"
+          >
+            {privacy}
+          </a>
         </div>
       </div>
     </div>
@@ -190,6 +205,7 @@ const FooterMain = ({
   renovation,
   terms,
   privacy,
+  locale,
 }: Props) => {
   return (
     <div className="hidden md:flex mt-[22px] md:mt-[66px] lg:mt-[79px] desktop:mt-[97px] border-t border-footer w-full h-[141.93px] md:h-[290.67px] lg:h-[387.56px] xl:h-[506px] 2xl:h-[545px] 3xl:h-[582.09px] desktop:h-[650.97px">
@@ -253,7 +269,17 @@ const FooterMain = ({
           pb-[12px] md:pb-[27px] lg:pb-[35px] xl:pb-[45px] 2xl:pb-[49px] 3xl:pb-[52px] desktop:pb-[59px] pr-[17.4%]"
         >
           <p className="terms">{terms}</p>
-          <p className="terms">{privacy}</p>
+          <a
+            className="terms"
+            href={
+              locale === "en"
+                ? "/statue/statue_en.pdf"
+                : "/statue/statue_pl.pdf"
+            }
+            target="_blank"
+          >
+            {privacy}
+          </a>
         </div>
       </div>
     </div>

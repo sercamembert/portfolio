@@ -1,10 +1,11 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
-
+import { useWillChange } from "framer-motion";
 interface Props {}
 
 export const UniqueAnimation = () => {
+  const willChange = useWillChange();
   return (
     <svg
       width="161"
@@ -40,6 +41,7 @@ export const UniqueAnimation = () => {
 };
 
 export const UniqueAnimationYears = () => {
+  const willChange = useWillChange();
   return (
     <svg
       width="161"
@@ -68,6 +70,7 @@ export const UniqueAnimationYears = () => {
         whileInView={{ pathLength: 1, strokeDashoffset: 0 }}
         transition={{ ease: "easeOut", duration: 2, delay: 0 }}
         viewport={{ once: true }}
+        style={{ willChange }}
       />
     </svg>
   );
