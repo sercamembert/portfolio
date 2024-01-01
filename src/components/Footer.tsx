@@ -33,7 +33,7 @@ const Footer = ({
     <>
       <FooterMain
         contact={contact}
-        apps={services}
+        apps={apps}
         duo={duo}
         services={services}
         unique={unique}
@@ -46,7 +46,7 @@ const Footer = ({
       />
       <FooterMobile
         contact={contact}
-        apps={services}
+        apps={apps}
         duo={duo}
         services={services}
         unique={unique}

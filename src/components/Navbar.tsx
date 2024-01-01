@@ -6,6 +6,7 @@ import Link from "next/link";
 import Language from "./Language";
 import { motion } from "framer-motion";
 import { usePathname, useSearchParams } from "next/navigation";
+import { useRouter } from "next/navigation";
 interface Props {
   services: string;
   about: string;
@@ -22,6 +23,27 @@ const variants = {
 const Navbar = ({ services, about, talk, contact, locale }: Props) => {
   const [isOpen, setIsOpen] = useState(false);
   const pathname = usePathname();
+  const router = useRouter();
+
+  const scroll2El = (elID: any) => {
+    const targetElement = document.getElementById(elID);
+    if (targetElement) {
+      window.scrollTo({
+        top: targetElement.offsetTop - window.innerHeight / 6,
+        behavior: "smooth",
+      });
+    }
+  };
+
+  const onBtnClick = (e: any) => {
+    router.push("/");
+    e.preventDefault();
+    setIsOpen(false);
+    const goto = e.target.getAttribute("data-goto");
+    setTimeout(() => {
+      scroll2El(goto);
+    }, 100);
+  };
 
   return (
     <>
@@ -32,18 +54,40 @@ const Navbar = ({ services, about, talk, contact, locale }: Props) => {
         variants={variants}
         initial={{ x: 800 }}
       >
-        <Link href="" className="font-bold">
+        <Link
+          href={`/${locale}/services`}
+          className="font-bold"
+          onClick={() => {
+            setIsOpen(false);
+          }}
+        >
           {services}
         </Link>
-        <Link href="" className="font-bold">
+        <Link
+          href={`/${locale}/portfolio`}
+          className="font-bold"
+          onClick={() => {
+            setIsOpen(false);
+          }}
+        >
           Portfolio
         </Link>
-        <Link href="" className="font-bold">
+        <a
+          href={`/${locale}/contact`}
+          className="font-bold"
+          onClick={() => {
+            setIsOpen(false);
+          }}
+        >
           {contact}
-        </Link>
-        <Link href="" className="font-bold">
+        </a>
+        <p
+          data-goto="about"
+          onClick={onBtnClick}
+          className="font-bold cursor-pointer"
+        >
           {about}
-        </Link>
+        </p>
 
         <Language />
       </motion.div>
@@ -57,23 +101,24 @@ const Navbar = ({ services, about, talk, contact, locale }: Props) => {
 
         <div className="hidden md:flex items-center">
           <Link
-            href="/services"
+            href={`${locale}/services`}
             className=" font-medium text-[7.82px] lg:text-[10px] xl:text-[12.81px] 2xl:text-[14.67px] desktop:text-[17.52px] hover:text-primary duration-300 "
           >
             {services}
           </Link>
           <Link
-            href="/services"
+            href={`/${locale}/portfolio`}
             className=" font-medium text-[7.82px] lg:text-[10px] xl:text-[12.81px] 2xl:text-[14.67px] desktop:text-[17.52px] mx-[38px] lg:mx-[49px] xl:mx-[62px] 2xl:mx-[72px] desktop:mx-[85px] hover:text-primary duration-300"
           >
             Portfolio
           </Link>
-          <Link
-            href="/services"
-            className=" font-medium text-[7.82px] lg:text-[10px] xl:text-[12.81px] 2xl:text-[14.67px] desktop:text-[17.52px]  hover:text-primary duration-300"
+          <p
+            data-goto="about"
+            onClick={onBtnClick}
+            className="cursor-pointer font-medium text-[7.82px] lg:text-[10px] xl:text-[12.81px] 2xl:text-[14.67px] desktop:text-[17.52px]  hover:text-primary duration-300"
           >
             {about}
-          </Link>
+          </p>
 
           <Language />
 

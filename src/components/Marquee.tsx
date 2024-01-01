@@ -2,9 +2,10 @@ import React from "react";
 import Marquee from "react-fast-marquee";
 interface Props {
   talk: string;
+  locale: string;
 }
 
-const MarqueeText = ({ talk }: Props) => {
+const MarqueeText = ({ talk, locale }: Props) => {
   return (
     <Marquee
       className="mb-[90px] md:mb-[110px] lg:mb-[170px] xl:mb-[220px] 2xl:mb-[280px]"
@@ -16,17 +17,26 @@ const MarqueeText = ({ talk }: Props) => {
         flex
       "
       >
-        <h1 className="cursor-pointer hover:text-primary duration-300">
+        <a
+          href={`${locale}/contact`}
+          className="cursor-pointer hover:text-primary duration-300"
+        >
           {talk}
-        </h1>
+        </a>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <h1 className="cursor-pointer hover:text-primary duration-300">
+        <a
+          href={`${locale}/contact`}
+          className="cursor-pointer hover:text-primary duration-300"
+        >
           {talk}
-        </h1>
+        </a>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <h1 className="cursor-pointer hover:text-primary duration-300">
+        <a
+          href={`${locale}/contact`}
+          className="cursor-pointer hover:text-primary duration-300"
+        >
           {talk}
-        </h1>
+        </a>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       </h1>
     </Marquee>

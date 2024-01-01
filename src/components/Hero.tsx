@@ -3,12 +3,14 @@ import React from "react";
 import Spline from "@splinetool/react-spline";
 import HeroIcons from "./HeroIcons";
 import { motion } from "framer-motion";
+import Link from "next/link";
 interface Props {
   text: string;
   talk: string;
+  locale: string;
 }
 
-const Hero = ({ text, talk }: Props) => {
+const Hero = ({ text, talk, locale }: Props) => {
   const coloredText = text.replace(
     /(Web & Mobile Development)|(\baplikacji webowych i mobilnych\b)/g,
     '<span class="bg-gradient-to-br from-[#5F43B2] via-[#fff] to-[#5F43B2] text-transparent bg-clip-text">$&</span>'
@@ -34,18 +36,19 @@ const Hero = ({ text, talk }: Props) => {
         "
           dangerouslySetInnerHTML={{ __html: coloredText }}
         />
-
-        <motion.button
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.3, delay: 0.6 }}
-          className="bg-white text-black rounded-[10px] xl:rounded-[15px]  h-[40.58px] md:h-[30.1px]  lg:h-[30px]  xl:h-[40px]  2xl:h-[45.12px]  desktop:h-[50.86px]
-        font-semibold text-[12.97px] md:text-[9px] lg:text-[10.68px] xl:text-[13.62px] 2xl:text-[15.69px] desktop:text-[17.54px] px-3 xl:px-6 hover:brightness-[80%] hover:scale-110 duration-300
-        w-[179.54px] md:w-auto md:min-w-[116.3px] lg:min-w-[150.42px] xl:min-w-[191.92px] 2xl:min-w-[221.11px] 3xl:min-w-[224.42px] desktop:min-w-[247.22px]
+        <a href={`${locale}/contact`}>
+          <motion.button
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.3, delay: 0.6 }}
+            className="bg-white text-black rounded-[10px] xl:rounded-[15px]  h-[40.58px] md:h-[30.1px]  lg:h-[30px]  xl:h-[40px]  2xl:h-[45.12px]  desktop:h-[50.86px]
+        font-semibold text-[16px] md:text-[9px] lg:text-[10.68px] xl:text-[13.62px] 2xl:text-[15.69px] desktop:text-[17.54px] px-3 xl:px-6 hover:brightness-[80%] hover:scale-110 duration-300
+        w-[185.54px] md:w-auto md:min-w-[116.3px] lg:min-w-[150.42px] xl:min-w-[191.92px] 2xl:min-w-[221.11px] 3xl:min-w-[224.42px] desktop:min-w-[247.22px]
         mt-[15px] md:mt-[13px] lg:mt-[16px] xl:mt-[21px] 2xl:mt-[24px] desktop:mt-[27px] "
-        >
-          {talk}
-        </motion.button>
+          >
+            {talk}
+          </motion.button>
+        </a>
         <HeroIcons />
       </div>
       <div className="w-full h-[250px] md:h-[270px] xl:h-[350px] 2xl:h-[400px] desktop:h-[500px]">

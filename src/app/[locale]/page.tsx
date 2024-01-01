@@ -9,7 +9,7 @@ import Creative from "@/components/Creative";
 import Portfolio from "@/components/portfolio/Portfolio";
 import MarqueeText from "@/components/Marquee";
 
-export default function Home() {
+export default function Home({ params: { locale } }: { params: any }) {
   const navbarText = useTranslations("Navbar");
   const heroText = useTranslations("Hero");
   const uniqueText = useTranslations("Unique");
@@ -20,7 +20,7 @@ export default function Home() {
 
   return (
     <div className="w-full flex flex-col gap-y-[90px] md:gap-y-[110px] lg:gap-y-[170px] xl:gap-y-[220px] 2xl:gap-y-[280px]">
-      <Hero text={heroText("text")} talk={navbarText("talk")} />
+      <Hero text={heroText("text")} talk={navbarText("talk")} locale={locale} />
       <Unique
         title={uniqueText("title")}
         projects={uniqueText("projects")}
@@ -38,6 +38,7 @@ export default function Home() {
         title={servicesText("title")}
         websites={servicesText("websites")}
         websitesdesc={servicesText("websitesdesc")}
+        locale={locale}
       />
       <Creative
         notice={creativeText("notice")}
@@ -52,9 +53,10 @@ export default function Home() {
         quizportal={portfolioText("quizportal")}
         renovations={portfolioText("renovations")}
         websites={portfolioText("websites")}
+        locale={locale}
       />
       <Team title={teamText("title")} />
-      <MarqueeText talk={navbarText("talk")} />
+      <MarqueeText talk={navbarText("talk")} locale={locale} />
     </div>
   );
 }

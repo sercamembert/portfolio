@@ -3,7 +3,7 @@ import { useTranslations } from "next-intl";
 import ServicesBlock from "@/components/services/ServicesBlock";
 interface Props {}
 
-const page = () => {
+const page = ({ params: { locale } }: { params: any }) => {
   const servicesText = useTranslations("Services");
   const talkText = useTranslations("Navbar");
   const background =
@@ -61,8 +61,9 @@ const page = () => {
       >
         {servicesText("requirements")}
       </p>
-      <button
-        className="text-center bg-white text-black font-semibold mx-auto
+      <a
+        href={`/${locale}/contact`}
+        className=" bg-white text-black font-semibold mx-auto flex items-center justify-center
         text-[10px] md:text-[11px] lg:text-[13px] xl:text-[17px] 3xl:text-[20px] desktop:text-[22px]
         mt-[8px] lg:mt-[10px] xl:mt-[13px] desktop:mt-[16px]
         rounded-[6px] lg:rounded-[9px] xl:rounded-[11px] desktop:rounded-[14px]
@@ -72,7 +73,7 @@ const page = () => {
       "
       >
         {talkText("talk")}
-      </button>
+      </a>
     </div>
   );
 };
