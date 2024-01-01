@@ -19,7 +19,7 @@ export default function Home() {
   const portfolioText = useTranslations("Portfolio");
 
   return (
-    <div className="w-full">
+    <div className="w-full flex flex-col gap-y-[90px] md:gap-y-[110px] lg:gap-y-[170px] xl:gap-y-[220px] 2xl:gap-y-[280px]">
       <Hero text={heroText("text")} talk={navbarText("talk")} />
       <Unique
         title={uniqueText("title")}

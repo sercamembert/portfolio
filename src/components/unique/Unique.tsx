@@ -20,7 +20,7 @@ const Unique = ({
 }: Props) => {
   const boxShadow = "0px 5.574px 5.574px 0px rgba(0, 0, 0, 0.25)";
   return (
-    <div className="padding flex flex-col w-full gap-[7px] mt-[90px] md:mt-[112px] lg:mt-[201px] xl:mt-[257px] 2xl:mt-[360px] 3xl:mt-[300px] ">
+    <div className="padding flex flex-col w-full gap-[7px] ">
       <h1 className="font-bold text-[39.02px] md:text-[30px] lg:text-[39px] xl:text-[49.76px] 2xl:text-[52.55px] 3xl:text-[58.19px] desktop:text-[63.73px] text-center whitespace-pre-line md:whitespace-normal md:text-left">
         {title}
       </h1>

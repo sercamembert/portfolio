@@ -7,7 +7,7 @@ interface Props {
 const MarqueeText = ({ talk }: Props) => {
   return (
     <Marquee
-      className="my-[90px] md:my-[145px] lg:my-[200px] 2xl:my-[300px] 3xl:my-[350px]"
+      className="mb-[90px] md:mb-[110px] lg:mb-[170px] xl:mb-[220px] 2xl:mb-[280px]"
       speed={150}
       pauseOnHover
     >

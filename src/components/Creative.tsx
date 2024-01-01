@@ -9,7 +9,7 @@ interface Props {
 
 const Creative = ({ notice, noticetext, eye, catchtext }: Props) => {
   return (
-    <div className="padding flex flex-col my-[200px] gap-y-[7px] md:gap-y-[24px] lg:gap-y-[31px] xl:gap-y-[41px] 3xl:gap-y-[47px] desktop:gap-y-[53px]">
+    <div className="padding flex flex-col  gap-y-[7px] md:gap-y-[24px] lg:gap-y-[31px] xl:gap-y-[41px] 3xl:gap-y-[47px] desktop:gap-y-[53px]">
       <div className="flex gap-1">
         <h1 className="text-[27px] font-bold  md:text-[30px] lg:text-[39px] xl:text-[49.76px] 2xl:text-[52.55px] 3xl:text-[58.19px] desktop:text-[63.73px]">
           The
