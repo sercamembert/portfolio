@@ -40,12 +40,17 @@
     "catchtext": "We enhance your brand's visibility and uniqueness through clear positioning, consistent representation, and delivering standout content and products that captivate your potential customers."
   },
   "Portfolio": {
+    "subtitle": "Explore our accomplishments in design and development.\nBrowse through our portfolio to see how\nwe craft unique solutions for our clients.",
     "websites": "Websites",
     "company": "Company",
+    "webApps": "Web Aplication",
     "renovations": "Interior Renovation Website - Design and Transformation",
-    "quizportal": "QuizPortal.pl - online platform that allows users to create and utilize flashcards.",
+    "quizportal": "QuizPortal.pl - online platform that allows users to create and utilize flashcards",
     "clothes": "Clothing Brand - Design and Brand Creation",
-    "more": "See more"
+    "more": "See more",
+    "real": "Real - Empowering Authentic Connections through Dynamic Social Media",
+    "recipes": "Recipes: Unleash Your Culinary Creativity and Connect with Food Enthusiasts!",
+    "roof": "Web site for roofers - process and implementation"
   },
   "Team": {
     "title": "Our Professional Duo"

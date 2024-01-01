@@ -40,12 +40,17 @@
     "catchtext": "Naszym celem jest efektywne wypozycjonowanie Twojej firmy, zapewniając jej widoczność i przyciągający wizerunek. Dążymy do tego, abyś wyróżniał się na tle konkurencji, budując trwałe pozytywne wrażenie na użytkownikach. Poprzez konsekwentne działania, tworzymy spójny obraz firmy, który przyciąga potencjalnych klientów."
   },
   "Portfolio": {
+    "subtitle": "Przeglądaj nasze osiągnięcia w projektowaniu i rozwoju.\nZapoznaj się z naszym portfolio, aby zobaczyć, jak\ntworzymy unikalne rozwiązania dla naszych klientów.",
     "websites": "Strony internetowe",
+    "webApps": "Aplikacja internetowa",
     "company": "Firma",
     "renovations": "Strona internetowa Renowacji Wnętrz - Projekt i Transformacja",
     "quizportal": "QuizPortal.pl - platforma online umożliwiająca tworzenie i korzystanie z fiszek.",
     "clothes": "Marka odzieżowa - Projekt i Tworzenie Marki",
-    "more": "Zobacz więcej"
+    "more": "Zobacz więcej",
+    "real": "Real - Aplikacja typu social media",
+    "recipes": "Recipes: Rozpętaj swoją kulinarną kreatywność i połącz się z entuzjastami kulinarnymi!",
+    "roof": "Strona internetowa dla dekarzy - proces i wdrożenie"
   },
   "Team": {
     "title": "Nasz Profesjonalny Duet"
