@@ -18,12 +18,20 @@
   },
   "Services": {
     "title": "Nasze usługi",
-    "designdesc": "Mamy doświadczenie z zakresu marketingu i wiemy, jak zaprojektować interfejs, tak aby był atrakcyjny dla użytkownika.",
+    "subtitle": "Specjalizujemy się w innowacyjnym projektowaniu stron internetowych\noraz tworzeniu aplikacji mobilnych, korzystając z zaawansowanej\ntechnologii i kreatywnego podejścia.",
+    "designdesc": "Mamy doświadczenie z zakresu marketingu i wiemy, jak zaprojektować interfejs, tak aby był atrakcyjny dla użytkownika",
     "apps": "Aplikacje mobilne",
-    "appsdesc": "Specjalizujemy się w tworzeniu mobilnych aplikacji hybrydowych przy użyciu flutter.",
+    "appsdesc": "Specjalizujemy się w tworzeniu mobilnych aplikacji hybrydowych przy użyciu flutter",
     "websites": "Strony internetowe",
-    "websitesdesc": "Wysoka wydajność, optymalizacja pod kątem SEO i łatwy w obsłudze system zarządzania treścią.",
-    "explore": "Zobacz wszystkie usługi"
+    "websitesdesc": "Wysoka wydajność, optymalizacja pod kątem SEO i łatwy w obsłudze system zarządzania treścią",
+    "explore": "Zobacz wszystkie usługi",
+    "brandImage": "Wizerunek marki",
+    "brandImageText": "Pracujemy nad tworzeniem i utrzymaniem pozytywnego i atrakcyjnego wizerunku marki dla klienta",
+    "positioning": "Pozycjonowanie",
+    "positioningText": "Strategiczne pozycjonowanie firmy klienta na rynku dla lepszej widoczności i rozpoznawalności",
+    "brandBuilding": "Budowanie marki",
+    "brandBuildingText": "Opracowywanie i wdrażanie spójnych działań mających na celu budowanie spójnej tożsamości marki i przekazu",
+    "requirements": "Czy spełniamy Twoje wymagania?"
   },
   "Experience": {
     "notice": "Twoja marka nie jest zauważana",

@@ -57,7 +57,7 @@ const Portfolio = ({
       </div>
       <Link href="/portfolio" className="mx-auto">
         <button
-          className="bg-white text-black h-[24px] md:h-[21.09px] lg:h-[27.28px] xl:h-[34.81px] 2xl:h-[36px] 3xl:h-[40.71px] desktop:h-[44.84px]
+          className="bg-white text-black h-[27px] md:h-[24.09px] lg:h-[30.28px] xl:h-[37.81px] 2xl:h-[38px] 3xl:h-[42.71px] desktop:h-[46.84px]
         font-semibold text-[11.74px] md:text-[8.6px] lg:text-[11.12px] xl:text-[14.19px] 3xl:text-[16.59px] desktop:text-[18.27px] px-3 xl:px-9 hover:brightness-[80%] hover:scale-110 duration-300
         rounded-[8px] md:rounded-[7px] lg:rounded-[9px] xl:rounded-[11.6px] 3xl:rounded-[13px]
         min-w-[158.72px] md:min-w-[116.26px] lg:min-w-[150.37px] xl:min-w-[191.85px] 2xl:min-w-[198.4px] 3xl:min-w-[224.34px] default:min-w-[247.13px]

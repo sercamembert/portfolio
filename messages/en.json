@@ -18,12 +18,20 @@
   },
   "Services": {
     "title": "Our services",
+    "subtitle": "Specializing in innovative web design and mobile app\ndevelopment, we use advanced tech and a creative approach.\nReady to be your partner in setting new digital standards.",
     "designdesc": "We have marketing background\nand know how to design an\ninterface",
     "apps": "Mobile apps",
-    "appsdesc": "We know how to implement\nhybrid mobile applications\nusing flutter.",
+    "appsdesc": "We know how to implement\nhybrid mobile applications\nusing flutter",
     "websites": "Websites",
     "websitesdesc": "High performance, SEO\noptimization and easy to use\nCMS",
-    "explore": "Explore all servicies"
+    "explore": "Explore all servicies",
+    "brandImage": "Brand Image",
+    "brandImageText": "Working on creating and maintaining a positive and attractive brand image for the client",
+    "positioning": "Positioning",
+    "positioningText": "Strategically positioning the client's company in the market for better visibility and recognition",
+    "brandBuilding": "Brand Building",
+    "brandBuildingText": "Developing and implementing consistent actions to build a cohesive brand identity and message",
+    "requirements": "Do we meet your requirements?"
   },
   "Experience": {
     "notice": "Your brand is not getting noticed",
