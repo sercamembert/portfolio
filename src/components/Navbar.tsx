@@ -36,7 +36,6 @@ const Navbar = ({ services, about, talk, contact, locale }: Props) => {
   };
 
   const onBtnClick = (e: any) => {
-    router.push("/");
     e.preventDefault();
     setIsOpen(false);
     const goto = e.target.getAttribute("data-goto");
