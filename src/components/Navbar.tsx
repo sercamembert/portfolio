@@ -100,7 +100,7 @@ const Navbar = ({ services, about, talk, contact, locale }: Props) => {
 
         <div className="hidden md:flex items-center">
           <Link
-            href={`${locale}/services`}
+            href={`/${locale}/services`}
             className=" font-medium text-[7.82px] lg:text-[10px] xl:text-[12.81px] 2xl:text-[14.67px] desktop:text-[17.52px] hover:text-primary duration-300 "
           >
             {services}
