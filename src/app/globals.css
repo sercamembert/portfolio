@@ -82,3 +82,12 @@
 video {
   transform: scale(1.1);
 }
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+/* Tailwind CSS z obsługą pseudo-klas group-open */
+.group-open summary::-webkit-details-marker {
+  display: none;
+}

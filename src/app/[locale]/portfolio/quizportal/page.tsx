@@ -8,7 +8,7 @@ const page = ({ params: { locale } }: { params: any }) => {
   const text = useTranslations("Quizportal");
 
   return (
-    <div className="padding flex flex-col mb-[300px] mt-[100px] min-h-screen">
+    <div className="padding flex flex-col mb-[150px] md:mb-[300px] mt-[100px] min-h-screen">
       <motion.h1
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
