@@ -45,16 +45,22 @@ const Portfolio = ({
           path="/images/portfolio/renovation.png"
           type={websites}
           text={renovations}
+          locale={locale}
+          link="renovations"
         />
         <PortfolioBlock
           path="/images/portfolio/quizportal.png"
           type={company}
           text={quizportal}
+          locale={locale}
+          link="quizportal"
         />
         <PortfolioBlock
           path="/images/portfolio/clothes.png"
           type="Design"
           text={clothes}
+          locale={locale}
+          link="pous"
         />
       </div>
       <Link href={`${locale}/portfolio`} className="mx-auto">

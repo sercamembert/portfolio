@@ -13,7 +13,7 @@
     "projects": "Completed\nprojects",
     "years": "Years in the\nindustry",
     "commitment": "Continuous Development Commitment",
-    "text": "At outofplace.space, we focus on continuous development. As pioneers, we go beyond the initial concept, creating new ideas and successfully implementing them.",
+    "text": "At outofplace, we focus on continuous development. As pioneers, we go beyond the initial concept, creating new ideas and successfully implementing them.",
     "description": "We're a teen duo, aged 15 and 16, dedicated to constant growth. Despite our youth, we strive to continually improve our skills, explore new frontiers, and create innovative solutions."
   },
   "Services": {
@@ -89,5 +89,35 @@
   "Thanks": {
     "title": "Thank you for your trust",
     "text": "We will respond to your inquiry within 48 hours"
+  },
+
+  "Quizportal": {
+    "subtitle": "Online platform that allows\nusers to create and utilize flashcards.",
+
+    "whatIsQuizportal": "What is QuizPortal?",
+
+    "QuizPortal": "QuizPortal.pl is an online platform that allows users to create and utilize educational flashcards. Through this tool, users can easily generate their own flashcards containing questions and answers on various topics. The platform is an excellent resource for learning, catering to students, academics, and anyone looking to expand their knowledge.",
+
+    "KeyFeatures": "Key features:",
+
+    "FlashcardCreationTitle": "Flashcard Creation:",
+    "FlashcardCreation": "Users can effortlessly create flashcards with questions and answers on any subject. These can range from study materials for school subjects to language learning, history, mathematics, or any other field of interest.",
+
+    "EditingAndPersonalizationTitle": "Editing and Personalization:",
+    "EditingAndPersonalization": "The platform allows users to edit their flashcards, enabling customization to meet individual needs. Users can add images, adjust color schemes, and personalize flashcards to suit their preferred learning style.",
+
+    "InteractiveLearningTitle": "Interactive Learning:",
+    "InteractiveLearning": "QuizPortal.pl offers interactive learning tools that assess knowledge through questions and answers. This interactive approach enhances the effectiveness of the learning process.",
+
+    "OnlineAccessibilityTitle": "Online Accessibility:",
+    "OnlineAccessibility": "The platform operates in the cloud, providing users with access to their flashcards from any location and device, as long as they have an internet connection.",
+
+    "CollaborationAndSharingTitle": "Collaboration and Sharing",
+    "CollaborationAndSharing": "QuizPortal.pl enables users to share their flashcards with others. Collaboration on creating flashcard collections promotes knowledge exchange and learning experiences.",
+
+    "ProgressMonitoringTitle": "Progress Monitoring:",
+    "ProgressMonitoring": "Users can track their learning progress through access to statistics and reports. This feature allows individuals to focus on weaker areas and enhance their skills more effectively.",
+
+    "DevelopmentStatus": "We are currently developing this application, which is our own product. Although it is currently in production, a very primitive browser prototype is already available. We encourage you to get acquainted with it by visiting the site at quizportal.pl. Expect more features and improvements in future versions of this application, which is being developed with the goal of making it easier to create and use educational fiches online."
   }
 }

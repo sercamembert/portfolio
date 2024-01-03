@@ -13,7 +13,7 @@
     "projects": "Zrealizowane\nprojekty",
     "years": "Lat w branży",
     "commitment": "Zobowiązanie do Ciągłego Rozwoju",
-    "text": "W outofplace.space skupiamy się na ciągłym rozwoju. Jako pionierzy, wychodzimy poza początkową koncepcję, tworząc nowe pomysły i skutecznie je wdrażając.",
+    "text": "W outofplace skupiamy się na ciągłym rozwoju. Jako pionierzy, wychodzimy poza początkową koncepcję, tworząc nowe pomysły i skutecznie je wdrażając.",
     "description": "Jesteśmy nastolatkami, w wieku 15 i 16 lat, oddanymi ciągłemu rozwojowi. Pomimo naszego młodego wieku, dążymy do stałego doskonalenia naszych umiejętności, odkrywania nowych obszarów i tworzenia innowacyjnych rozwiązań."
   },
   "Services": {
@@ -89,5 +89,25 @@
   "Thanks": {
     "title": "Dziękujemy za zaufanie",
     "text": "Odpowiemy na twoje zapytanie w ciągu 48h"
+  },
+
+  "Quizportal": {
+    "subtitle": "Platforma online umożliwiająca użytkownikom tworzenie i\nwykorzystywanie fiszek edukacyjnych.",
+    "whatIsQuizportal": "Czym jest QuizPortal?",
+    "QuizPortal": "QuizPortal.pl to platforma online, która umożliwia użytkownikom tworzenie i wykorzystywanie fiszek edukacyjnych. Dzięki temu narzędziu użytkownicy mogą łatwo generować własne fiszki zawierające pytania i odpowiedzi na różnorodne tematy. Platforma jest doskonałym źródłem nauki, skierowanym do uczniów, naukowców i wszystkich, którzy chcą poszerzyć swoją wiedzę.",
+    "KeyFeatures": "Główne cechy:",
+    "FlashcardCreationTitle": "Tworzenie fiszek:",
+    "FlashcardCreation": "Użytkownicy mogą bezproblemowo tworzyć fiszki z pytaniami i odpowiedziami na dowolny temat. Mogą to być materiały do nauki przedmiotów szkolnych, nauka języków, historia, matematyka lub dowolna inna dziedzina zainteresowań.",
+    "EditingAndPersonalizationTitle": "Edycja i personalizacja:",
+    "EditingAndPersonalization": "Platforma umożliwia użytkownikom edytowanie ich fiszek, umożliwiając dostosowanie do indywidualnych potrzeb. Użytkownicy mogą dodawać obrazy, dostosowywać schematy kolorów i personalizować fiszki, aby dostosować je do swojego preferowanego stylu nauki.",
+    "InteractiveLearningTitle": "Nauka interaktywna:",
+    "InteractiveLearning": "QuizPortal.pl oferuje narzędzia do interaktywnej nauki, oceniające wiedzę za pomocą pytań i odpowiedzi. To podejście zwiększa skuteczność procesu nauki.",
+    "OnlineAccessibilityTitle": "Dostępność online:",
+    "OnlineAccessibility": "Platforma działa w chmurze, umożliwiając użytkownikom dostęp do swoich fiszek z dowolnego miejsca i urządzenia, pod warunkiem posiadania połączenia internetowego.",
+    "CollaborationAndSharingTitle": "Współpraca i udostępnianie",
+    "CollaborationAndSharing": "QuizPortal.pl umożliwia użytkownikom dzielenie się swoimi fiszkami z innymi. Współpraca przy tworzeniu kolekcji fiszek promuje wymianę wiedzy i doświadczeń edukacyjnych.",
+    "ProgressMonitoringTitle": "Monitorowanie postępów:",
+    "ProgressMonitoring": "Użytkownicy mogą śledzić postępy w nauce dzięki dostępowi do statystyk i raportów. Ta funkcja pozwala skupić się na słabszych obszarach i skuteczniej rozwijać umiejętności.",
+    "DevelopmentStatus": "Obecnie rozwijamy tę aplikację, która jest naszym własnym produktem. Chociaż jest obecnie w produkcji, już dostępny jest bardzo prymitywny prototyp przeglądarki. Zachęcamy do zapoznania się z nim, odwiedzając stronę quizportal.pl. Oczekuj więcej funkcji i ulepszeń w przyszłych wersjach tej aplikacji, która jest rozwijana z celem ułatwienia tworzenia i korzystania z edukacyjnych fiszek online."
   }
 }
