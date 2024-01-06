@@ -236,5 +236,32 @@
     "endText": "Ta platforma, wynik połączenia zamiłowania do programowania i pasji do sztuki kulinarnej, została stworzona z myślą o dostarczeniu kompleksowego doświadczenia dla miłośników kulinariów.",
 
     "demo": "Demo strony"
+  },
+
+  "Roof": {
+    "title": "Strona internetowa dla dekarzy",
+    "subtitle": "Proces i wdrożenie",
+    "introTitle": "Wprowadzenie",
+    "intro": "Witamy w dokumentacji projektu 'Strona internetowa dla dekarzy'. Naszym głównym celem jest stworzenie responsywnej strony internetowej, pełniącej funkcję platformy prezentującej usługi związane z dekarstwem. Ten projekt ma za zadanie dostarczyć użytkownikom informacji o oferowanych usługach, referencjach oraz umożliwić łatwy kontakt z firmą specjalizującą się w dekarstwie.",
+    "goalTitle": "Cel Projektu:",
+    "goalText1": "Głównym celem projektu jest zaprojektowanie i wdrożenie funkcjonalnej strony internetowej, która:",
+    "goalText2": "Prezentuje ofertę dekarstwa, w tym różne usługi i projekty zrealizowane przez firmę.",
+    "goalText3": "Udostępnia informacje o zespole specjalistów, ich doświadczeniu i podejściu do pracy.",
+    "goalText4": "Zapewnia łatwy dostęp do referencji od zadowolonych klientów.",
+    "goalText5": "Umożliwia potencjalnym klientom kontakt z firmą w celu uzyskania dodatkowych informacji lub skonsultowania projektu dekarstwa.",
+    "functionsTitle": "Funkcje Strony:",
+    "homePageHeading": "Strona Główna:",
+    "homePageText": "Przejrzyste przedstawienie głównych usług i projektów dekarstwa.",
+    "aboutHeading": "O Nas:",
+    "aboutText": "Informacje o firmie, historii, wartościach i doświadczeniu zespołu.",
+    "servicesHeading": "Usługi:",
+    "servicesText": "Szczegółowe informacje na temat oferowanych usług, z możliwością przedstawienia różnych pakietów dekarskich.",
+    "referencesHeading": "Referencje:",
+    "referencesText": "Sekcja zawierająca opinie i referencje od zadowolonych klientów.",
+    "contactHeading": "Kontakt:",
+    "contactText": "Formularz kontaktowy oraz informacje o lokalizacji i godzinach otwarcia.",
+    "endTitle": "Zakończenie",
+    "endText": "Projekt Strony internetowej dla dekarzy ma na celu stworzenie profesjonalnej platformy online, pozwalającej firmie prezentować swoje umiejętności i zrealizowane projekty. Pragniemy dostarczyć użytkownikom łatwą i atrakcyjną stronę, umożliwiającą skontaktowanie się z firmą i zapoznanie się z jej ofertą.",
+    "demo": "Demo strony"
   }
 }

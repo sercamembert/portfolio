@@ -254,5 +254,31 @@
     "endText": "This platform, a result of the combination of a passion for programming and a love for culinary art, has been created with the aim of providing a comprehensive experience for culinary enthusiasts.",
 
     "demo": "Demo Page"
+  },
+  "Roof": {
+    "title": "Website for Roofers",
+    "subtitle": "Process and Implementation",
+    "introTitle": "Introduction",
+    "intro": "Welcome to the documentation of the 'Website for Roofers' project. Our main goal is to create a responsive website, serving as a platform showcasing roofing services. This project aims to provide users with information about the offered services, references, and facilitate easy contact with a company specializing in roofing.",
+    "goalTitle": "Project Goal:",
+    "goalText1": "The main goal of the project is to design and implement a functional website that:",
+    "goalText2": "Showcases the roofing services, including various services and projects completed by the company.",
+    "goalText3": "Provides information about the team of specialists, their experience, and approach to work.",
+    "goalText4": "Ensures easy access to references from satisfied clients.",
+    "goalText5": "Allows potential clients to contact the company for additional information or to discuss a roofing project.",
+    "functionsTitle": "Website Functions:",
+    "homePageHeading": "Home Page:",
+    "homePageText": "Clear presentation of the main roofing services and projects.",
+    "aboutHeading": "About Us:",
+    "aboutText": "Information about the company, its history, values, and the team's experience.",
+    "servicesHeading": "Services:",
+    "servicesText": "Detailed information about the offered services, with the possibility to present various roofing packages.",
+    "referencesHeading": "References:",
+    "referencesText": "Section containing reviews and references from satisfied clients.",
+    "contactHeading": "Contact:",
+    "contactText": "Contact form and information about location and opening hours.",
+    "endTitle": "Conclusion",
+    "endText": "The Website for Roofers project aims to create a professional online platform, allowing the company to showcase its skills and completed projects. We aim to provide users with an easy and attractive website, enabling them to get in touch with the company and learn about its offerings.",
+    "demo": "Demo Page"
   }
 }
