@@ -119,5 +119,44 @@
     "ProgressMonitoring": "Users can track their learning progress through access to statistics and reports. This feature allows individuals to focus on weaker areas and enhance their skills more effectively.",
 
     "DevelopmentStatus": "We are currently developing this application, which is our own product. Although it is currently in production, a very primitive browser prototype is already available. We encourage you to get acquainted with it by visiting the site at quizportal.pl. Expect more features and improvements in future versions of this application, which is being developed with the goal of making it easier to create and use educational fiches online."
+  },
+
+  "Pous": {
+    "subtitle": "Clothing Brand - Design and Brand Creation",
+
+    "introTitle": "Introduction",
+    "intro": "Welcome to the documentation of the 'Pous' clothing brand project. Our company focuses on designing unique patterns and high-quality graphics aimed at standing out in the fashion market. Although none of our products have been produced yet, we are currently in negotiations with a reputable tailoring workshop to launch the first series of sweatshirts.",
+
+    "goalTitle": "Project Goal:",
+    "goalText": "The goal of our project is to create a clothing brand that offers not only high-quality materials and craftsmanship but also unique patterns and creative graphic designs. We want to offer our customers more than just clothing – we want them to express their individuality and style by wearing our products.",
+
+    "experienceTitle": "Design Portfolio and Graphic Design Experience",
+    "experienceText": "Although our team consists of only two people, our experience in graphic design and creativity allows us to offer diverse patterns. Below are a few examples from our modest but carefully prepared portfolio:",
+
+    "abstractionHeading": "Minimalistic Abstractions:",
+    "abstractionText": "Simple yet intriguing patterns that emphasize elegance and modernity.",
+
+    "shapesHeading": "Geometric Shapes:",
+    "shapesText": "Patterns inspired by geometry, adding character and dynamism to the clothing.",
+
+    "sloganHeading": "Personalized Slogans:",
+    "sloganText": "Unique slogans and phrases presented graphically on products.",
+
+    "processTitle": "Design Process:",
+
+    "conceptHeading": "Concept:",
+    "conceptText": "As a two-person team, we closely collaborate on creating the concept, striving to consider diverse perspectives.",
+
+    "graphicsHeading": "Graphic Design:",
+    "graphicsText": "We work together on projects, leveraging our individual skills to create harmonious designs.",
+
+    "negotiationsHeading": "Negotiations with Manufacturers:",
+    "negotiationsText": "As two representatives, we engage in discussions with the tailoring workshop, seeking the best production solutions.",
+
+    "futureTitle": "Future Plans",
+    "futureText": "After launching the first series of sweatshirts, we plan to gradually expand our offerings to include other products such as pants, shirts, or accessories. Thanks to our flexibility as a two-person team, we have the ability to quickly adapt to changing trends and customer expectations.",
+
+    "endTitle": "Conclusion",
+    "endText": "The Pous clothing brand is the result of the collaboration of a two-person team determined to deliver unique products that combine comfort and style. Despite the modest number of members, we are full of determination and ready to introduce our projects to the fashion market. We are currently negotiating the production terms for the first series of sweatshirts, and our creativity and commitment remain crucial to our success."
   }
 }

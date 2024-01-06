@@ -36,7 +36,7 @@ const page = ({ params: { locale } }: { params: any }) => {
       ></motion.img>
 
       <div>
-        <h1 className="portfolio-heading">{text("whatIsQuizportal")}</h1>
+        <h2 className="portfolio-heading">{text("whatIsQuizportal")}</h2>
         <p className="portfolio-text">{text("QuizPortal")}</p>
       </div>
 
@@ -46,39 +46,39 @@ const page = ({ params: { locale } }: { params: any }) => {
 
       <div className="mt-[10px] lg:mt-[20px] flex flex-col gap-y-[30px] lg:gap-y-[50px]">
         <div className="flex flex-col gap-y-[10px]">
-          <h2 className="portfolio-heading2">
+          <h3 className="portfolio-heading2">
             {text("FlashcardCreationTitle")}
-          </h2>
+          </h3>
           <p className="portfolio-text">{text("FlashcardCreation")}</p>
         </div>
         <div className="flex flex-col gap-y-[10px]">
-          <h2 className="portfolio-heading2">
+          <h3 className="portfolio-heading2">
             {text("EditingAndPersonalizationTitle")}
-          </h2>
+          </h3>
           <p className="portfolio-text">{text("EditingAndPersonalization")}</p>
         </div>
         <div className="flex flex-col gap-y-[10px]">
-          <h2 className="portfolio-heading2">
+          <h3 className="portfolio-heading2">
             {text("InteractiveLearningTitle")}
-          </h2>
+          </h3>
           <p className="portfolio-text">{text("InteractiveLearning")}</p>
         </div>
         <div className="flex flex-col gap-y-[10px]">
-          <h2 className="portfolio-heading2">
+          <h3 className="portfolio-heading2">
             {text("OnlineAccessibilityTitle")}
-          </h2>
+          </h3>
           <p className="portfolio-text">{text("OnlineAccessibility")}</p>
         </div>
         <div className="flex flex-col gap-y-[10px]">
-          <h2 className="portfolio-heading2">
+          <h3 className="portfolio-heading2">
             {text("CollaborationAndSharingTitle")}
-          </h2>
+          </h3>
           <p className="portfolio-text">{text("CollaborationAndSharing")}</p>
         </div>
         <div className="flex flex-col gap-y-[10px]">
-          <h2 className="portfolio-heading2">
+          <h3 className="portfolio-heading2">
             {text("ProgressMonitoringTitle")}
-          </h2>
+          </h3>
           <p className="portfolio-text">{text("ProgressMonitoring")}</p>
         </div>
       </div>

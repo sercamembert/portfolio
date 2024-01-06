@@ -109,5 +109,44 @@
     "ProgressMonitoringTitle": "Monitorowanie postępów:",
     "ProgressMonitoring": "Użytkownicy mogą śledzić postępy w nauce dzięki dostępowi do statystyk i raportów. Ta funkcja pozwala skupić się na słabszych obszarach i skuteczniej rozwijać umiejętności.",
     "DevelopmentStatus": "Obecnie rozwijamy tę aplikację, która jest naszym własnym produktem. Chociaż jest obecnie w produkcji, już dostępny jest bardzo prymitywny prototyp przeglądarki. Zachęcamy do zapoznania się z nim, odwiedzając stronę quizportal.pl. Oczekuj więcej funkcji i ulepszeń w przyszłych wersjach tej aplikacji, która jest rozwijana z celem ułatwienia tworzenia i korzystania z edukacyjnych fiszek online."
+  },
+
+  "Pous": {
+    "subtitle": "Marka odzieżowa - Projekt i\nTworzenie Marki",
+
+    "introTitle": "Wprowadzenie",
+    "intro": "Witamy w dokumentacji projektu marki odzieżowej 'Pous'. Nasza firma skupia się na projektowaniu unikalnych wzorów oraz wysokiej jakości grafiki, które mają za zadanie wyróżniać się na rynku mody. Chociaż żaden z naszych produktów nie został jeszcze wyprodukowany, obecnie jesteśmy w fazie negocjacji z renomowaną szwalnią w celu uruchomienia pierwszej serii bluz.",
+
+    "goalTitle": "Cel Projektu:",
+    "goalText": "Celem naszego projektu jest stworzenie marki odzieżowej, która oferuje nie tylko wysoką jakość materiałów i wykonania, ale także unikalne wzory i kreatywne projekty graficzne. Chcemy zaoferować naszym klientom coś więcej niż tylko ubranie – chcemy, aby nosząc nasze produkty, wyrażali swoją indywidualność i styl.",
+
+    "experienceTitle": "Portfolio Wzorów i Doświadczenie w Projektowaniu Grafiki",
+    "experienceText": "Choć nasz zespół składa się zaledwie z dwóch osób, to nasze doświadczenie w projektowaniu grafiki oraz kreatywność pozwalają nam oferować różnorodne wzory. Poniżej przedstawiamy kilka przykładów z naszego skromnego, lecz starannie przygotowanego portfolio:",
+
+    "abstractionHeading": "Minimalistyczne Abstrakcje:",
+    "abstractionText": "Proste, ale intrygujące wzory, które podkreślają elegancję i nowoczesność.",
+
+    "shapesHeading": "Geometryczne Kształty:",
+    "shapesText": "Wzory inspirowane geometrią, dodające odzieży charakteru i dynamiki.",
+
+    "sloganHeading": "Personalizowane Slogany:",
+    "sloganText": "Unikalne slogany i sentencje graficznie zaprezentowane na produktach.",
+
+    "processTitle": "Proces Projektowy:",
+
+    "conceptHeading": "Koncepcja:",
+    "conceptText": "Jako dwuosobowy zespół ściśle współpracujemy nad stworzeniem koncepcji, starając się uwzględnić różnorodne perspektywy.",
+
+    "graphicsHeading": "Projektowanie Grafiki:",
+    "graphicsText": "Wspólnie pracujemy nad projektami, wykorzystując nasze indywidualne umiejętności w celu stworzenia harmonijnych wzorów.",
+
+    "negotiationsHeading": "Negocjacje z Producentami:",
+    "negotiationsText": "Jako dwójka przedstawicieli, prowadzimy rozmowy z szwalnią, starając się znaleźć najlepsze rozwiązania produkcyjne.",
+
+    "futureTitle": "Plany na Przyszłość",
+    "futureText": "Po uruchomieniu pierwszej serii bluz, planujemy sukcesywne poszerzanie oferty o kolejne produkty, takie jak spodnie, koszulki czy dodatki. Dzięki naszej elastyczności jako dwuosobowy zespół, mamy możliwość szybkiego dostosowywania się do zmieniających się trendów i oczekiwań klientów.",
+
+    "endTitle": "Zakończenie",
+    "endText": "Marka odzieżowa 'Pous' to rezultat współpracy dwuosobowego zespołu, który dąży do dostarczenia unikalnych produktów, łączących komfort i styl. Pomimo skromnej liczby członków, jesteśmy pełni determinacji i gotowi wprowadzić nasze projekty na rynek mody. Aktualnie negocjujemy warunki produkcji pierwszej serii bluz, a nasza kreatywność oraz zaangażowanie pozostają kluczowe dla naszego sukcesu."
   }
 }
