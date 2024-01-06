@@ -49,7 +49,7 @@
     "clothes": "Marka odzieżowa - Projekt i Tworzenie Marki",
     "more": "Zobacz więcej",
     "real": "Real - Aplikacja typu social media",
-    "recipes": "Recipes: Rozpętaj swoją kulinarną kreatywność i połącz się z entuzjastami kulinarnymi!",
+    "recipes": "Recipes - aplikacja z możliwością tworzenia i wyszukiwania przepisów",
     "roof": "Strona internetowa dla dekarzy - proces i wdrożenie"
   },
   "Team": {
@@ -206,6 +206,35 @@
     "SearchBar": "Znajduj użytkowników i posty za pomocą paska wyszukiwania, zapewniając szybki dostęp do określonej zawartości lub profili.",
     "endTitle": "Podsumowanie",
     "GetConnectedConclusion": "Dołącz do Real. teraz i zacznij dzielić się autentycznymi chwilami. Połącz się z żywiołową społecznością, zaangażuj się w różnorodną zawartość i buduj znaczące połączenia. Zrealizuj prawdziwą esencję mediów społecznościowych na platformie Real.",
+    "demo": "Demo strony"
+  },
+  "Recipes": {
+    "subtitle": "Proces i wdrożenie",
+    "introTitle": "Wprowadzenie",
+    "intro": "Witajcie w aplikacji internetowej 'Recipes', platformie stworzonej z połączenia pasji do programowania i miłości do sztuki kulinariów. Ta aplikacja pełni rolę miejsca, gdzie miłośnicy jedzenia mogą przechowywać, organizować, dzielić się oraz odkrywać przepisy. Jako twórca, moim celem jest zapewnienie użytkownikom płynnego doświadczenia w interakcji z przepisami, nawiązywania kontaktów z osobami o podobnych zainteresowaniach oraz odkrywania świata kulinarnej przyjemności.",
+    "functionsTitle": "Przegląd Funkcji",
+
+    "manageHeading": "Zarządzanie Przepisami",
+    "manageText": "Użytkownicy mogą dodawać, edytować i usuwać swoje przepisy. Każdy przepis zawiera szczegółowe informacje, takie jak składniki, instrukcje gotowania i zdjęcia.",
+
+    "favouriteHeading": "Ulubione Przepisy",
+    "favouriteText": "Użytkownicy mogą oznaczać przepisy stworzone przez innych jako ulubione, co ułatwia późniejszy dostęp i odniesienie się do nich.",
+
+    "commentsHeading": "Komentarze",
+    "commentsText": "Uczestnicz w dyskusjach na temat konkretnych przepisów, pozostawiając komentarze i otrzymując opinie od innych użytkowników. Dziel się wskazówkami, doświadczeniami i różnymi wariantami.",
+
+    "categoriesHeading": "Przeszukiwanie Kategorii i Podkategorii",
+    "categoriesText": "Przepisy są zorganizowane w kategorie i podkategorie, co pozwala użytkownikom eksplorować przepisy zgodnie z ich konkretnymi zainteresowaniami kulinarnymi.",
+
+    "searchHeading": "Pasek Wyszukiwania",
+    "searchText": "Aplikacja posiada pasek wyszukiwania, umożliwiający użytkownikom znajdowanie przepisów na podstawie słów kluczowych, składników lub nazw przepisów.",
+
+    "filtersHeading": "Filtrowanie Przepisów",
+    "filtersText": "Użytkownicy mogą filtrować przepisy, aby zobaczyć najnowsze dodatki lub najszybsze przepisy, ułatwiając eksplorację najnowszych kulinarnych kreacji i szybkich dań.",
+
+    "endTitle": "Zakończenie",
+    "endText": "Ta platforma, wynik połączenia zamiłowania do programowania i pasji do sztuki kulinarnej, została stworzona z myślą o dostarczeniu kompleksowego doświadczenia dla miłośników kulinariów.",
+
     "demo": "Demo strony"
   }
 }

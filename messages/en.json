@@ -49,7 +49,7 @@
     "clothes": "Clothing Brand - Design and Brand Creation",
     "more": "See more",
     "real": "Real - Empowering Authentic Connections through Dynamic Social Media",
-    "recipes": "Recipes: Unleash Your Culinary Creativity and Connect with Food Enthusiasts!",
+    "recipes": "Recipes - application with the ability to create and search recipes",
     "roof": "Web site for roofers - process and implementation"
   },
   "Team": {
@@ -225,5 +225,34 @@
     "endTitle": "Conclusion",
     "GetConnectedConclusion": "Join Real. now and start sharing your authentic moments. Connect with a vibrant community, engage with diverse content, and foster meaningful connections. Realize the true essence of social media on Real.",
     "demo": "Website Demo"
+  },
+  "Recipes": {
+    "subtitle": "Process and Implementation",
+    "introTitle": "Introduction",
+    "intro": "Welcome to the 'Recipes' web application, a platform created from a combination of passion for programming and love for culinary arts. This application serves as a place where food enthusiasts can store, organize, share, and discover recipes. As the creator, my goal is to provide users with a smooth experience in interacting with recipes, connecting with people with similar interests, and exploring the world of culinary pleasure.",
+    "functionsTitle": "Overview of Features",
+
+    "manageHeading": "Recipe Management",
+    "manageText": "Users can add, edit, and delete their recipes. Each recipe includes detailed information such as ingredients, cooking instructions, and photos.",
+
+    "favouriteHeading": "Favorite Recipes",
+    "favouriteText": "Users can mark recipes created by others as favorites, making it easier for later access and reference.",
+
+    "commentsHeading": "Comments",
+    "commentsText": "Participate in discussions about specific recipes by leaving comments and receiving opinions from other users. Share tips, experiences, and various variations.",
+
+    "categoriesHeading": "Explore Categories and Subcategories",
+    "categoriesText": "Recipes are organized into categories and subcategories, allowing users to explore recipes based on their specific culinary interests.",
+
+    "searchHeading": "Search Bar",
+    "searchText": "The application features a search bar, enabling users to find recipes based on keywords, ingredients, or recipe names.",
+
+    "filtersHeading": "Recipe Filtering",
+    "filtersText": "Users can filter recipes to see the latest additions or the fastest recipes, facilitating the exploration of the latest culinary creations and quick dishes.",
+
+    "endTitle": "Conclusion",
+    "endText": "This platform, a result of the combination of a passion for programming and a love for culinary art, has been created with the aim of providing a comprehensive experience for culinary enthusiasts.",
+
+    "demo": "Demo Page"
   }
 }
