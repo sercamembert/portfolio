@@ -186,5 +186,26 @@
     "endText": "Projekt Strony internetowej Renowacji Wnętrz ma na celu stworzenie profesjonalnej platformy online, która pozwoli firmie prezentować swoje umiejętności i zrealizowane projekty. Pragniemy dostarczyć użytkownikom łatwą i atrakcyjną stronę, umożliwiającą skontaktowanie się z firmą i zapoznanie się z jej ofertą.",
 
     "demo": "Demo strony"
+  },
+  "Real": {
+    "subtitle": "Platforma społecznościowa",
+    "whatIsReal": "Czym jest Real?",
+    "desc": "Real. to dynamiczna aplikacja społecznościowa zaprojektowana jako centrum do dzielenia się autentycznymi chwilami, twórczymi wyrazami i budowania znaczących połączeń. Inspirując się zaangażowanymi funkcjami Instagrama i esencją społecznościową Reddita, Real. przynosi świeże i dynamiczne podejście do krajobrazu mediów społecznościowych.",
+    "KeyFeatures": "Główne cechy:",
+    "PostCreationTitle": "Tworzenie posta:",
+    "PostCreation": "Użytkownicy mogą płynnie dzielić się swoimi chwilami, tworząc posty, dodając obrazy, podpisy i tagi, aby wyrazić swoją kreatywność.",
+    "FeedExplorationTitle": "Przeglądanie feedu:",
+    "FeedExploration": "Zanurz się w dynamicznym feedzie pełnym postów od przyjaciół i innych użytkowników, wspierając różnorodne i angażujące doświadczenie społeczne.",
+    "LikesAndCommentsTitle": "Lajki i komentarze:",
+    "LikesAndComments": "Wejdź w interakcje z postami, wyrażając uznanie za pomocą lajków i pozostawiając komentarze. Ta funkcja zachęca do dyskusji i nawiązywania połączeń między użytkownikami.",
+    "UserProfilesTitle": "Profile użytkowników:",
+    "UserProfiles": "Dostosuj swój profil za pomocą zdjęcia profilowego, krótkiego życiorysu i innych danych osobowych, uczyniając swoją obecność społeczną unikalną i wyrazistą.",
+    "FollowAndUnfollowTitle": "Śledzenie i przerywanie śledzenia:",
+    "FollowAndUnfollow": "Łącz się z przyjaciółmi i śledź innych użytkowników, aby być na bieżąco z ich najnowszymi postami. Łatwo zarządzaj swoją siecią, przerywając śledzenie, gdy to konieczne.",
+    "SearchBarTitle": "Pasek wyszukiwania:",
+    "SearchBar": "Znajduj użytkowników i posty za pomocą paska wyszukiwania, zapewniając szybki dostęp do określonej zawartości lub profili.",
+    "endTitle": "Podsumowanie",
+    "GetConnectedConclusion": "Dołącz do Real. teraz i zacznij dzielić się autentycznymi chwilami. Połącz się z żywiołową społecznością, zaangażuj się w różnorodną zawartość i buduj znaczące połączenia. Zrealizuj prawdziwą esencję mediów społecznościowych na platformie Real.",
+    "demo": "Demo strony"
   }
 }

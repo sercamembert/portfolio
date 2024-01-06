@@ -195,5 +195,35 @@
     "endText": "The Interior Renovation Website project aims to create a professional online platform that allows the company to showcase its skills and completed projects. We aim to provide users with an easy and attractive website, facilitating communication with the company and understanding its offerings.",
 
     "demo": "Website Demo"
+  },
+  "Real": {
+    "subtitle": "Social media platform",
+
+    "whatIsReal": "What is Real.?",
+
+    "desc": "Real. is a dynamic social media application designed to be a hub for sharing authentic moments, creative expressions, and fostering meaningful connections. Drawing inspiration from the engaging features of Instagram and the community-driven essence of Reddit, Real. brings a fresh and vibrant approach to the social media landscape.",
+
+    "KeyFeatures": "Key features:",
+
+    "PostCreationTitle": "Post Creation:",
+    "PostCreation": "Users can seamlessly share their moments by creating posts, incorporating images, captions, and tags to express their creativity.",
+
+    "FeedExplorationTitle": "Feed Exploration:",
+    "FeedExploration": "Dive into a dynamic feed filled with posts from friends and other users, fostering a diverse and engaging social experience.",
+
+    "LikesAndCommentsTitle": "Likes and Comments:",
+    "LikesAndComments": "Interact with posts by expressing appreciation through likes and leaving comments. This feature encourages discussions and connections among users.",
+
+    "UserProfilesTitle": "User Profiles:",
+    "UserProfiles": "Customize your profile with a profile picture, a brief bio, and other personal details, making your social presence unique and expressive.",
+
+    "FollowAndUnfollowTitle": "Follow and Unfollow:",
+    "FollowAndUnfollow": "Connect with friends and follow other users to stay updated on their latest posts. Easily manage your network by unfollowing when necessary.",
+
+    "SearchBarTitle": "Search Bar:",
+    "SearchBar": "Effortlessly find users and posts using the search bar, providing quick access to specific content or profiles.",
+    "endTitle": "Conclusion",
+    "GetConnectedConclusion": "Join Real. now and start sharing your authentic moments. Connect with a vibrant community, engage with diverse content, and foster meaningful connections. Realize the true essence of social media on Real.",
+    "demo": "Website Demo"
   }
 }
