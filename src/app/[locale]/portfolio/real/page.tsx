@@ -30,7 +30,7 @@ const page = ({ params: { locale } }: { params: any }) => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.3, delay: 0.6 }}
-        src="/images/real/main.png"
+        src="/images/Real/main.png"
         className="w-full sm:w-[72%] mx-auto mt-[11px] md:mt-[22px] lg:mt-[28px] xl:mt-[36px] 2xl:mt-[41px] desktop:mt-[46px]
         mb-[30px] md:mb-[61px] lg:mb-[80px] xl:mb-[102px] 2xl:mb-[116px] desktop:mb-[130px]
         rounded-[10px]
@@ -43,7 +43,7 @@ const page = ({ params: { locale } }: { params: any }) => {
       </div>
 
       <Image
-        src="/images/real/user.png"
+        src="/images/Real/user.png"
         alt="Real."
         width={500}
         height={1000}
@@ -86,7 +86,7 @@ const page = ({ params: { locale } }: { params: any }) => {
       </div>
 
       <Image
-        src="/images/real/post.png"
+        src="/images/Real/post.png"
         alt="Real."
         width={500}
         height={1000}
