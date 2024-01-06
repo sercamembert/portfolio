@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import copyImg from "../../public/images/copy.svg";
+import Link from "next/link";
 
 interface Props {
   contact: string;
@@ -87,6 +88,41 @@ const FooterMobile = ({
             height={14}
             className="w-[14px]"
           />
+        </div>
+        <div className="flex gap-3">
+          <Link
+            href="https://www.instagram.com/outofplace.space/"
+            target="_blank"
+          >
+            <Image
+              alt="Instagram"
+              src="/images/icons/instagram.png"
+              width={15}
+              height={15}
+              className="md:hover:brightness-[80%] hover:scale-110 duration-300 cursor-pointer"
+            />
+          </Link>
+          <Link
+            href="https://www.linkedin.com/company/outofplace/?lipi=urn%3Ali%3Apage%3Ad_flagship3_company_admin%3B%2FPg6Yx0rRgm0NArkfBFPmg%3D%3D"
+            target="_blank"
+          >
+            <Image
+              alt="Linkedin"
+              src="/images/icons/linkedin.png"
+              width={15}
+              height={15}
+              className="md:hover:brightness-[80%] hover:scale-110 duration-300 cursor-pointer"
+            />
+          </Link>
+          <Link href="https://twitter.com/outofplacespace" target="_blank">
+            <Image
+              alt="X"
+              src="/images/icons/twitter.png"
+              width={15}
+              height={15}
+              className="md:hover:brightness-[80%] hover:scale-110 duration-300 cursor-pointer"
+            />
+          </Link>
         </div>
         <p className="opacity-30 text-[9px] mb-[8px]">
           © outofplace 2023 All Rights Reserved
@@ -202,7 +238,6 @@ const FooterMain = ({
   unique,
   about,
   renovation,
-  terms,
   privacy,
   locale,
 }: Props) => {
@@ -217,6 +252,7 @@ const FooterMain = ({
         </h1>
         <div className="flex gap-[3px] md:gap-[6px] mt-[7px] md:mt-[15px] lg:mt-[19px] xl:mt-[26px] 2xl:mt-[28px] 3xl:mt-[30px] desktop:mt-[33px]">
           <p className="link-text">support@outofplace.space</p>
+
           <Image
             src={copyImg}
             alt="support@outofplace.space"
@@ -224,6 +260,41 @@ const FooterMain = ({
             height={31.06}
             className="w-[6.77px] md:w-[13.87px] lg:w-[18.38px] xl:w-[22.97px] 2xl:w-[26px] 3xl:w-[28px] desktop:w-[31px]"
           />
+        </div>
+        <div className="flex gap-3 mt-[7px]">
+          <Link
+            href="https://www.instagram.com/outofplace.space/"
+            target="_blank"
+          >
+            <Image
+              alt="Instagram"
+              src="/images/icons/instagram.png"
+              width={30}
+              height={30}
+              className="md:hover:brightness-[80%] hover:scale-110 duration-300 cursor-pointer md:w-[17px] xl:w-[22px] 3xl:w-[27px] "
+            />
+          </Link>
+          <Link
+            href="https://www.linkedin.com/company/outofplace/?lipi=urn%3Ali%3Apage%3Ad_flagship3_company_admin%3B%2FPg6Yx0rRgm0NArkfBFPmg%3D%3D"
+            target="_blank"
+          >
+            <Image
+              alt="Linkedin"
+              src="/images/icons/linkedin.png"
+              width={30}
+              height={30}
+              className="md:hover:brightness-[80%] hover:scale-110 duration-300 cursor-pointer md:w-[17px] xl:w-[22px] 3xl:w-[27px]"
+            />
+          </Link>
+          <Link href="https://twitter.com/outofplacespace" target="_blank">
+            <Image
+              alt="X"
+              src="/images/icons/twitter.png"
+              width={30}
+              height={30}
+              className="md:hover:brightness-[80%] hover:scale-110 duration-300 cursor-pointer md:w-[17px] xl:w-[22px] 3xl:w-[27px]"
+            />
+          </Link>
         </div>
         <p
           className="opacity-30 text-[4.58px] md:text-[9.39px] lg:text-[12.52px] xl:text-[15.64px] 2xl:text-[17.6px] 3xl:text-[18.8px] desktop:text-[21.02px]
