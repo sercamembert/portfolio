@@ -33,6 +33,7 @@ const page = ({ params: { locale } }: { params: any }) => {
         src="/images/real/main.png"
         className="w-full sm:w-[72%] mx-auto mt-[11px] md:mt-[22px] lg:mt-[28px] xl:mt-[36px] 2xl:mt-[41px] desktop:mt-[46px]
         mb-[30px] md:mb-[61px] lg:mb-[80px] xl:mb-[102px] 2xl:mb-[116px] desktop:mb-[130px]
+        rounded-[10px]
         "
       ></motion.img>
 
@@ -42,11 +43,11 @@ const page = ({ params: { locale } }: { params: any }) => {
       </div>
 
       <Image
-        src="/images/real/signin.png"
+        src="/images/real/user.png"
         alt="Real."
         width={500}
         height={1000}
-        className="my-[100px] sm:w-[30%] mx-auto"
+        className="my-[100px] sm:w-[30%] mx-auto rounded-[10px]"
       />
 
       <h1 className="portfolio-heading mt-[30px] md:mt-[61px] lg:mt-[80px] xl:mt-[90px] 3xl:mt-[100px]">
@@ -85,11 +86,11 @@ const page = ({ params: { locale } }: { params: any }) => {
       </div>
 
       <Image
-        src="/images/real/user.png"
+        src="/images/real/post.png"
         alt="Real."
         width={500}
         height={1000}
-        className="my-[100px] sm:w-[30%] mx-auto"
+        className="my-[100px] sm:w-[30%] mx-auto rounded-[10px]"
       />
 
       <div className="flex flex-col">
