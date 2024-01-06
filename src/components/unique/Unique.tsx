@@ -21,9 +21,9 @@ const Unique = ({
   const boxShadow = "0px 5.574px 5.574px 0px rgba(0, 0, 0, 0.25)";
   return (
     <div className="padding flex flex-col w-full gap-[7px] " id="about">
-      <h1 className="font-bold text-[39.02px] md:text-[30px] lg:text-[39px] xl:text-[49.76px] 2xl:text-[52.55px] 3xl:text-[58.19px] desktop:text-[63.73px] text-center whitespace-pre-line md:whitespace-normal md:text-left">
+      <h2 className="font-bold text-[39.02px] md:text-[30px] lg:text-[39px] xl:text-[49.76px] 2xl:text-[52.55px] 3xl:text-[58.19px] desktop:text-[63.73px] text-center whitespace-pre-line md:whitespace-normal md:text-left">
         {title}
-      </h1>
+      </h2>
       <div className="flex flex-col md:flex-row md:min-h-[362.5px] lg:min-h-[468.86px] xl:min-h-[598.2px] 3xl:min-h-[699.52px] desktop:mih-h-[766.15px] unigapx unigapy">
         <div className="flex flex-col md:w-[55.4%] md:min-h-[362.5px] lg:min-h-[468.86px] xl:min-h-[598.2px] 3xl:min-h-[699.52px] desktop:mih-h-[766.15px] unigapy">
           <div className="flex flex-col md:flex-row md:h-1/2 unigapy unigapx items-center">
@@ -43,9 +43,9 @@ const Unique = ({
             className="rounded-[15px] md:h-1/2 py-[40px] flex flex-col items-center justify-center w-full max-w-[360px] md:max-w-full mx-auto
             md:py-[23px] lg:py-[30px] xl:py-[35px] 3xl:py-[45px]"
           >
-            <h1 className="text-center font-semibold text-[22.1px] mb-[4px] md:text-[28.01px] lg:text-[36.23px] xl:text-[46.23px] 3xl:text-[54.06px] desktop:text-[59.2px] leading-tight">
+            <h3 className="text-center font-semibold text-[22.1px] mb-[4px] md:text-[28.01px] lg:text-[36.23px] xl:text-[46.23px] 3xl:text-[54.06px] desktop:text-[59.2px] leading-tight">
               {commitment}
-            </h1>
+            </h3>
             <p
               className=" text-center font-medium text-text text-[13.68px] md:text-[13.51px] lg:text-[17.47px] xl:text-[22.29px] 3xl:text-[26.07px] desktop:text-[28.55px] leading-tight
               px-4 md:px-[42px] lg:px-[57px] xl:px-[72px] 3xl:px-[85px] desktop:px-[87.54px]"
@@ -63,13 +63,13 @@ const Unique = ({
           className="h-full rounded-[15px] md:w-[41.4%] flex flex-col items-center justify-center w-full max-w-[360px] md:max-w-full mx-auto py-[40px]
           md:py-[15px] lg:py-[20px] xl:py-[25px] 3xl:py-[29px] desktop:py-[32px]"
         >
-          <h1 className="w-full text-center font-extrabold text-[30px] mb-[4px] break-words md:text-[72.2px] lg:text-[93.38px] xl:text-[119.14px] 3xl:text-[139.32px] desktop:text-[152.59px] leading-[1]">
+          <h3 className="w-full text-center font-extrabold text-[30px] mb-[4px] break-words md:text-[72.2px] lg:text-[93.38px] xl:text-[119.14px] 3xl:text-[139.32px] desktop:text-[152.59px] leading-[1]">
             OUT
             <br className="hidden md:block" />
             OF
             <br className="hidden md:block" />
             PLACE
-          </h1>
+          </h3>
           <p
             className="text-center font-medium text-text text-[13.68px] md:text-[13.51px] lg:text-[17.47px] xl:text-[22.29px] 3xl:text-[26.07px] desktop:text-[28.55px] leading-tight
             px-4 md:px-[42px] lg:px-[57px] xl:px-[72px] 3xl:px-[85px] desktop:px-[87.54px]"

@@ -41,7 +41,7 @@ const page = ({ params: { locale } }: { params: any }) => {
       </div>
 
       <div className="mt-[30px] md:mt-[61px] lg:mt-[80px] xl:mt-[90px] 3xl:mt-[100px]">
-        <h1 className="portfolio-heading">{text("goalTitle")}</h1>
+        <h2 className="portfolio-heading">{text("goalTitle")}</h2>
         <div className="flex flex-col gap-y-[15px]">
           <p className="portfolio-text">{text("goalText1")}</p>
           <p className="portfolio-text">{text("goalText2")}</p>
@@ -51,9 +51,9 @@ const page = ({ params: { locale } }: { params: any }) => {
         </div>
       </div>
 
-      <h1 className="portfolio-heading mt-[30px] md:mt-[61px] lg:mt-[80px] xl:mt-[90px] 3xl:mt-[100px]">
+      <h2 className="portfolio-heading mt-[30px] md:mt-[61px] lg:mt-[80px] xl:mt-[90px] 3xl:mt-[100px]">
         {text("functionsTitle")}
-      </h1>
+      </h2>
 
       <div className="mt-[10px] lg:mt-[20px] flex flex-col gap-y-[30px]">
         <div className="flex flex-col gap-y-[10px]">
@@ -87,7 +87,7 @@ const page = ({ params: { locale } }: { params: any }) => {
       />
 
       <div className="flex flex-col">
-        <h1 className="portfolio-heading text-center">{text("endTitle")}</h1>
+        <h2 className="portfolio-heading text-center">{text("endTitle")}</h2>
         <p className="portfolio-text text-center">{text("endText")}</p>
       </div>
 

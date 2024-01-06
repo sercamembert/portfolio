@@ -50,9 +50,9 @@ const page = ({ params: { locale } }: { params: any }) => {
         className="my-[100px] sm:w-[30%] mx-auto rounded-[10px]"
       />
 
-      <h1 className="portfolio-heading mt-[30px] md:mt-[61px] lg:mt-[80px] xl:mt-[90px] 3xl:mt-[100px]">
+      <h2 className="portfolio-heading mt-[30px] md:mt-[61px] lg:mt-[80px] xl:mt-[90px] 3xl:mt-[100px]">
         {text("KeyFeatures")}
-      </h1>
+      </h2>
 
       <div className="mt-[10px] lg:mt-[20px] flex flex-col gap-y-[30px] lg:gap-y-[50px]">
         <div className="flex flex-col gap-y-[10px]">
@@ -94,7 +94,7 @@ const page = ({ params: { locale } }: { params: any }) => {
       />
 
       <div className="flex flex-col">
-        <h1 className="portfolio-heading text-center">{text("endTitle")}</h1>
+        <h2 className="portfolio-heading text-center">{text("endTitle")}</h2>
         <p className="portfolio-text text-center">
           {text("GetConnectedConclusion")}
         </p>

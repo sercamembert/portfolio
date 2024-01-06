@@ -41,12 +41,12 @@ const page = ({ params: { locale } }: { params: any }) => {
       </div>
 
       <div className="mt-[30px] md:mt-[61px] lg:mt-[80px] xl:mt-[90px] 3xl:mt-[100px]">
-        <h1 className="portfolio-heading">{text("goalTitle")}</h1>
+        <h2 className="portfolio-heading">{text("goalTitle")}</h2>
         <p className="portfolio-text">{text("goalText")}</p>
       </div>
 
       <div className="mt-[30px] md:mt-[61px] lg:mt-[80px] xl:mt-[90px] 3xl:mt-[100px]">
-        <h1 className="portfolio-heading">{text("experienceTitle")}</h1>
+        <h2 className="portfolio-heading">{text("experienceTitle")}</h2>
         <p className="portfolio-text">{text("experienceText")}</p>
         <div className="mt-[5px] lg:mt-[10px] flex flex-col gap-y-[5px]">
           <div className="flex flex-col">
@@ -81,7 +81,7 @@ const page = ({ params: { locale } }: { params: any }) => {
         />
       </div>
 
-      <h1 className="portfolio-heading">{text("processTitle")}</h1>
+      <h2 className="portfolio-heading">{text("processTitle")}</h2>
 
       <div className="mt-[10px] lg:mt-[20px] flex flex-col gap-y-[30px]">
         <div className="flex flex-col gap-y-[10px]">
@@ -100,7 +100,7 @@ const page = ({ params: { locale } }: { params: any }) => {
       </div>
 
       <div className="mt-[30px] md:mt-[61px] lg:mt-[80px] xl:mt-[90px] 3xl:mt-[100px]">
-        <h1 className="portfolio-heading">{text("futureTitle")}</h1>
+        <h2 className="portfolio-heading">{text("futureTitle")}</h2>
         <p className="portfolio-text">{text("futureText")}</p>
       </div>
 
@@ -122,7 +122,7 @@ const page = ({ params: { locale } }: { params: any }) => {
       </div>
 
       <div className="flex flex-col mt-[30px] md:mt-[61px] lg:mt-[80px] xl:mt-[90px] 3xl:mt-[100px]">
-        <h1 className="portfolio-heading text-center">{text("endTitle")}</h1>
+        <h2 className="portfolio-heading text-center">{text("endTitle")}</h2>
         <p className="portfolio-text text-center">{text("endText")}</p>
       </div>
     </div>

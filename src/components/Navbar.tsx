@@ -5,8 +5,7 @@ import { Squash as Hamburger } from "hamburger-react";
 import Link from "next/link";
 import Language from "./Language";
 import { motion } from "framer-motion";
-import { usePathname, useSearchParams } from "next/navigation";
-import { useRouter } from "next/navigation";
+
 interface Props {
   services: string;
   about: string;
@@ -22,27 +21,6 @@ const variants = {
 
 const Navbar = ({ services, about, talk, contact, locale }: Props) => {
   const [isOpen, setIsOpen] = useState(false);
-  const pathname = usePathname();
-  const router = useRouter();
-
-  const scroll2El = (elID: any) => {
-    const targetElement = document.getElementById(elID);
-    if (targetElement) {
-      window.scrollTo({
-        top: targetElement.offsetTop - window.innerHeight / 6,
-        behavior: "smooth",
-      });
-    }
-  };
-
-  const onBtnClick = (e: any) => {
-    e.preventDefault();
-    setIsOpen(false);
-    const goto = e.target.getAttribute("data-goto");
-    setTimeout(() => {
-      scroll2El(goto);
-    }, 100);
-  };
 
   return (
     <>
@@ -80,13 +58,15 @@ const Navbar = ({ services, about, talk, contact, locale }: Props) => {
         >
           {contact}
         </a>
-        <p
-          data-goto="about"
-          onClick={onBtnClick}
+        <Link
+          href={`/${locale}#about`}
           className="font-bold cursor-pointer"
+          onClick={() => {
+            setIsOpen(false);
+          }}
         >
           {about}
-        </p>
+        </Link>
 
         <Language />
       </motion.div>
@@ -111,13 +91,12 @@ const Navbar = ({ services, about, talk, contact, locale }: Props) => {
           >
             Portfolio
           </Link>
-          <p
-            data-goto="about"
-            onClick={onBtnClick}
+          <Link
+            href={`/${locale}#about`}
             className="cursor-pointer font-medium text-[7.82px] lg:text-[10px] xl:text-[12.81px] 2xl:text-[14.67px] desktop:text-[17.52px]  hover:text-primary duration-300"
           >
             {about}
-          </p>
+          </Link>
 
           <Language />
 

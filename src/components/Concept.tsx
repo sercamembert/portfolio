@@ -36,7 +36,7 @@ const Concept = () => {
     <div className="padding z-0 hidden md:block">
       <video ref={videoRef} muted className="mx-auto">
         <source
-          src="https://cdn.discordapp.com/attachments/1091042166022869143/1193255545495376032/eddie.webm?ex=65ac0cd3&is=659997d3&hm=12eac2458c0a54f996bcfd428899f55f69f9e3108dc667237ecdb4150ed8313b&"
+          src="https://cdn.discordapp.com/attachments/1091042166022869143/1193275344770306099/animacja9.webm?ex=65ac1f44&is=6599aa44&hm=63500cc012fc7d4f6317d4da6656727ba53811635cd7d8d5324ec3b8d6c73cc2&"
           type="video/webm"
         />
         Your browser does not support the video tag.

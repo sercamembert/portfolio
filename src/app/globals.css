@@ -2,7 +2,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+html {
+  scroll-behavior: smooth;
+}
 @layer basic {
   .padding {
     @apply px-[20px] sm:px-[40px] md:px-[50px] lg:px-[80px] xl:px-[85px] 2xl:px-[90px] 3xl:px-[120px] desktop:px-[150px];
