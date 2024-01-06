@@ -3,6 +3,7 @@ import React from "react";
 import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
 
 const page = ({ params: { locale } }: { params: any }) => {
   const text = useTranslations("Renovation");
@@ -89,6 +90,14 @@ const page = ({ params: { locale } }: { params: any }) => {
         <h1 className="portfolio-heading text-center">{text("endTitle")}</h1>
         <p className="portfolio-text text-center">{text("endText")}</p>
       </div>
+
+      <Link
+        href="https://renowacje.vercel.app/"
+        target="_blank"
+        className="portfolio-text font-bold text-center mt-[30px] lg:mt-[60px] md:hover:brightness-[80%] hover:scale-110 duration-300"
+      >
+        {text("demo")}
+      </Link>
     </div>
   );
 };
