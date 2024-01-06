@@ -158,5 +158,42 @@
 
     "endTitle": "Conclusion",
     "endText": "The Pous clothing brand is the result of the collaboration of a two-person team determined to deliver unique products that combine comfort and style. Despite the modest number of members, we are full of determination and ready to introduce our projects to the fashion market. We are currently negotiating the production terms for the first series of sweatshirts, and our creativity and commitment remain crucial to our success."
+  },
+  "Renovation": {
+    "title": "Interior Renovation Website - Project and Transformation",
+
+    "subtitle": "Design and Transformation",
+
+    "introTitle": "Introduction",
+    "intro": "Welcome to the documentation of the 'Interior Renovation Website' project. Our goal is to create a responsive website that serves as a platform showcasing interior renovation services. This project aims to provide users with information about the offered services, references, and the ability to contact the interior renovation company.",
+
+    "goalTitle": "Project Goal:",
+    "goalText1": "The main goal of the project is to design and implement a functional website that:",
+    "goalText2": "Presents interior renovation offerings, including various services and projects completed by the company.",
+    "goalText3": "Provides information about the team of specialists, their experience, and their approach to work.",
+    "goalText4": "Offers easy access to references from satisfied customers.",
+    "goalText5": "Enables potential clients to contact the company for additional information or consultation on renovation projects.",
+
+    "functionsTitle": "Website Functions:",
+
+    "homePageHeading": "Home Page:",
+    "homePageText": "Clear presentation of main interior renovation services and projects.",
+
+    "aboutHeading": "About Us:",
+    "aboutText": "Information about the company, its history, values, and the team's experience.",
+
+    "servicesHeading": "Services:",
+    "servicesText": "Detailed information about the offered services, with the possibility to present various renovation packages.",
+
+    "referencesHeading": "References:",
+    "referencesText": "Section containing opinions and references from satisfied customers.",
+
+    "contactHeading": "Contact:",
+    "contactText": "Contact form and information about the location and opening hours.",
+
+    "endTitle": "Conclusion",
+    "endText": "The Interior Renovation Website project aims to create a professional online platform that allows the company to showcase its skills and completed projects. We aim to provide users with an easy and attractive website, facilitating communication with the company and understanding its offerings.",
+
+    "demo": "Website Demo"
   }
 }

@@ -148,5 +148,43 @@
 
     "endTitle": "Zakończenie",
     "endText": "Marka odzieżowa 'Pous' to rezultat współpracy dwuosobowego zespołu, który dąży do dostarczenia unikalnych produktów, łączących komfort i styl. Pomimo skromnej liczby członków, jesteśmy pełni determinacji i gotowi wprowadzić nasze projekty na rynek mody. Aktualnie negocjujemy warunki produkcji pierwszej serii bluz, a nasza kreatywność oraz zaangażowanie pozostają kluczowe dla naszego sukcesu."
+  },
+
+  "Renovation": {
+    "title": "Strona internetowa Renowacji Wnętrz",
+
+    "subtitle": "Projektowanie i transformacja",
+
+    "introTitle": "Wprowadzenie",
+    "intro": "Witamy w dokumentacji projektu 'Strona internetowa Renowacji Wnętrz'. Naszym celem jest stworzenie responsywnej strony internetowej, która będzie pełnić funkcję platformy prezentującej usługi związane z renowacją wnętrz. Projekt ten ma na celu dostarczenie użytkownikom informacji o oferowanych usługach, referencjach, oraz możliwości skontaktowania się z firmą zajmującą się renowacją wnętrz.",
+
+    "goalTitle": "Cel Projektu:",
+    "goalText1": "Głównym celem projektu jest zaprojektowanie i wdrożenie funkcjonalnej strony internetowej, która:",
+    "goalText2": "Prezentuje ofertę renowacji wnętrz, w tym różne usługi i projekty zrealizowane przez firmę.",
+    "goalText3": "Udostępnia informacje o zespole specjalistów, ich doświadczeniu i podejściu do pracy.",
+    "goalText4": "Zapewnia łatwy dostęp do referencji od zadowolonych klientów.",
+    "goalText5": "Umożliwia potencjalnym klientom kontakt z firmą w celu uzyskania dodatkowych informacji lub skonsultowania projektu renowacji.",
+
+    "functionsTitle": "Funkcje Strony:",
+
+    "homePageHeading": "Strona Główna:",
+    "homePageText": "Przejrzyste przedstawienie głównych usług i projektów renowacji wnętrz.",
+
+    "aboutHeading": "O Nas:",
+    "aboutText": "Informacje o firmie, historii, wartościach i doświadczeniu zespołu.",
+
+    "servicesHeading": "Usługi:",
+    "servicesText": "Szczegółowe informacje na temat oferowanych usług, z możliwością przedstawienia różnych pakietów renowacyjnych.",
+
+    "referencesHeading": "Referencje:",
+    "referencesText": "Sekcja zawierająca opinie i referencje od zadowolonych klientów.",
+
+    "contactHeading": "Kontakt:",
+    "contactText": "Formularz kontaktowy oraz informacje o lokalizacji i godzinach otwarcia.",
+
+    "endTitle": "Zakończenie",
+    "endText": "Projekt Strony internetowej Renowacji Wnętrz ma na celu stworzenie profesjonalnej platformy online, która pozwoli firmie prezentować swoje umiejętności i zrealizowane projekty. Pragniemy dostarczyć użytkownikom łatwą i atrakcyjną stronę, umożliwiającą skontaktowanie się z firmą i zapoznanie się z jej ofertą.",
+
+    "demo": "Demo strony"
   }
 }
