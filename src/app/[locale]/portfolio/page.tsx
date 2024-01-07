@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 import PortfolioBlock from "@/components/portfolio/PortfolioBlock";
 
 const page = ({ params: { locale } }: { params: any }) => {
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   const portfolioText = useTranslations("Portfolio");
 
   return (

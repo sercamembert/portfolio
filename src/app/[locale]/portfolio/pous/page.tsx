@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 
 const page = ({ params: { locale } }: { params: any }) => {
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   const text = useTranslations("Pous");
 
   return (

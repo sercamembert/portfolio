@@ -6,6 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const page = ({ params: { locale } }: { params: any }) => {
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   const text = useTranslations("Roof");
 
   return (

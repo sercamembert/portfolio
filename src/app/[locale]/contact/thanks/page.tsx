@@ -6,6 +6,7 @@ import Spline from "@splinetool/react-spline";
 interface Props {}
 
 const page = () => {
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   const translation = useTranslations("Thanks");
   const title = translation("title");
   const text = translation("text");

@@ -5,7 +5,9 @@ import ServicesBlock from "@/components/services/ServicesBlock";
 import { motion } from "framer-motion";
 
 const page = ({ params: { locale } }: { params: any }) => {
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   const servicesText = useTranslations("Services");
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   const talkText = useTranslations("Navbar");
   const background =
     "radial-gradient(161.21% 160.39% at 5.71% -44.13%, #363636 0%, rgba(26, 26, 26, 0.27) 100%)";
