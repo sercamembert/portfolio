@@ -8,7 +8,9 @@ const Page = ({ params: { locale } }: { params: any }) => {
       data-tally-src={
         locale == "en"
           ? "https://tally.so/embed/mJzdx7?alignLeft=1&transparentBackground=1&dynamicHeight=1&hideTitle=1"
-          : "https://tally.so/embed/mB7K1e?alignLeft=1&transparentBackground=1&dynamicHeight=1&hideTitle=1"
+          : locale == "pl"
+          ? "https://tally.so/embed/mB7K1e?alignLeft=1&transparentBackground=1&dynamicHeight=1&hideTitle=1"
+          : "https://tally.so/embed/w2PeoD?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
       }
       loading="lazy"
       width="100%"

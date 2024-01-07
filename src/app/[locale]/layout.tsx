@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     "Najlepsze usługi w tworzeniu tanich stron internetowych. Skontaktuj się z nami, aby dowiedzieć się więcej.",
 };
 
-const locales = ["en", "pl"];
+const locales = ["en", "pl", "uk"];
 
 export default function RootLayout({
   children,

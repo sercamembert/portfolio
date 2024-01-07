@@ -5,6 +5,7 @@ import { Squash as Hamburger } from "hamburger-react";
 import Link from "next/link";
 import Language from "./Language";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 interface Props {
   services: string;
@@ -68,7 +69,32 @@ const Navbar = ({ services, about, talk, contact, locale }: Props) => {
           {about}
         </Link>
 
-        <Language />
+        <div className="flex gap-[15px]">
+          <Link href="/en">
+            <Image
+              src="/images/icons/uk.svg"
+              alt="English"
+              width={40}
+              height={40}
+            />
+          </Link>
+          <Link href="/pl">
+            <Image
+              src="/images/icons/pl.svg"
+              alt="English"
+              width={40}
+              height={40}
+            />
+          </Link>
+          <Link href="/uk">
+            <Image
+              src="/images/icons/ukr.svg"
+              alt="English"
+              width={40}
+              height={40}
+            />
+          </Link>
+        </div>
       </motion.div>
 
       <nav className="w-full padding h-[80px] fixed top-0 flex items-center justify-between xl:h-[100px] bg-black z-50">
