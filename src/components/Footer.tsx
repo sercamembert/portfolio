@@ -95,7 +95,14 @@ const FooterMobile = ({
       <div className="flex flex-col padding gap-y-[15px]">
         <h1 className="font-bold text-[14px]">{contact}</h1>
         <div className="flex gap-[3px]">
-          <p className="text-[11px]">support@outofplace.space</p>
+          <p
+            className="text-[11px]"
+            onClick={() => {
+              copyToClipboard("support@outofplace.space");
+            }}
+          >
+            support@outofplace.space
+          </p>
           <Image
             src={copyImg}
             alt="support@outofplace.space"
@@ -303,18 +310,22 @@ const FooterMain = ({
         <h1 className="font-bold text-[6.6px] md:text-[13.51px] lg:text-[18.02px] xl:text-[22.52px] 2xl:text-[25.34px] 3xl:text-[27.06px] desktop:text-[30px]">
           {contact}
         </h1>
-        <div className="flex gap-[3px] md:gap-[6px] mt-[7px] md:mt-[15px] lg:mt-[19px] xl:mt-[26px] 2xl:mt-[28px] 3xl:mt-[30px] desktop:mt-[33px]">
-          <p className="link-text">support@outofplace.space</p>
+        <div
+          className="flex gap-[3px] md:gap-[6px] mt-[7px] md:mt-[15px] lg:mt-[19px] xl:mt-[26px] 2xl:mt-[28px] 3xl:mt-[30px] desktop:mt-[33px]"
+          onClick={() => {
+            copyToClipboard("support@outofplace.space");
+          }}
+        >
+          <p className="link-text  hover:brightness-[80%] duration-300 cursor-pointer">
+            support@outofplace.space
+          </p>
 
           <Image
             src={copyImg}
             alt="support@outofplace.space"
             width={31.2}
             height={31.06}
-            className="w-[6.77px] md:w-[13.87px] lg:w-[18.38px] xl:w-[22.97px] 2xl:w-[26px] 3xl:w-[28px] desktop:w-[31px] hover:brightness-[80%] duration-300 cursor-pointer"
-            onClick={() => {
-              copyToClipboard("support@outofplace.space");
-            }}
+            className="w-[6.77px] md:w-[13.87px] lg:w-[18.38px] xl:w-[22.97px] 2xl:w-[26px] 3xl:w-[28px] desktop:w-[31px]  hover:brightness-[80%] duration-300 cursor-pointer"
           />
         </div>
         <div className="flex gap-3 mt-[7px] md:mt-[15px] lg:mt-[19px] xl:mt-[26px] 2xl:mt-[28px] 3xl:mt-[30px] desktop:mt-[33px]">

@@ -3,6 +3,7 @@ import React from "react";
 import Spline from "@splinetool/react-spline";
 import HeroIcons from "./HeroIcons";
 import { motion } from "framer-motion";
+import Image from "next/image";
 import Link from "next/link";
 interface Props {
   text: string;
@@ -18,7 +19,7 @@ const Hero = ({ text, talk, locale }: Props) => {
 
   return (
     <div className="w-screen padding h-[600px] md:h-full flex flex-col gap-y-[30px] md:flex-row pt-[80px] md:pt-[95px] lg:pt-[100px] xl:pt-[110px] 2xl:pt-[140px] desktop:pt-[160px] ">
-      <div className="flex flex-col items-center md:items-start ">
+      <div className="flex relative flex-col items-center md:items-start ">
         <motion.h1
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
