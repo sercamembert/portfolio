@@ -4,6 +4,7 @@ import React from "react";
 import PortfolioBlock from "./PortfolioBlock";
 import Link from "next/link";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 interface Props {
   websites: string;
@@ -41,27 +42,50 @@ const Portfolio = ({
         gap-y-[60px] md:gap-x-[47px] lg:gap-x-[61px] xl:gap-x-[78px] 2xl:gap-x-[81px] 3xl:gap-x-[91px] desktop:gap-x-[100px]
       "
       >
-        <PortfolioBlock
-          path="/images/portfolio/renovation.png"
-          type={websites}
-          text={renovations}
-          locale={locale}
-          link="renovations"
-        />
-        <PortfolioBlock
-          path="/images/portfolio/quizportal.png"
-          type={company}
-          text={quizportal}
-          locale={locale}
-          link="quizportal"
-        />
-        <PortfolioBlock
-          path="/images/portfolio/clothes.png"
-          type="Design"
-          text={clothes}
-          locale={locale}
-          link="pous"
-        />
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 0.3 }}
+          viewport={{ once: true }}
+        >
+          <PortfolioBlock
+            path="/images/portfolio/renovation.png"
+            type={websites}
+            text={renovations}
+            locale={locale}
+            link="renovations"
+          />
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 0.3, delay: 0.4 }}
+          viewport={{ once: true }}
+        >
+          {" "}
+          <PortfolioBlock
+            path="/images/portfolio/quizportal.png"
+            type={company}
+            text={quizportal}
+            locale={locale}
+            link="quizportal"
+          />
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 0.3, delay: 0.8 }}
+          viewport={{ once: true }}
+        >
+          <PortfolioBlock
+            path="/images/portfolio/clothes.png"
+            type="Design"
+            text={clothes}
+            locale={locale}
+            link="pous"
+          />
+        </motion.div>
       </div>
       <Link href={`${locale}/portfolio`} className="mx-auto">
         <button

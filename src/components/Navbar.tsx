@@ -76,22 +76,25 @@ const Navbar = ({ services, about, talk, contact, locale }: Props) => {
               alt="English"
               width={40}
               height={40}
+              className="w-[40px]"
             />
           </Link>
           <Link href="/pl">
             <Image
               src="/images/icons/pl.svg"
-              alt="English"
+              alt="Polish"
               width={40}
               height={40}
+              className="w-[40px]"
             />
           </Link>
           <Link href="/uk">
             <Image
               src="/images/icons/ukr.svg"
-              alt="English"
+              alt="Ukrainia"
               width={40}
               height={40}
+              className="w-[40px]"
             />
           </Link>
         </div>

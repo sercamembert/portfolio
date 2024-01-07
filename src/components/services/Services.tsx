@@ -1,6 +1,8 @@
+"use client";
 import Link from "next/link";
 import React from "react";
 import ServicesBlock from "./ServicesBlock";
+import { motion } from "framer-motion";
 
 interface Props {
   title: string;
@@ -36,17 +38,39 @@ const Services = ({
         mb-[15px] md:mb-[10px]
         "
       >
-        <ServicesBlock background={background} text={appsdesc} title={apps} />
-        <ServicesBlock
-          background={background}
-          text={designdesc}
-          title="Design"
-        />
-        <ServicesBlock
-          background={background}
-          text={websitesdesc}
-          title={websites}
-        />
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 0.3 }}
+          viewport={{ once: true }}
+        >
+          <ServicesBlock background={background} text={appsdesc} title={apps} />
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 0.3, delay: 0.4 }}
+          viewport={{ once: true }}
+        >
+          <ServicesBlock
+            background={background}
+            text={designdesc}
+            title="Design"
+          />
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 0.3, delay: 0.8 }}
+          viewport={{ once: true }}
+        >
+          <ServicesBlock
+            background={background}
+            text={websitesdesc}
+            title={websites}
+          />
+        </motion.div>
       </div>
       <Link
         href={`${locale}/services`}

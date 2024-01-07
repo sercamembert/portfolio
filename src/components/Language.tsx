@@ -41,7 +41,7 @@ const Language = () => {
             alt="English"
             width={30}
             height={30}
-            className="md:w-[20px] xl:w-[30px] rounded-[10px]"
+            className="md:w-[20px] xl:w-[30px] "
           />
           <p className="md:text-[12px] xl:text-[16px] hover:brightness-75 duration-300">
             English
@@ -53,7 +53,7 @@ const Language = () => {
             alt="Polish"
             width={30}
             height={30}
-            className="md:w-[20px] xl:w-[30px] rounded-[10px]"
+            className="md:w-[20px] xl:w-[30px] "
           />
           <p className="md:text-[12px] xl:text-[16px] hover:brightness-75 duration-300">
             Polish
@@ -65,7 +65,7 @@ const Language = () => {
             alt="Polish"
             width={30}
             height={30}
-            className="md:w-[20px] xl:w-[30px] rounded-[10px]"
+            className="md:w-[20px] xl:w-[30px] "
           />
           <p className="md:text-[12px] xl:text-[16px] hover:brightness-75 duration-300">
             Ukrainian

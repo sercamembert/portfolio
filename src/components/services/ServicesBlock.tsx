@@ -12,7 +12,7 @@ const ServicesBlock = ({ background, title, text }: Props) => {
       style={{
         background: background,
       }}
-      className="services-container"
+      className="services-container h-full"
     >
       <div className="flex items-center justify-center">
         <h3 className=" text-center font-semibold leading-tight text-[27px] md:text-[25.66px] lg:text-[33.19px] xl:text-[42.34px] 3xl:text-[49.52px] desktop:text-[51.55px]">
