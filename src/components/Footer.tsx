@@ -150,9 +150,15 @@ const FooterMobile = ({
               </span>
             </summary>
             <div className="group-open:animate-fadeIn flex flex-col mt-[12px] gap-[11px]">
-              <p className="text-[11px] font-medium">{websites}</p>
-              <p className="text-[11px] font-medium">{apps}</p>
-              <p className="text-[11px] font-medium">Design</p>
+              <p className="text-[11px] font-medium">
+                <a href={`/${locale}/contact`}>{websites}</a>
+              </p>
+              <p className="text-[11px] font-medium">
+                <a href={`/${locale}/contact`}>{apps}</a>
+              </p>
+              <p className="text-[11px] font-medium">
+                <a href={`/${locale}/contact`}>Design</a>
+              </p>
             </div>
           </details>
         </div>
@@ -177,9 +183,17 @@ const FooterMobile = ({
               </span>
             </summary>
             <div className="group-open:animate-fadeIn flex flex-col mt-[12px] gap-[11px]">
-              <p className="text-[11px] font-medium">{duo}</p>
-              <p className="text-[11px] font-medium">{unique}</p>
-              <p className="text-[11px] font-medium">The creative Experience</p>
+              <p className="text-[11px] font-medium">
+                <Link href={`/${locale}/#team`}>{duo}</Link>
+              </p>
+              <p className="text-[11px] font-medium">
+                <Link href={`/${locale}/#about`}>{unique}</Link>
+              </p>
+              <p className="text-[11px] font-medium">
+                <Link href={`/${locale}/#creative`}>
+                  The creative Experience
+                </Link>
+              </p>
             </div>
           </details>
         </div>
@@ -204,9 +218,17 @@ const FooterMobile = ({
               </span>
             </summary>
             <div className="group-open:animate-fadeIn flex flex-col mt-[12px] gap-[11px]">
-              <p className="text-[11px] font-medium">{renovation}</p>
-              <p className="text-[11px] font-medium">Quizportal</p>
-              <p className="text-[11px] font-medium">Pous</p>
+              <p className="text-[11px] font-medium">
+                <Link href={`/${locale}/portfolio/renovations`}>
+                  {renovation}
+                </Link>
+              </p>
+              <p className="text-[11px] font-medium">
+                <Link href={`/${locale}/portfolio/quizportal`}>Quizportal</Link>
+              </p>
+              <p className="text-[11px] font-medium">
+                <Link href={`/${locale}/portfolio/pous`}>Pous</Link>
+              </p>
               <p className="text-[11px] font-medium">Agromalz</p>
             </div>
           </details>
@@ -261,7 +283,7 @@ const FooterMain = ({
             className="w-[6.77px] md:w-[13.87px] lg:w-[18.38px] xl:w-[22.97px] 2xl:w-[26px] 3xl:w-[28px] desktop:w-[31px]"
           />
         </div>
-        <div className="flex gap-3 mt-[7px]">
+        <div className="flex gap-3 mt-[7px] md:mt-[15px] lg:mt-[19px] xl:mt-[26px] 2xl:mt-[28px] 3xl:mt-[30px] desktop:mt-[33px]">
           <Link
             href="https://www.instagram.com/outofplace.space/"
             target="_blank"
@@ -310,28 +332,107 @@ const FooterMain = ({
           pl-[6px] md:pl-[11px] lg:pl-[15px] xl:pl-[19px] 2xl:pl-[21px] 3xl:pl-[25px]"
         >
           <div className="links-col">
-            <h1 className="font-bold text-[6.6px] md:text-[13.51px] lg:text-[18.02px] xl:text-[22.52px] 2xl:text-[25.34px] 3xl:text-[27.06px] desktop:text-[30px]">
-              {services}
-            </h1>
-            <p className="link-text">{websites}</p>
-            <p className="link-text">{apps}</p>
-            <p className="link-text">Design</p>
+            <h6 className="font-bold text-[6.6px] md:text-[13.51px] lg:text-[18.02px] xl:text-[22.52px] 2xl:text-[25.34px] 3xl:text-[27.06px] desktop:text-[30px]">
+              <Link
+                href={`/${locale}/services`}
+                className="md:hover:brightness-[80%] hover:scale-110 duration-300"
+              >
+                {services}
+              </Link>
+            </h6>
+            <p className="link-text">
+              <a
+                href={`/${locale}/contact`}
+                className="md:hover:brightness-[80%] hover:scale-110 duration-300"
+              >
+                {websites}
+              </a>
+            </p>
+            <p className="link-text">
+              {" "}
+              <a
+                href={`/${locale}/contact`}
+                className="md:hover:brightness-[80%] hover:scale-110 duration-300"
+              >
+                {apps}
+              </a>
+            </p>
+            <p className="link-text">
+              <a
+                href={`/${locale}/contact`}
+                className="md:hover:brightness-[80%] hover:scale-110 duration-300"
+              >
+                Design
+              </a>
+            </p>
           </div>
           <div className="links-col">
-            <h1 className="font-bold text-[6.6px] md:text-[13.51px] lg:text-[18.02px] xl:text-[22.52px] 2xl:text-[25.34px] 3xl:text-[27.06px] desktop:text-[30px]">
-              {about}
-            </h1>
-            <p className="link-text">{duo}</p>
-            <p className="link-text">{unique}</p>
-            <p className="link-text">The creative Experience</p>
+            <h6 className="font-bold text-[6.6px] md:text-[13.51px] lg:text-[18.02px] xl:text-[22.52px] 2xl:text-[25.34px] 3xl:text-[27.06px] desktop:text-[30px]">
+              <Link
+                href={`/${locale}/#about`}
+                className="md:hover:brightness-[80%] hover:scale-110 duration-300"
+              >
+                {about}
+              </Link>
+            </h6>
+            <p className="link-text">
+              <Link
+                href={`/${locale}/#team`}
+                className="md:hover:brightness-[80%] hover:scale-110 duration-300"
+              >
+                {duo}
+              </Link>
+            </p>
+            <p className="link-text">
+              <Link
+                href={`/${locale}/#about`}
+                className="md:hover:brightness-[80%] hover:scale-110 duration-300"
+              >
+                {unique}
+              </Link>
+            </p>
+            <p className="link-text">
+              <Link
+                href={`/${locale}/#creative`}
+                className="md:hover:brightness-[80%] hover:scale-110 duration-300"
+              >
+                The creative Experience
+              </Link>
+            </p>
           </div>
           <div className="links-col">
-            <h1 className="font-bold text-[6.6px] md:text-[13.51px] lg:text-[18.02px] xl:text-[22.52px] 2xl:text-[25.34px] 3xl:text-[27.06px] desktop:text-[30px]">
-              Portfolio
-            </h1>
-            <p className="link-text">{renovation}</p>
-            <p className="link-text">Quizportal</p>
-            <p className="link-text">Pous</p>
+            <h6 className="font-bold text-[6.6px] md:text-[13.51px] lg:text-[18.02px] xl:text-[22.52px] 2xl:text-[25.34px] 3xl:text-[27.06px] desktop:text-[30px]">
+              <Link
+                href={`/${locale}/portfolio`}
+                className="md:hover:brightness-[80%] hover:scale-110 duration-300"
+              >
+                Portfolio
+              </Link>
+            </h6>
+            <p className="link-text">
+              <Link
+                href={`/${locale}/portfolio/renovations`}
+                className="md:hover:brightness-[80%] hover:scale-110 duration-300"
+              >
+                {renovation}
+              </Link>
+            </p>
+            <p className="link-text">
+              <Link
+                href={`/${locale}/portfolio/quizportal`}
+                className="md:hover:brightness-[80%] hover:scale-110 duration-300"
+              >
+                Quizportal
+              </Link>
+            </p>
+            <p className="link-text">
+              <Link
+                href={`/${locale}/portfolio/pous`}
+                className="md:hover:brightness-[80%] hover:scale-110 duration-300"
+              >
+                Pous
+              </Link>
+            </p>
           </div>
         </div>
         <div
