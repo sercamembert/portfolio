@@ -1,7 +1,9 @@
+"use client";
 import Image from "next/image";
 import React from "react";
 import copyImg from "../../public/images/copy.svg";
 import Link from "next/link";
+import { useToast } from "@/components/ui/use-toast";
 
 interface Props {
   contact: string;
@@ -75,6 +77,19 @@ const FooterMobile = ({
   privacy,
   locale,
 }: Props) => {
+  const { toast } = useToast();
+  const copyToClipboard = (text: string) => {
+    const el = document.createElement("textarea");
+    el.value = text;
+    document.body.appendChild(el);
+    el.select();
+    document.execCommand("copy");
+    document.body.removeChild(el);
+    return toast({
+      variant: "default",
+      description: "Copied to clipboard.",
+    });
+  };
   return (
     <div className="flex md:hidden flex-col mt-[18px] ">
       <div className="flex flex-col padding gap-y-[15px]">
@@ -86,7 +101,10 @@ const FooterMobile = ({
             alt="support@outofplace.space"
             width={14}
             height={14}
-            className="w-[14px]"
+            className="w-[14px"
+            onClick={() => {
+              copyToClipboard("support@outofplace.space");
+            }}
           />
         </div>
         <div className="flex gap-3">
@@ -263,6 +281,19 @@ const FooterMain = ({
   privacy,
   locale,
 }: Props) => {
+  const { toast } = useToast();
+  const copyToClipboard = (text: string) => {
+    const el = document.createElement("textarea");
+    el.value = text;
+    document.body.appendChild(el);
+    el.select();
+    document.execCommand("copy");
+    document.body.removeChild(el);
+    return toast({
+      variant: "default",
+      description: "Copied to clipboard.",
+    });
+  };
   return (
     <div className="hidden md:flex mt-[22px] md:mt-[66px] lg:mt-[79px] desktop:mt-[97px] border-t border-footer w-full h-[141.93px] md:h-[290.67px] lg:h-[387.56px] xl:h-[506px] 2xl:h-[545px] 3xl:h-[582.09px] desktop:h-[650.97px">
       <div
@@ -280,7 +311,10 @@ const FooterMain = ({
             alt="support@outofplace.space"
             width={31.2}
             height={31.06}
-            className="w-[6.77px] md:w-[13.87px] lg:w-[18.38px] xl:w-[22.97px] 2xl:w-[26px] 3xl:w-[28px] desktop:w-[31px]"
+            className="w-[6.77px] md:w-[13.87px] lg:w-[18.38px] xl:w-[22.97px] 2xl:w-[26px] 3xl:w-[28px] desktop:w-[31px] hover:brightness-[80%] duration-300 cursor-pointer"
+            onClick={() => {
+              copyToClipboard("support@outofplace.space");
+            }}
           />
         </div>
         <div className="flex gap-3 mt-[7px] md:mt-[15px] lg:mt-[19px] xl:mt-[26px] 2xl:mt-[28px] 3xl:mt-[30px] desktop:mt-[33px]">
