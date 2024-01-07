@@ -8,6 +8,7 @@ import Footer from "@/components/Footer";
 import TechStack from "@/components/TechStack";
 import { Toaster } from "@/components/ui/toaster";
 import Head from "next/head";
+import Script from "next/script";
 
 export const metadata: Metadata = {
   title: "Tworzenie tanich stron internetowych | outofplace",
@@ -75,6 +76,16 @@ export default function RootLayout({
           />
         </NextIntlClientProvider>
       </body>
+      <Script src="https://www.googletagmanager.com/gtag/js?id=G-VMW0WPBQDZ" />
+      <Script id="google-analytics">
+        {`
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VMW0WPBQDZ');
+        `}
+      </Script>
       <script async src="https://tally.so/widgets/embed.js"></script>
     </html>
   );
