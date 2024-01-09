@@ -9,6 +9,7 @@ import TechStack from "@/components/TechStack";
 import { Toaster } from "@/components/ui/toaster";
 import Head from "next/head";
 import Script from "next/script";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "Tworzenie tanich stron internetowych | outofplace",
@@ -51,6 +52,12 @@ export default function RootLayout({
         }
       >
         <NextIntlClientProvider locale={locale} messages={messages}>
+          <Image
+            alt="outofplace.space"
+            src="/images/main.png"
+            width={300}
+            height={300}
+          />
           <Navbar
             about={navbarText("about")}
             services={navbarText("services")}
