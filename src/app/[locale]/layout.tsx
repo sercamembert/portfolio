@@ -94,6 +94,11 @@ export default function RootLayout({
   gtag('config', 'G-VMW0WPBQDZ');
         `}
       </Script>
+      <Script
+        src="https://assets.usestyle.ai/seonajsplugin"
+        id="seona-js-plugin"
+        type="text/javascript"
+      />
       <script async src="https://tally.so/widgets/embed.js"></script>
     </html>
   );
