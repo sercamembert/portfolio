@@ -3,8 +3,6 @@ import React from "react";
 import Spline from "@splinetool/react-spline";
 import HeroIcons from "./HeroIcons";
 import { motion } from "framer-motion";
-import Image from "next/image";
-import Link from "next/link";
 interface Props {
   text: string;
   talk: string;
@@ -13,7 +11,7 @@ interface Props {
 
 const Hero = ({ text, talk, locale }: Props) => {
   const coloredText = text.replace(
-    /(Web & Mobile Development)|(\baplikacji webowych i mobilnych\b)/g,
+    /(Web & Mobile Development)|(\bstron internetowych i aplikacji webowych\b)/g,
     '<span class="bg-gradient-to-br from-[#5F43B2] via-[#fff] to-[#5F43B2] text-transparent bg-clip-text">$&</span>'
   );
 
@@ -53,14 +51,7 @@ const Hero = ({ text, talk, locale }: Props) => {
         <HeroIcons />
       </div>
       <div className="w-full h-[250px] md:h-[270px] xl:h-[350px] 2xl:h-[400px] desktop:h-[500px]">
-        <Spline
-          scene="https://prod.spline.design/Gu59AIyqqsViESbU/scene.splinecode"
-          // className="ultra:hidden"
-        />
-        {/* <Spline
-          scene="https://prod.spline.design/p6f7jUbKNjOv-gs4/scene.splinecode"
-          className="hidden ultra:block"
-        /> */}
+        <Spline scene="https://prod.spline.design/Gu59AIyqqsViESbU/scene.splinecode" />
       </div>
     </div>
   );
