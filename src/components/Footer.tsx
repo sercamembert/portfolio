@@ -128,7 +128,7 @@ const FooterMobile = ({
             />
           </Link>
           <Link
-            href="https://www.linkedin.com/company/outofplace/?lipi=urn%3Ali%3Apage%3Ad_flagship3_company_admin%3B%2FPg6Yx0rRgm0NArkfBFPmg%3D%3D"
+            href="https://www.linkedin.com/company/101441801"
             target="_blank"
           >
             <Image
@@ -342,7 +342,7 @@ const FooterMain = ({
             />
           </Link>
           <Link
-            href="https://www.linkedin.com/company/outofplace/?lipi=urn%3Ali%3Apage%3Ad_flagship3_company_admin%3B%2FPg6Yx0rRgm0NArkfBFPmg%3D%3D"
+            href="https://www.linkedin.com/company/101441801"
             target="_blank"
           >
             <Image
