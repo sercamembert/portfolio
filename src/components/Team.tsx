@@ -32,7 +32,7 @@ const Team = ({ title }: Props) => {
           alt="shadow"
           className="hidden z-0 absolute md:block left-1/2 -translate-x-1/2"
         />
-        <div className="w-full z-10 flex flex-col mx-auto md:mx-0 max-w-[360px] md:max-w-[270.8px] lg:max-w-[350px] xl:max-w-[446.88px] 2xl:max-w-[462.24px] 3xl:max-w-[493.7px] desktop:max-w-[575.65px]">
+        <div className="md:w-1/2 z-10 flex flex-col mx-auto md:mx-0 max-w-[360px] md:max-w-[270.8px] lg:max-w-[350px] xl:max-w-[446.88px] 2xl:max-w-[462.24px] 3xl:max-w-[493.7px] desktop:max-w-[575.65px]">
           <Image src={MarcelImg} alt="Marcel Bogdan" className="w-full" />
           <h3 className="font-semibold text-[20px] md:text-[25.65px] lg:text-[33.18px] xl:text-[42.34px] 3xl:text-[49.51px] desktop:text-[54.53px] text-left">
             Marcel Bogdan
