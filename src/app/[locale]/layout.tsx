@@ -7,7 +7,6 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import TechStack from "@/components/TechStack";
 import { Toaster } from "@/components/ui/toaster";
-import Head from "next/head";
 import Script from "next/script";
 import Image from "next/image";
 import { SpeedInsights } from "@vercel/speed-insights/next";
@@ -38,14 +37,6 @@ export default function RootLayout({
 
   return (
     <html lang={locale}>
-      <Head>
-        <title>Tanie strony internetowe | outofplace</title>
-        <meta
-          name="description"
-          content="Najlepsze usługi w tworzeniu tanich stron internetowych. Skontaktuj się z nami, aby dowiedzieć się więcej."
-          key="desc"
-        />
-      </Head>
       <body
         className={
           "bg-black w-screen overflow-x-hidden scroll-smooth font-primary text-white"
