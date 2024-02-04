@@ -10,7 +10,7 @@ import { Toaster } from "@/components/ui/toaster";
 import Head from "next/head";
 import Script from "next/script";
 import Image from "next/image";
-
+import { SpeedInsights } from "@vercel/speed-insights/next";
 export const metadata: Metadata = {
   title: "Tworzenie tanich stron internetowych | outofplace",
   description:
@@ -52,6 +52,7 @@ export default function RootLayout({
         }
       >
         <NextIntlClientProvider locale={locale} messages={messages}>
+          <SpeedInsights />
           <Image
             alt="outofplace.space"
             src="/images/main.png"
