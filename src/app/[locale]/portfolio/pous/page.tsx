@@ -31,9 +31,8 @@ const page = ({ params: { locale } }: { params: any }) => {
         animate={{ opacity: 1 }}
         transition={{ duration: 0.3, delay: 0.6 }}
         src="/images/pous/main.svg"
-        className="w-full sm:w-[65%] mx-auto mt-[11px] md:mt-[22px] lg:mt-[28px] xl:mt-[36px] 2xl:mt-[41px] desktop:mt-[46px]
-        
-        "
+        className="w-full sm:w-[65%] mx-auto mt-[11px] md:mt-[22px] lg:mt-[28px] xl:mt-[36px] 2xl:mt-[41px] desktop:mt-[46px]"
+        fetchPriority="high"
       ></motion.img>
 
       <div>

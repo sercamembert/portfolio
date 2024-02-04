@@ -4,7 +4,7 @@ interface Props {}
 
 const Logo = () => {
   return (
-    <a href="/">
+    <a href="/" aria-label="outofplace">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         className="fill-white w-[80px] lg:w-[105px] xl:w-[134.52px] 2xl:w-[155px] 3xl:w-[157.3px] desktop:w-[184px]"

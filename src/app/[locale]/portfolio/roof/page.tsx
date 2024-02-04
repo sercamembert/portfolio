@@ -34,6 +34,7 @@ const page = ({ params: { locale } }: { params: any }) => {
         src="/images/roof/main.png"
         className="w-full sm:w-[65%] mx-auto mt-[11px] md:mt-[22px] lg:mt-[28px] xl:mt-[36px] 2xl:mt-[41px] desktop:mt-[46px]
         mb-[30px] md:mb-[61px] lg:mb-[80px] xl:mb-[102px] 2xl:mb-[116px] desktop:mb-[130px] rounded-[10px]"
+        fetchPriority="high"
       ></motion.img>
 
       <div>

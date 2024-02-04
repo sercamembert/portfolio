@@ -36,6 +36,7 @@ const page = ({ params: { locale } }: { params: any }) => {
         mb-[30px] md:mb-[61px] lg:mb-[80px] xl:mb-[102px] 2xl:mb-[116px] desktop:mb-[130px]
         rounded-[10px]
         "
+        fetchPriority="high"
       ></motion.img>
 
       <div>

@@ -149,7 +149,7 @@ const FooterMobile = ({
             />
           </Link>
         </div>
-        <p className="opacity-30 text-[9px] mb-[8px]">
+        <p className="opacity-50 text-[9px] mb-[8px]">
           © outofplace 2023 All Rights Reserved
         </p>
       </div>
@@ -364,7 +364,7 @@ const FooterMain = ({
           </Link>
         </div>
         <p
-          className="opacity-30 text-[4.58px] md:text-[9.39px] lg:text-[12.52px] xl:text-[15.64px] 2xl:text-[17.6px] 3xl:text-[18.8px] desktop:text-[21.02px]
+          className="opacity-50 text-[4.58px] md:text-[9.39px] lg:text-[12.52px] xl:text-[15.64px] 2xl:text-[17.6px] 3xl:text-[18.8px] desktop:text-[21.02px]
           mt-[27px] md:mt-[56px] lg:mt-[75px] xl:mt-[98px] 2xl:mt-[106px] 3xl:mt-[113px] desktop:mt-[126px]"
         >
           © outofplace 2023 All Rights Reserved
@@ -481,7 +481,7 @@ const FooterMain = ({
           </div>
         </div>
         <div
-          className="flex justify-end opacity-30 items-center gap-[7px] md:gap-[16px] lg:gap-[20px] xl:gap-[26px] 2xl:gap-[30px] 3xl:gap-[32px] desktop:gap-[36px]
+          className="flex justify-end opacity-50 items-center gap-[7px] md:gap-[16px] lg:gap-[20px] xl:gap-[26px] 2xl:gap-[30px] 3xl:gap-[32px] desktop:gap-[36px]
           pb-[12px] md:pb-[27px] lg:pb-[35px] xl:pb-[45px] 2xl:pb-[49px] 3xl:pb-[52px] desktop:pb-[59px] pr-[17.4%]"
         >
           <a

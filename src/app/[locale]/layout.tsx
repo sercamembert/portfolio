@@ -39,7 +39,7 @@ export default function RootLayout({
     <html lang={locale}>
       <body
         className={
-          "bg-black w-screen overflow-x-hidden scroll-smooth font-primary text-white"
+          "bg-[#010101] w-screen overflow-x-hidden scroll-smooth font-primary text-white"
         }
       >
         <NextIntlClientProvider locale={locale} messages={messages}>
