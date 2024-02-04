@@ -4,13 +4,9 @@ import quizportalImg from "../../public/images/hero/quizportal.png";
 import realImg from "../../public/images/hero/real.png";
 import recipesImg from "../../public/images/hero/recipes.png";
 import pousImg from "../../public/images/hero/pous.png";
-import { motion } from "framer-motion";
 const HeroIcons = () => {
   return (
-    <motion.div
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{ duration: 0.3, delay: 0.3 }}
+    <div
       className="md:flex items-center justify-between hidden gap-[20px] lg:gap-[25px] xl:gap-[33px] 2xl:gap-[37px] desktop:gap-[42px]
       md:mt-[31px] lg:mt-[40px] xl:mt-[51px] 2xl:mt-[59px] desktop:mt-[68px]
 "
@@ -39,7 +35,7 @@ const HeroIcons = () => {
         className="w-[46px] lg:w-[61px] xl:w-[78px] 2xl:w-[90px] 3xl:w-[96px] desktop:w-[100px] "
         alt="pous"
       />
-    </motion.div>
+    </div>
   );
 };
 
