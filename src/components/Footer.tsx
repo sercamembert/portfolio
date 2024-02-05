@@ -93,7 +93,7 @@ const FooterMobile = ({
   return (
     <div className="flex md:hidden flex-col mt-[18px] ">
       <div className="flex flex-col padding gap-y-[15px]">
-        <h1 className="font-bold text-[14px]">{contact}</h1>
+        <h2 className="font-bold text-[14px]">{contact}</h2>
         <div className="flex gap-[3px]">
           <p
             className="text-[11px]"
@@ -118,6 +118,7 @@ const FooterMobile = ({
           <Link
             href="https://www.instagram.com/outofplace.space/"
             target="_blank"
+            title="Instagram"
           >
             <Image
               alt="Instagram"
@@ -130,6 +131,7 @@ const FooterMobile = ({
           <Link
             href="https://www.linkedin.com/company/101441801"
             target="_blank"
+            title="Linkedin"
           >
             <Image
               alt="Linkedin"
@@ -139,7 +141,11 @@ const FooterMobile = ({
               className="md:hover:brightness-[80%] hover:scale-110 duration-300 cursor-pointer"
             />
           </Link>
-          <Link href="https://twitter.com/outofplacespace" target="_blank">
+          <Link
+            href="https://twitter.com/outofplacespace"
+            target="_blank"
+            title="X"
+          >
             <Image
               alt="X"
               src="/images/icons/twitter.png"
@@ -209,13 +215,23 @@ const FooterMobile = ({
             </summary>
             <div className="group-open:animate-fadeIn flex flex-col mt-[12px] gap-[11px]">
               <p className="text-[11px] font-medium">
-                <Link href={`/${locale}/#team`}>{duo}</Link>
+                <Link href={`/${locale}/#team`} title="Nasz profesjonalny duet">
+                  {duo}
+                </Link>
               </p>
               <p className="text-[11px] font-medium">
-                <Link href={`/${locale}/#about`}>{unique}</Link>
+                <Link
+                  href={`/${locale}/#about`}
+                  title="Co czyni nas wyjątkowymi"
+                >
+                  {unique}
+                </Link>
               </p>
               <p className="text-[11px] font-medium">
-                <Link href={`/${locale}/#creative`}>
+                <Link
+                  href={`/${locale}/#creative`}
+                  title="The creative Experience"
+                >
                   The creative Experience
                 </Link>
               </p>
@@ -244,15 +260,25 @@ const FooterMobile = ({
             </summary>
             <div className="group-open:animate-fadeIn flex flex-col mt-[12px] gap-[11px]">
               <p className="text-[11px] font-medium">
-                <Link href={`/${locale}/portfolio/renovations`}>
+                <Link
+                  href={`/${locale}/portfolio/renovations`}
+                  title="Renowacje"
+                >
                   {renovation}
                 </Link>
               </p>
               <p className="text-[11px] font-medium">
-                <Link href={`/${locale}/portfolio/quizportal`}>Quizportal</Link>
+                <Link
+                  href={`/${locale}/portfolio/quizportal`}
+                  title="Quizportal"
+                >
+                  Quizportal
+                </Link>
               </p>
               <p className="text-[11px] font-medium">
-                <Link href={`/${locale}/portfolio/pous`}>Pous</Link>
+                <Link href={`/${locale}/portfolio/pous`} title="Pous">
+                  Pous
+                </Link>
               </p>
               <p className="text-[11px] font-medium">Agromalz</p>
             </div>
@@ -267,6 +293,7 @@ const FooterMobile = ({
                 : "/statue/statue_pl.pdf"
             }
             target="_blank"
+            title="Polityka"
           >
             {privacy}
           </a>
@@ -332,6 +359,7 @@ const FooterMain = ({
           <Link
             href="https://www.instagram.com/outofplace.space/"
             target="_blank"
+            title="Instagram"
           >
             <Image
               alt="Instagram"
@@ -344,6 +372,7 @@ const FooterMain = ({
           <Link
             href="https://www.linkedin.com/company/101441801"
             target="_blank"
+            title="Linkedin"
           >
             <Image
               alt="Linkedin"
@@ -353,7 +382,11 @@ const FooterMain = ({
               className="md:hover:brightness-[80%] hover:scale-110 duration-300 cursor-pointer md:w-[17px] xl:w-[22px] 3xl:w-[27px]"
             />
           </Link>
-          <Link href="https://twitter.com/outofplacespace" target="_blank">
+          <Link
+            href="https://twitter.com/outofplacespace"
+            target="_blank"
+            title="X"
+          >
             <Image
               alt="X"
               src="/images/icons/twitter.png"
@@ -381,6 +414,7 @@ const FooterMain = ({
               <Link
                 href={`/${locale}/services`}
                 className="md:hover:brightness-[80%] hover:scale-110 duration-300"
+                title="Usługi"
               >
                 {services}
               </Link>
@@ -389,6 +423,7 @@ const FooterMain = ({
               <a
                 href={`/${locale}/contact`}
                 className="md:hover:brightness-[80%] hover:scale-110 duration-300"
+                title="Strony Internetowe"
               >
                 {websites}
               </a>
@@ -398,6 +433,7 @@ const FooterMain = ({
               <a
                 href={`/${locale}/contact`}
                 className="md:hover:brightness-[80%] hover:scale-110 duration-300"
+                title="Aplikacje"
               >
                 {apps}
               </a>
@@ -406,6 +442,7 @@ const FooterMain = ({
               <a
                 href={`/${locale}/contact`}
                 className="md:hover:brightness-[80%] hover:scale-110 duration-300"
+                title="Design"
               >
                 Design
               </a>
@@ -416,6 +453,7 @@ const FooterMain = ({
               <Link
                 href={`/${locale}/#about`}
                 className="md:hover:brightness-[80%] hover:scale-110 duration-300"
+                title="Onas"
               >
                 {about}
               </Link>
@@ -424,6 +462,7 @@ const FooterMain = ({
               <Link
                 href={`/${locale}/#team`}
                 className="md:hover:brightness-[80%] hover:scale-110 duration-300"
+                title="Duet"
               >
                 {duo}
               </Link>
@@ -432,6 +471,7 @@ const FooterMain = ({
               <Link
                 href={`/${locale}/#about`}
                 className="md:hover:brightness-[80%] hover:scale-110 duration-300"
+                title="Wyjatkowe"
               >
                 {unique}
               </Link>
@@ -440,6 +480,7 @@ const FooterMain = ({
               <Link
                 href={`/${locale}/#creative`}
                 className="md:hover:brightness-[80%] hover:scale-110 duration-300"
+                title="The creative Experience"
               >
                 The creative Experience
               </Link>
@@ -450,6 +491,7 @@ const FooterMain = ({
               <Link
                 href={`/${locale}/portfolio`}
                 className="md:hover:brightness-[80%] hover:scale-110 duration-300"
+                title="Portfolio"
               >
                 Portfolio
               </Link>
@@ -458,6 +500,7 @@ const FooterMain = ({
               <Link
                 href={`/${locale}/portfolio/renovations`}
                 className="md:hover:brightness-[80%] hover:scale-110 duration-300"
+                title="Renowacje"
               >
                 {renovation}
               </Link>
@@ -466,6 +509,7 @@ const FooterMain = ({
               <Link
                 href={`/${locale}/portfolio/quizportal`}
                 className="md:hover:brightness-[80%] hover:scale-110 duration-300"
+                title="Quizportal"
               >
                 Quizportal
               </Link>
@@ -474,6 +518,7 @@ const FooterMain = ({
               <Link
                 href={`/${locale}/portfolio/pous`}
                 className="md:hover:brightness-[80%] hover:scale-110 duration-300"
+                title="Pous"
               >
                 Pous
               </Link>
@@ -492,6 +537,7 @@ const FooterMain = ({
                 : "/statue/statue_pl.pdf"
             }
             target="_blank"
+            title="Polityka"
           >
             {privacy}
           </a>

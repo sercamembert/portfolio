@@ -4,7 +4,10 @@ import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
-
+export const metadata = {
+  description:
+    "Szukasz taniej i profesjonalnej strony internetowej? Skontaktuj się z outofplace i dowiedz się więcej o naszych usługach tworzenia stron.",
+};
 const page = ({ params: { locale } }: { params: any }) => {
   // eslint-disable-next-line react-hooks/rules-of-hooks
   const text = useTranslations("Real");
@@ -37,6 +40,7 @@ const page = ({ params: { locale } }: { params: any }) => {
         rounded-[10px]
         "
         fetchPriority="high"
+        alt="Tworzenie tanich stron internetowych | outofplace"
       ></motion.img>
 
       <div>
@@ -103,6 +107,7 @@ const page = ({ params: { locale } }: { params: any }) => {
       </div>
 
       <Link
+        title="Live Demo"
         href="https://real-gules.vercel.app/"
         target="_blank"
         className="portfolio-text font-bold text-center mt-[30px] lg:mt-[60px] md:hover:brightness-[80%] hover:scale-110 duration-300"

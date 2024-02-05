@@ -3,7 +3,10 @@ import React from "react";
 import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 import Image from "next/image";
-
+export const metadata = {
+  description:
+    "Tworzenie tanich stron internetowych | outofplace - Quizportal.pl. Odkryj QuizPortal i jego funkcje. Skontaktuj się z nami już dziś.",
+};
 const page = ({ params: { locale } }: { params: any }) => {
   // eslint-disable-next-line react-hooks/rules-of-hooks
   const text = useTranslations("Quizportal");
@@ -35,6 +38,7 @@ const page = ({ params: { locale } }: { params: any }) => {
         mb-[30px] md:mb-[61px] lg:mb-[80px] xl:mb-[102px] 2xl:mb-[116px] desktop:mb-[130px]
         "
         fetchPriority="high"
+        alt="Tworzenie tanich stron internetowych | outofplace"
       ></motion.img>
 
       <div>

@@ -4,6 +4,12 @@ import { useTranslations } from "next-intl";
 import ServicesBlock from "@/components/services/ServicesBlock";
 import { motion } from "framer-motion";
 import PortfolioBlock from "@/components/portfolio/PortfolioBlock";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  description:
+    "Poznaj nasze usługi tworzenia profesjonalnych stron internetowych. Skontaktuj się z nami, aby dowiedzieć się więcej.",
+};
 
 const page = ({ params: { locale } }: { params: any }) => {
   // eslint-disable-next-line react-hooks/rules-of-hooks

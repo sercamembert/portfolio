@@ -14,6 +14,7 @@ const PortfolioBlock = ({ path, type, text, locale, link }: Props) => {
     <Link
       href={`/${locale}/portfolio/${link}`}
       className="flex flex-col w-full gap-y-[14px] md:gap-y-[10px] lg:gap-y-[12px] xl:gap-y-[15px] 3xl:gap-y-[18px]"
+      title="Projekt"
     >
       <Image
         src={path}

@@ -3,6 +3,10 @@ import React from "react";
 import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 import Image from "next/image";
+export const metadata = {
+  description:
+    "Tworzenie tanich stron internetowych. Zobacz nasze portfolio POUS, dowiedz się więcej o naszych usługach tworzenia stron. Skontaktuj się z nami już teraz.",
+};
 
 const page = ({ params: { locale } }: { params: any }) => {
   // eslint-disable-next-line react-hooks/rules-of-hooks
@@ -33,6 +37,7 @@ const page = ({ params: { locale } }: { params: any }) => {
         src="/images/pous/main.svg"
         className="w-full sm:w-[65%] mx-auto mt-[11px] md:mt-[22px] lg:mt-[28px] xl:mt-[36px] 2xl:mt-[41px] desktop:mt-[46px]"
         fetchPriority="high"
+        alt="Tworzenie tanich stron internetowych | outofplace"
       ></motion.img>
 
       <div>

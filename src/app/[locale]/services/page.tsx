@@ -3,6 +3,11 @@ import React from "react";
 import { useTranslations } from "next-intl";
 import ServicesBlock from "@/components/services/ServicesBlock";
 import { motion } from "framer-motion";
+import { Metadata } from "next";
+export const metadata: Metadata = {
+  description:
+    "Zespół Outofplace oferuje najlepsze usługi w tworzeniu tanich stron internetowych. Skontaktuj się z nami i dowiedz się więcej o naszym projektowaniu stron.",
+};
 
 const page = ({ params: { locale } }: { params: any }) => {
   // eslint-disable-next-line react-hooks/rules-of-hooks

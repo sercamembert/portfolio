@@ -87,7 +87,7 @@ const Portfolio = ({
           />
         </motion.div>
       </div>
-      <Link href={`${locale}/portfolio`} className="mx-auto">
+      <Link href={`${locale}/portfolio`} className="mx-auto" title="Więcej">
         <button
           className="bg-white text-black h-[27px] md:h-[24.09px] lg:h-[30.28px] xl:h-[37.81px] 2xl:h-[38px] 3xl:h-[42.71px] desktop:h-[46.84px]
         font-semibold text-[11.74px] md:text-[8.6px] lg:text-[11.12px] xl:text-[14.19px] 3xl:text-[16.59px] desktop:text-[18.27px] px-3 xl:px-9 hover:brightness-[80%] hover:scale-110 duration-300

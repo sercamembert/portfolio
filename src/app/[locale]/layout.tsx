@@ -13,7 +13,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 export const metadata: Metadata = {
   title: "Tworzenie tanich stron internetowych | outofplace",
   description:
-    "Najlepsze usługi w tworzeniu tanich stron internetowych. Skontaktuj się z nami, aby dowiedzieć się więcej.",
+    "Skorzystaj z naszych usług w tworzeniu profesjonalnych i tanich stron internetowych. Skontaktuj się z nami już dziś, aby dowiedzieć się więcej.",
 };
 
 const locales = ["en", "pl", "uk"];
@@ -37,6 +37,18 @@ export default function RootLayout({
 
   return (
     <html lang={locale}>
+      <head>
+        <meta
+          property="og:title"
+          content="Tworzenie tanich stron internetowych | outofplace"
+        />
+        <meta property="og:url" content="https://outofplace.space/" />
+        <meta
+          property="og:image"
+          content="https://outofplace.space/_next/image?url=%2Fimages%2Fmain.png&w=640&q=75"
+        />
+        <meta property="twitter:card" content="summary_large_image" />
+      </head>
       <body
         className={
           "bg-[#010101] w-screen overflow-x-hidden scroll-smooth font-primary text-white"

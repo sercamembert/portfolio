@@ -35,7 +35,11 @@ const Language = () => {
         className="p-2 lg:p-3 bg-white text-black flex flex-col gap-2 overflow-y-auto mt-[3px]"
         side="bottom"
       >
-        <Link href={"/en"} className="flex gap-[10px] 2xl:gap-[15px]">
+        <Link
+          href={"/en"}
+          className="flex gap-[10px] 2xl:gap-[15px]"
+          title="English"
+        >
           <Image
             src="/images/icons/uk.svg"
             alt="English"
@@ -47,7 +51,11 @@ const Language = () => {
             English
           </p>
         </Link>
-        <Link href={"/pl"} className="flex gap-[10px] 2xl:gap-[15px]">
+        <Link
+          href={"/pl"}
+          className="flex gap-[10px] 2xl:gap-[15px]"
+          title="Polish"
+        >
           <Image
             src="/images/icons/pl.svg"
             alt="Polish"
@@ -59,7 +67,11 @@ const Language = () => {
             Polish
           </p>
         </Link>
-        <Link href={"/uk"} className="flex gap-[10px] 2xl:gap-[15px] ">
+        <Link
+          href={"/uk"}
+          className="flex gap-[10px] 2xl:gap-[15px]"
+          title="Ukrainian"
+        >
           <Image
             src="/images/icons/ukr.svg"
             alt="Polish"

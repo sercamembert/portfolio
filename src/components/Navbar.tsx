@@ -33,6 +33,7 @@ const Navbar = ({ services, about, talk, contact, locale }: Props) => {
         initial={{ x: 800 }}
       >
         <Link
+          title="Usługi"
           href={`/${locale}/services`}
           className="font-bold"
           onClick={() => {
@@ -42,6 +43,7 @@ const Navbar = ({ services, about, talk, contact, locale }: Props) => {
           {services}
         </Link>
         <Link
+          title="Portfolio"
           href={`/${locale}/portfolio`}
           className="font-bold"
           onClick={() => {
@@ -51,6 +53,7 @@ const Navbar = ({ services, about, talk, contact, locale }: Props) => {
           Portfolio
         </Link>
         <a
+          title="Kontakt"
           href={`/${locale}/contact`}
           className="font-bold"
           onClick={() => {
@@ -61,6 +64,7 @@ const Navbar = ({ services, about, talk, contact, locale }: Props) => {
         </a>
         <Link
           href={`/${locale}#about`}
+          title="Onas"
           className="font-bold cursor-pointer"
           onClick={() => {
             setIsOpen(false);
@@ -70,7 +74,7 @@ const Navbar = ({ services, about, talk, contact, locale }: Props) => {
         </Link>
 
         <div className="flex gap-[15px]">
-          <Link href="/en">
+          <Link href="/en" title="English">
             <Image
               src="/images/icons/uk.svg"
               alt="English"
@@ -79,7 +83,7 @@ const Navbar = ({ services, about, talk, contact, locale }: Props) => {
               className="w-[40px]"
             />
           </Link>
-          <Link href="/pl">
+          <Link href="/pl" title="Polish">
             <Image
               src="/images/icons/pl.svg"
               alt="Polish"
@@ -88,7 +92,7 @@ const Navbar = ({ services, about, talk, contact, locale }: Props) => {
               className="w-[40px]"
             />
           </Link>
-          <Link href="/uk">
+          <Link href="/uk" title="Ukrainian">
             <Image
               src="/images/icons/ukr.svg"
               alt="Ukrainia"
@@ -110,18 +114,21 @@ const Navbar = ({ services, about, talk, contact, locale }: Props) => {
         <div className="hidden md:flex items-center">
           <Link
             href={`/${locale}/services`}
+            title="Usługi"
             className=" font-medium text-[7.82px] lg:text-[10px] xl:text-[12.81px] 2xl:text-[14.67px] desktop:text-[17.52px] hover:text-primary duration-300 "
           >
             {services}
           </Link>
           <Link
             href={`/${locale}/portfolio`}
+            title="Portfolio"
             className=" font-medium text-[7.82px] lg:text-[10px] xl:text-[12.81px] 2xl:text-[14.67px] desktop:text-[17.52px] mx-[38px] lg:mx-[49px] xl:mx-[62px] 2xl:mx-[72px] desktop:mx-[85px] hover:text-primary duration-300"
           >
             Portfolio
           </Link>
           <Link
             href={`/${locale}#about`}
+            title="Onas"
             className="cursor-pointer font-medium text-[7.82px] lg:text-[10px] xl:text-[12.81px] 2xl:text-[14.67px] desktop:text-[17.52px]  hover:text-primary duration-300"
           >
             {about}
@@ -129,7 +136,7 @@ const Navbar = ({ services, about, talk, contact, locale }: Props) => {
 
           <Language />
 
-          <a href={`/${locale}/contact`}>
+          <a href={`/${locale}/contact`} title="Kontakt">
             <button
               className="bg-white text-black rounded-[10px] xl:rounded-[15px]  h-[24px]  lg:h-[30px]  xl:h-[39.31px]  2xl:h-[45px]  desktop:h-[53px]
         font-semibold text-[7.82px] lg:text-[10px] xl:text-[12.81px] 2xl:text-[14.67px] desktop:text-[17.52px] px-3 xl:px-6 hover:brightness-[80%] hover:scale-110 duration-300

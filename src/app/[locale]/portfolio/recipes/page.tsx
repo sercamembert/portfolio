@@ -4,7 +4,10 @@ import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
-
+export const metadata = {
+  description:
+    "Tworzenie stron internetowych za niską cenę. Obejrzyj nasze portfolio. Znajdź przepisy. Skontaktuj się z nami już teraz!",
+};
 const page = ({ params: { locale } }: { params: any }) => {
   // eslint-disable-next-line react-hooks/rules-of-hooks
   const text = useTranslations("Recipes");
@@ -35,6 +38,7 @@ const page = ({ params: { locale } }: { params: any }) => {
         className="w-full sm:w-[65%] mx-auto mt-[11px] md:mt-[22px] lg:mt-[28px] xl:mt-[36px] 2xl:mt-[41px] desktop:mt-[46px]
         mb-[30px] md:mb-[61px] lg:mb-[80px] xl:mb-[102px] 2xl:mb-[116px] desktop:mb-[130px]"
         fetchPriority="high"
+        alt="Tworzenie tanich stron internetowych | outofplace"
       ></motion.img>
 
       <div>
@@ -104,6 +108,7 @@ const page = ({ params: { locale } }: { params: any }) => {
       </div>
 
       <Link
+        title="Live Demo"
         href="https://recipes-rho-sage.vercel.app/"
         target="_blank"
         className="portfolio-text font-bold text-center mt-[30px] lg:mt-[60px] md:hover:brightness-[80%] hover:scale-110 duration-300"
