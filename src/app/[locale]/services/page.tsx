@@ -1,8 +1,6 @@
-"use client";
 import React from "react";
 import { useTranslations } from "next-intl";
 import ServicesBlock from "@/components/services/ServicesBlock";
-import { motion } from "framer-motion";
 import { Metadata } from "next";
 export const metadata: Metadata = {
   description:
@@ -18,26 +16,13 @@ const page = ({ params: { locale } }: { params: any }) => {
     "radial-gradient(161.21% 160.39% at 5.71% -44.13%, #363636 0%, rgba(26, 26, 26, 0.27) 100%)";
   return (
     <div className="padding flex flex-col mb-[100px] mt-[100px] min-h-screen">
-      <motion.h1
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 0.3, delay: 1.2 }}
-        className="leading-tight uppercase font-extrabold text-center text-[45px] md:text-[70.1px] lg:text-[90.66px] xl:text-[116.48px] 2xl:text-[119.62px] 3xl:text-[135.99px] desktop:text-[149px] "
-      >
+      <h1 className="leading-tight uppercase font-extrabold text-center text-[45px] md:text-[70.1px] lg:text-[90.66px] xl:text-[116.48px] 2xl:text-[119.62px] 3xl:text-[135.99px] desktop:text-[149px] ">
         {servicesText("title")}
-      </motion.h1>
-      <motion.p
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 0.3, delay: 0.9 }}
-        className="whitespace-break-spaces leading-tight text-center font-medium text-[13px] md:text-[17.89px] lg:text-[23.14px] xl:text-[29.73px] 2xl:text-[30.53px] 3xl:text-[34.71px] desktop:text-[38.03px]"
-      >
+      </h1>
+      <p className="whitespace-break-spaces leading-tight text-center font-medium text-[13px] md:text-[17.89px] lg:text-[23.14px] xl:text-[29.73px] 2xl:text-[30.53px] 3xl:text-[34.71px] desktop:text-[38.03px]">
         {servicesText("subtitle")}
-      </motion.p>
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 0.3, delay: 0.6 }}
+      </p>
+      <div
         className="w-full grid grid-cols-1 md:grid-cols-2 min-[900px]:grid-cols-3
       gap-y-[50px] lg:gap-y-[40px] xl:gap-y-[50px] 2xl:gap-y-[55px] 3xl:gap-y-[62px] desktop:gap-y-[68px] 
       gap-x-[40px] lg:gap-x-[34px] xl:gap-x-[44px] 3xl:gap-x-[51px] desktop:gap-x-[56px]
@@ -74,7 +59,7 @@ const page = ({ params: { locale } }: { params: any }) => {
           title={servicesText("brandBuilding")}
           text={servicesText("brandBuildingText")}
         />
-      </motion.div>
+      </div>
       <p
         className="text-center font-medium text-[10px] md:text-[11px] lg:text-[13px] xl:text-[17px] 3xl:text-[20px] desktop:text-[22px]
         mt-[27px] md:mt-[40px] xl:mt-[53px] 3xl:mt-[60px] desktop:mt-[68px]

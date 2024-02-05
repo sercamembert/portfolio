@@ -48,6 +48,7 @@ export default function RootLayout({
           content="https://outofplace.space/_next/image?url=%2Fimages%2Fmain.png&w=640&q=75"
         />
         <meta property="twitter:card" content="summary_large_image" />
+        <link rel="canonical" href="https://outofplace.space/" />
       </head>
       <body
         className={

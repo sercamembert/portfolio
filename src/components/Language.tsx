@@ -1,11 +1,8 @@
 import Link from "next/link";
-import React, { useState, useRef, useEffect } from "react";
-import { motion } from "framer-motion";
+import React from "react";
 import {
   DropdownMenu,
   DropdownMenuContent,
-  DropdownMenuLabel,
-  DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "./ui/dropdown-menu";
 import Image from "next/image";

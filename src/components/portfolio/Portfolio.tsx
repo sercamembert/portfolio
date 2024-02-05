@@ -1,5 +1,4 @@
 "use client";
-import Spline from "@splinetool/react-spline";
 import React from "react";
 import PortfolioBlock from "./PortfolioBlock";
 import Link from "next/link";
