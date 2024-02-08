@@ -10,6 +10,7 @@ import { Toaster } from "@/components/ui/toaster";
 import Script from "next/script";
 import Image from "next/image";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import Head from "next/head";
 export const metadata: Metadata = {
   title: "Tworzenie tanich stron internetowych | outofplace",
   description:
@@ -37,7 +38,7 @@ export default function RootLayout({
 
   return (
     <html lang={locale}>
-      <head>
+      <Head>
         <meta
           property="og:title"
           content="Tworzenie tanich stron internetowych | outofplace"
@@ -48,7 +49,7 @@ export default function RootLayout({
           content="https://outofplace.space/_next/image?url=%2Fimages%2Fmain.png&w=640&q=75"
         />
         <meta property="twitter:card" content="summary_large_image" />
-      </head>
+      </Head>
       <body
         className={
           "bg-[#010101] w-screen overflow-x-hidden scroll-smooth font-primary text-white"

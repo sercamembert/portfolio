@@ -280,5 +280,26 @@
     "endTitle": "Conclusion",
     "endText": "The Website for Roofers project aims to create a professional online platform, allowing the company to showcase its skills and completed projects. We aim to provide users with an easy and attractive website, enabling them to get in touch with the company and learn about its offerings.",
     "demo": "Demo Page"
+  },
+
+  "Blog": {
+    "title": "Our Blog",
+    "subtitle": "Check out the latest articles",
+    "category1": "News",
+    "category2": "Marketing",
+    "category3": "Business",
+    "category4": "Design",
+    "category5": "Technology",
+    "message": "There are no articles in this category yet"
+  },
+
+  "Opinions": {
+    "title": "What others think about us",
+    "text1": "I met Marcel and Filip, and I must admit I'm really impressed with their passion, determination, and skills. These young people are full of creativity. Their web design and web application projects are promising.",
+    "text2": "Creativity, determination, and willingness to learn from others, often better, or maybe more experienced. I think Marcel and Filip embody these qualities, with whom I had the opportunity to collaborate for a while. This collaboration was a beautiful time but also a fruitful glimpse into the future for young designers, creators, and computer masters.",
+    "text3": "I am very pleased with the cooperation with Marcel and Filip. They created a beautiful website for me in a very short time. Very creative guys. I recommend working with them.",
+    "adrian": "Head of the Programming Department at VectorSoftware",
+    "tomasz": "Owner of DataCad",
+    "adam": "Owner of Proculture"
   }
 }

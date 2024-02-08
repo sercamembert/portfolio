@@ -263,5 +263,25 @@
     "endTitle": "Zakończenie",
     "endText": "Projekt Strony internetowej dla dekarzy ma na celu stworzenie profesjonalnej platformy online, pozwalającej firmie prezentować swoje umiejętności i zrealizowane projekty. Pragniemy dostarczyć użytkownikom łatwą i atrakcyjną stronę, umożliwiającą skontaktowanie się z firmą i zapoznanie się z jej ofertą.",
     "demo": "Demo strony"
+  },
+  "Blog": {
+    "title": "Nasz Blog",
+    "subtitle": "Sprawdź najnowsze artykuły",
+    "category1": "Aktualności",
+    "category2": "Marketing",
+    "category3": "Biznes",
+    "category4": "Projektowanie",
+    "category5": "Technologia",
+    "message": "Nie ma jeszcze artykułów w tej kategorii"
+  },
+
+  "Opinions": {
+    "title": "Opinie o nas",
+    "text1": "Spotkałem się z Marcelem i Filipem muszę przyznać, że jestem naprawdę pod wrażeniem ich pasji, determinacji i umiejętności. Ci młodzi ludzie są pełni kreatywności. Projektowanie przez nich stron internetowych i aplikacji webowych jest obiecujące.",
+    "text2": "Kreatywność, determinacja i chęć uczenia się od innych, często lepszych, a może bardziej doświadczonych. Chyba tymi cechami ubrałbym Marcela i Filipa, z którymi miałem okazję przez chwilę współpracować. Ta współpraca to piękny czas, ale też owocne spojrzenie w przyszłość dla młodych projektantów, twórców i mistrzów informatyki.",
+    "text3": "Jestem bardzo zadowolony ze współpracy z Marcelem i Filipem. Stworzyli dla mnie piękną stronę internetową w bardzo szybkim czasie. Bardzo kreatywne chłopaki. Polecam współpracę z nimi.",
+    "adrian": "Kierownik Działu Programistycznego VectorSoftware",
+    "tomasz": "Właściciel DataCad",
+    "adam": "Właściciel Proculture"
   }
 }

@@ -8,6 +8,7 @@ import Team from "@/components/Team";
 import Creative from "@/components/Creative";
 import Portfolio from "@/components/portfolio/Portfolio";
 import MarqueeText from "@/components/Marquee";
+import Opinions from "@/components/opinions/Opinions";
 
 export default function Home({ params: { locale } }: { params: any }) {
   const navbarText = useTranslations("Navbar");
@@ -40,6 +41,7 @@ export default function Home({ params: { locale } }: { params: any }) {
         websitesdesc={servicesText("websitesdesc")}
         locale={locale}
       />
+      <Opinions />
       <Creative
         notice={creativeText("notice")}
         noticetext={creativeText("noticetext")}
