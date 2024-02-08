@@ -28,7 +28,7 @@ const OpinionBlock = ({ text, name, desc, path }: Props) => {
     >
       <p
         dangerouslySetInnerHTML={{ __html: boldText }}
-        className="opacity-[66%] text-[10px] lg:text-[13px] xl:text-[17px] 2xl:text-[18px] 3xl:text-[19px] desktop:text-[22px]"
+        className="opacity-[66%] text-[15.68px] lg:text-[13px] xl:text-[17px] 2xl:text-[18px] 3xl:text-[19px] desktop:text-[22px]"
       />
 
       <OpinionAuthor desc={desc} name={name} path={path} />

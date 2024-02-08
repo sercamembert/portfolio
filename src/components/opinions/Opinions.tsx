@@ -12,7 +12,7 @@ const Opinions = () => {
         {opinionsText("title")}
       </h2>
       <OpinionsScroll>
-        <div className="min-w-[800px] md:min-w-full grid grid-cols-3 gap-x-[35px] lg:gap-x-[44px] xl:gap-[56px] 2xl:gap-[59px] 3xl:gap-[62px] desktop:gap-[73px]">
+        <div className="min-w-[850px] md:min-w-full grid grid-cols-3 gap-x-[35px] lg:gap-x-[44px] xl:gap-[56px] 2xl:gap-[59px] 3xl:gap-[62px] desktop:gap-[73px]">
           <div className="grid-item">
             <OpinionBlock
               text={opinionsText("text1")}
