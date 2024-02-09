@@ -301,5 +301,9 @@
     "adrian": "Head of the Programming Department at VectorSoftware",
     "tomasz": "Owner of DataCad",
     "adam": "Owner of Proculture"
+  },
+
+  "Article": {
+    "other": "See other articles"
   }
 }

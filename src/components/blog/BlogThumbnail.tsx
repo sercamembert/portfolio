@@ -51,9 +51,7 @@ const BlogThumbnail = ({
       <p className="font-bold text-[21px] lg:text-[17px] xl:text-[22px] 2xl:text-[25px] desktop:text-[28px] leading-tight mt-[6px] 2xl:mt-[8px]">
         {title}
       </p>
-      <p className="font-medium text-[12px] lg:text-[9px] xl:text-[12px] 2xl:text-[15px] desktop:text-[17px] leading-tight mt-[3px] 2xl:mt-[5px]">
-        {subtitle}
-      </p>
+
       <BlogAuthor
         authorAvatar={authorAvatar}
         authorName={authorName}

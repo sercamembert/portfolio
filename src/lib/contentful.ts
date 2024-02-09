@@ -14,6 +14,16 @@ export const getPostThumbnails = async (locale: string) => {
   return response.items;
 };
 
+export const getOtherThumbnails = async (locale: string) => {
+  const response = await client.getEntries({
+    content_type: "blogThumbnail",
+    locale: locale,
+    limit: 3,
+  });
+
+  return response.items;
+};
+
 export const getPostThumbnailsWithCategory = async (
   locale: string,
   category: string
