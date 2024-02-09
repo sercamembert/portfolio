@@ -38,7 +38,7 @@ const page = async ({ params: { locale, link } }: { params: any }) => {
   return (
     <>
       <div className="blog-padding flex flex-col mb-[100px] mt-[100px] lg:mt-[150px] min-h-screen">
-        <h1 className="leading-tight font-semibold text-left text-[16px] md:text-[25px] lg:text-[34px] xl:text-[43px] 2xl:text-[48px] 3xl:text-[51px] desktop:text-[57px] ">
+        <h1 className="leading-tight font-semibold text-left text-[20px] md:text-[25px] lg:text-[34px] xl:text-[43px] 2xl:text-[48px] 3xl:text-[51px] desktop:text-[57px] ">
           {post.title}
         </h1>
         <ArticleAuthor
@@ -47,7 +47,7 @@ const page = async ({ params: { locale, link } }: { params: any }) => {
           time={post.time}
         />
 
-        <p className="text-[11px] md:text-[12px] lg:text-[16px] xl:text-[20px] 2xl:text-[23px] 3xl:text-[25px] desktop:text-[28px] opacity-80">
+        <p className="text-[13px] md:text-[12px] lg:text-[16px] xl:text-[20px] 2xl:text-[23px] 3xl:text-[25px] desktop:text-[28px] opacity-80">
           {post.entryText}
         </p>
         <Image
@@ -62,7 +62,7 @@ const page = async ({ params: { locale, link } }: { params: any }) => {
         <div className="post">{renderRichText(post.content)}</div>
 
         <p
-          className="opacity-80 text-[11px] md:text-[12px] lg:text-[16px] xl:text-[20px] 2xl:text-[23px] 3xl:text-[25px] desktop:text-[28px]
+          className="opacity-80 text-[13px] md:text-[12px] lg:text-[16px] xl:text-[20px] 2xl:text-[23px] 3xl:text-[25px] desktop:text-[28px]
         mt-[30px] md:mt-[50px] lg:mt-[66px] xl:mt-[83px] 2xl:mt-[93px] 3xl:mt-[100px] desktop:mt-[112px]"
         >
           {formattedDate}
