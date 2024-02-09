@@ -10,13 +10,13 @@ const ArticleAuthor = ({ authorAvatar, authorName, time }: any) => {
         alt="Avatar"
         width={45}
         height={45}
-        className="rounded-[50%] aspect-square w-[23.09px] md:w-[29px] lg:w-[38px] xl:w-[42px] 2xl:w-[46px] desktop:w-[50px]"
+        className="rounded-[50%] aspect-square w-[28.09px] md:w-[29px] lg:w-[38px] xl:w-[42px] 2xl:w-[46px] desktop:w-[50px]"
       />
       <div className="flex flex-col justify-center">
-        <p className="font-medium text-[8px] md:text-[10px] lg:text-[12px] xl:text-[14px] 2xl:text-[15px] desktop:text-[16px] tracking-[0.5px]">
+        <p className="font-medium text-[10px] md:text-[10px] lg:text-[12px] xl:text-[14px] 2xl:text-[15px] desktop:text-[16px] tracking-[0.5px]">
           {authorName}
         </p>
-        <p className="font-light text-[7px] md:text-[9px] lg:text-[10px] xl:text-[12px] 2xl:text-[13px] desktop:text-[15px]">
+        <p className="font-light text-[9px] md:text-[9px] lg:text-[10px] xl:text-[12px] 2xl:text-[13px] desktop:text-[15px]">
           {time}
         </p>
       </div>

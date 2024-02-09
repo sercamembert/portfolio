@@ -89,13 +89,13 @@ html {
   .post h4,
   .post h5,
   .post h6 {
-    @apply font-semibold text-[11px] md:text-[15px] lg:text-[19px] xl:text-[25px] 2xl:text-[28px] 3xl:text-[30px] desktop:text-[33px]
+    @apply font-semibold text-[14px] md:text-[15px] lg:text-[19px] xl:text-[25px] 2xl:text-[28px] 3xl:text-[30px] desktop:text-[33px]
     mt-[30px] md:mt-[50px] lg:mt-[66px] xl:mt-[83px] 2xl:mt-[93px] 3xl:mt-[100px] desktop:mt-[112px]
     mb-[6px] md:mb-[14px] lg:mb-[18px] xl:mb-[23px] 2xl:mb-[26px] desktop:mb-[32px];
   }
 
   .post p {
-    @apply text-[9px] md:text-[12px] lg:text-[16px] xl:text-[20px] 2xl:text-[23px] 3xl:text-[25px] desktop:text-[28px] opacity-80;
+    @apply text-[11px] md:text-[12px] lg:text-[16px] xl:text-[20px] 2xl:text-[23px] 3xl:text-[25px] desktop:text-[28px] opacity-80;
   }
 
   .post ul {
@@ -103,7 +103,7 @@ html {
   }
 
   .post li {
-    @apply ml-[25px] text-[9px] md:text-[12px] lg:text-[16px] xl:text-[20px] 2xl:text-[23px] 3xl:text-[25px] desktop:text-[28px] opacity-80;
+    @apply ml-[25px] text-[11px] md:text-[12px] lg:text-[16px] xl:text-[20px] 2xl:text-[23px] 3xl:text-[25px] desktop:text-[28px] opacity-80;
   }
 
   .post ol {
