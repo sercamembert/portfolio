@@ -124,6 +124,13 @@ const Navbar = ({ services, about, talk, contact, locale }: Props) => {
 
         <div className="hidden md:flex items-center">
           <Link
+            href={`/${locale}/blog/all`}
+            title="Onas"
+            className="cursor-pointer font-medium text-[7.82px] lg:text-[10px] xl:text-[12.81px] 2xl:text-[14.67px] desktop:text-[17.52px]  hover:text-primary duration-300 mr-[38px] lg:mr-[49px] xl:mr-[62px] 2xl:mr-[72px] desktop:mr-[85px]"
+          >
+            Blog
+          </Link>
+          <Link
             href={`/${locale}/services`}
             title="Usługi"
             className=" font-medium text-[7.82px] lg:text-[10px] xl:text-[12.81px] 2xl:text-[14.67px] desktop:text-[17.52px] hover:text-primary duration-300 "
@@ -143,14 +150,6 @@ const Navbar = ({ services, about, talk, contact, locale }: Props) => {
             className="cursor-pointer font-medium text-[7.82px] lg:text-[10px] xl:text-[12.81px] 2xl:text-[14.67px] desktop:text-[17.52px]  hover:text-primary duration-300"
           >
             {about}
-          </Link>
-
-          <Link
-            href={`/${locale}/blog/all`}
-            title="Onas"
-            className="cursor-pointer font-medium text-[7.82px] lg:text-[10px] xl:text-[12.81px] 2xl:text-[14.67px] desktop:text-[17.52px]  hover:text-primary duration-300 ml-[38px] lg:ml-[49px] xl:ml-[62px] 2xl:ml-[72px] desktop:ml-[85px]"
-          >
-            Blog
           </Link>
 
           <Language />

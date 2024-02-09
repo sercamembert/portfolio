@@ -37,7 +37,7 @@ const page = async ({ params: { locale, link } }: { params: any }) => {
   // eslint-disable-next-line react-hooks/rules-of-hooks
   return (
     <>
-      <div className="blog-padding flex flex-col mb-[100px] mt-[100px] min-h-screen">
+      <div className="blog-padding flex flex-col mb-[100px] mt-[100px] lg:mt-[150px] min-h-screen">
         <h1 className="leading-tight font-semibold text-left text-[13px] md:text-[25px] lg:text-[34px] xl:text-[43px] 2xl:text-[48px] 3xl:text-[51px] desktop:text-[57px] ">
           {post.title}
         </h1>
