@@ -49,6 +49,10 @@ export default function RootLayout({
           content="https://outofplace.space/_next/image?url=%2Fimages%2Fmain.png&w=640&q=75"
         />
         <meta property="twitter:card" content="summary_large_image" />
+        <meta
+          name="keywords"
+          content="tworzenie stron internetowych, tanie strony internetowe, profesjonalne strony internetowe"
+        />
       </Head>
       <body
         className={

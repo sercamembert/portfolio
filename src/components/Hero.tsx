@@ -16,6 +16,7 @@ const Hero = ({ text, talk, locale }: Props) => {
 
   return (
     <div className="w-screen padding h-[600px] md:h-full flex flex-col gap-y-[30px] md:flex-row pt-[80px] md:pt-[95px] lg:pt-[100px] xl:pt-[110px] 2xl:pt-[140px] desktop:pt-[160px] ">
+      <p className="invisible h-0 absolute">{text}</p>
       <div className="flex relative flex-col items-center md:items-start ">
         <h1 className="uppercase font-extrabold text-[45px] md:text-[56.27px] lg:text-[72.79px] xl:text-[92.86px] 2xl:text-[106.99px] 3xl:text-[108.59px] desktop:text-[119.62px] leading-tight">
           outofplace

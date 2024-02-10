@@ -38,7 +38,7 @@ const page = async ({ params: { locale, link } }: { params: any }) => {
   return (
     <>
       <div className="blog-padding flex flex-col mb-[100px] mt-[100px] lg:mt-[150px] min-h-screen">
-        <h1 className="leading-tight font-semibold text-left text-[20px] md:text-[25px] lg:text-[34px] xl:text-[43px] 2xl:text-[48px] 3xl:text-[51px] desktop:text-[57px] ">
+        <h1 className="leading-tight font-semibold text-left text-[23px] md:text-[25px] lg:text-[34px] xl:text-[43px] 2xl:text-[48px] 3xl:text-[51px] desktop:text-[57px] ">
           {post.title}
         </h1>
         <ArticleAuthor
