@@ -4,5 +4,4 @@ module.exports = withNextIntl({
   images: {
     domains: ["images.ctfassets.net"],
   },
-  target: "serverless",
 });
