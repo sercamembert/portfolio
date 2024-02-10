@@ -10,7 +10,6 @@ import Image from "next/image";
 import ArticleAuthor from "@/components/article/ArticleAuthor";
 import { useTranslations } from "next-intl";
 import OtherArticles from "@/components/article/OtherArticles";
-export const runtime = "edge";
 const page = async ({ params: { locale, link } }: { params: any }) => {
   if (locale === "uk") {
     locale = "en";
