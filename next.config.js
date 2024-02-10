@@ -4,4 +4,7 @@ module.exports = withNextIntl({
   images: {
     domains: ["images.ctfassets.net"],
   },
+  experimental: {
+    runtime: "edge",
+  },
 });
