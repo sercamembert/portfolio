@@ -4,7 +4,7 @@ import { useTranslations } from "next-intl";
 import Spline from "@splinetool/react-spline";
 
 interface Props {}
-
+export const runtime = "edge";
 const page = () => {
   // eslint-disable-next-line react-hooks/rules-of-hooks
   const translation = useTranslations("Thanks");

@@ -5,7 +5,7 @@ export const metadata = {
   description:
     "Tworzenie tanich stron internetowych. Zobacz nasze portfolio POUS, dowiedz się więcej o naszych usługach tworzenia stron. Skontaktuj się z nami już teraz.",
 };
-
+export const runtime = "edge";
 const page = ({ params: { locale } }: { params: any }) => {
   // eslint-disable-next-line react-hooks/rules-of-hooks
   const text = useTranslations("Pous");

@@ -4,5 +4,5 @@ module.exports = withNextIntl({
   images: {
     domains: ["images.ctfassets.net"],
   },
-  runtime: "edge",
+  target: "serverless",
 });

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "Tworzymy profesjonalne i tanie strony internetowe. Skontaktuj się z nami, aby dowiedzieć się więcej o naszych usługach.",
 };
-
+export const runtime = "edge";
 const Page = ({ params: { locale } }: { params: any }) => {
   return (
     <iframe
