@@ -6,7 +6,7 @@ export const metadata = {
   description:
     "Tworzenie tanich stron internetowych | outofplace - Quizportal.pl. Odkryj QuizPortal i jego funkcje. Skontaktuj się z nami już dziś.",
 };
-export const runtime = "edge";
+
 const page = ({ params: { locale } }: { params: any }) => {
   // eslint-disable-next-line react-hooks/rules-of-hooks
   const text = useTranslations("Quizportal");

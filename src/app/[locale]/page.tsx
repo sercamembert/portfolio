@@ -9,7 +9,7 @@ import Creative from "@/components/Creative";
 import Portfolio from "@/components/portfolio/Portfolio";
 import MarqueeText from "@/components/Marquee";
 import Opinions from "@/components/opinions/Opinions";
-export const runtime = "edge";
+
 export default function Home({ params: { locale } }: { params: any }) {
   const navbarText = useTranslations("Navbar");
   const heroText = useTranslations("Hero");

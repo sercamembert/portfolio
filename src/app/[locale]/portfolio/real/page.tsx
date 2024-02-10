@@ -6,7 +6,7 @@ export const metadata = {
   description:
     "Szukasz taniej i profesjonalnej strony internetowej? Skontaktuj się z outofplace i dowiedz się więcej o naszych usługach tworzenia stron.",
 };
-export const runtime = "edge";
+
 const page = ({ params: { locale } }: { params: any }) => {
   // eslint-disable-next-line react-hooks/rules-of-hooks
   const text = useTranslations("Real");

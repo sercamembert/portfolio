@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "Poznaj nasze usługi tworzenia profesjonalnych stron internetowych. Skontaktuj się z nami, aby dowiedzieć się więcej.",
 };
-export const runtime = "edge";
+
 const page = ({ params: { locale } }: { params: any }) => {
   // eslint-disable-next-line react-hooks/rules-of-hooks
   const portfolioText = useTranslations("Portfolio");

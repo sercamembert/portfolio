@@ -6,7 +6,7 @@ export const metadata = {
   description:
     "Poznaj naszą ofertę w tworzeniu tanich stron internetowych. Skontaktuj się z nami i dowiedz się więcej o naszych usługach.",
 };
-export const runtime = "edge";
+
 const page = ({ params: { locale } }: { params: any }) => {
   // eslint-disable-next-line react-hooks/rules-of-hooks
   const text = useTranslations("Renovation");

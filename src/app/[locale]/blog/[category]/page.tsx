@@ -7,7 +7,7 @@ import BlogFeed from "@/components/blog/BlogFeed";
 import BlogCategory from "@/components/blog/BlogCategory";
 import BlogMain from "@/components/blog/BlogMain";
 interface Props {}
-export const runtime = "edge";
+
 const page = ({ params: { locale, category } }: { params: any }) => {
   // eslint-disable-next-line react-hooks/rules-of-hooks
   const blogTranslation = useTranslations("Blog");

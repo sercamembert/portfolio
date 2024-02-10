@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "Zespół Outofplace oferuje najlepsze usługi w tworzeniu tanich stron internetowych. Skontaktuj się z nami i dowiedz się więcej o naszym projektowaniu stron.",
 };
-export const runtime = "edge";
+
 const page = ({ params: { locale } }: { params: any }) => {
   // eslint-disable-next-line react-hooks/rules-of-hooks
   const servicesText = useTranslations("Services");
