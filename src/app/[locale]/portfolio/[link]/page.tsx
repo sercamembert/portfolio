@@ -45,8 +45,7 @@ const page = async ({ params: { locale, link } }: { params: any }) => {
         height={562}
         className="w-full rounded-[6px] md:rounded-[13px] lg:rounded-[18px] xl:rounded-[22px] 2xl:rounded-[25px] desktop:rounded-[30px]
         mt-[50px] 2xl:mt-[90px] mx-auto
-           lg:max-w-[80%]
-          "
+           lg:max-w-[80%] "
       />
       <div className="post">
         {documentToReactComponents(post.content, renderOptions)}
