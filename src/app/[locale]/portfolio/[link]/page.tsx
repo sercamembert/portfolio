@@ -22,10 +22,8 @@ const page = async ({ params: { locale, link } }: { params: any }) => {
     renderNode: {
       [BLOCKS.EMBEDDED_ASSET]: (node, children) => {
         return (
-          <Image
+          <img
             src={`https://${node.data.target.fields.file.url}`}
-            height={node.data.target.fields.file.details.image.height}
-            width={node.data.target.fields.file.details.image.width}
             alt={node.data.target.fields.description}
             className="my-[50px] md:my-[50px] lg:my-[66px] xl:my-[83px] 2xl:my-[93px] 3xl:my-[100px] desktop:my-[112px] md:max-w-[60%] lg:max-w-[50%]"
           />
