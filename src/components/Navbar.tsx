@@ -6,6 +6,8 @@ import Link from "next/link";
 import Language from "./Language";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { Menu, MenuItem, ProductItem } from "./ui/navbar-menu";
+import { useTranslations } from "next-intl";
 
 interface Props {
   services: string;
@@ -22,7 +24,9 @@ const variants = {
 
 const Navbar = ({ services, about, talk, contact, locale }: Props) => {
   const [isOpen, setIsOpen] = useState(false);
-
+  const [active, setActive] = useState<string | null>(null);
+  const portfolioTranslation = useTranslations("Portfolio");
+  const servicesTranslation = useTranslations("Services");
   return (
     <>
       <motion.div
@@ -126,23 +130,105 @@ const Navbar = ({ services, about, talk, contact, locale }: Props) => {
           <Link
             href={`/${locale}/blog/all`}
             title="Onas"
-            className="cursor-pointer font-medium text-[7.82px] lg:text-[10px] xl:text-[12.81px] 2xl:text-[14.67px] desktop:text-[17.52px]  hover:text-primary duration-300 mr-[38px] lg:mr-[49px] xl:mr-[62px] 2xl:mr-[72px] desktop:mr-[85px]"
+            className="cursor-pointer font-medium text-[7.82px] lg:text-[10px] xl:text-[12.81px] 2xl:text-[14.67px] desktop:text-[17.52px] hover:text-primary duration-300  mr-[38px] lg:mr-[49px] xl:mr-[62px] 2xl:mr-[72px] desktop:mr-[85px]"
           >
             Blog
           </Link>
-          <Link
-            href={`/${locale}/services`}
-            title="Usługi"
-            className=" font-medium text-[7.82px] lg:text-[10px] xl:text-[12.81px] 2xl:text-[14.67px] desktop:text-[17.52px] hover:text-primary duration-300 "
-          >
-            {services}
-          </Link>
+          <Menu setActive={setActive}>
+            <Link
+              href={`/${locale}/services`}
+              title="Usługi"
+              className=" font-medium text-[7.82px] lg:text-[10px] xl:text-[12.81px] 2xl:text-[14.67px] desktop:text-[17.52px]  "
+            >
+              <MenuItem setActive={setActive} active={active} item={services}>
+                <div className="flex flex-col space-y-4 ">
+                  <Link
+                    href={`/${locale}/services`}
+                    title="Usługi"
+                    className=" font-medium text-[7.82px] lg:text-[10px] xl:text-[12.81px] 2xl:text-[14.67px] desktop:text-[17.52px] hover:text-primary duration-300 "
+                  >
+                    {servicesTranslation("apps")}
+                  </Link>
+                  <Link
+                    href={`/${locale}/services`}
+                    title="Usługi"
+                    className=" font-medium text-[7.82px] lg:text-[10px] xl:text-[12.81px] 2xl:text-[14.67px] desktop:text-[17.52px] hover:text-primary duration-300 "
+                  >
+                    {servicesTranslation("websites")}
+                  </Link>
+                  <Link
+                    href={`/${locale}/services`}
+                    title="Usługi"
+                    className=" font-medium text-[7.82px] lg:text-[10px] xl:text-[12.81px] 2xl:text-[14.67px] desktop:text-[17.52px] hover:text-primary duration-300 "
+                  >
+                    {servicesTranslation("brandImage")}
+                  </Link>
+                  <Link
+                    href={`/${locale}/services`}
+                    title="Usługi"
+                    className=" font-medium text-[7.82px] lg:text-[10px] xl:text-[12.81px] 2xl:text-[14.67px] desktop:text-[17.52px] hover:text-primary duration-300 "
+                  >
+                    {servicesTranslation("positioning")}
+                  </Link>
+                  <Link
+                    href={`/${locale}/services`}
+                    title="Usługi"
+                    className=" font-medium text-[7.82px] lg:text-[10px] xl:text-[12.81px] 2xl:text-[14.67px] desktop:text-[17.52px] hover:text-primary duration-300 "
+                  >
+                    {servicesTranslation("brandBuilding")}
+                  </Link>
+                </div>
+              </MenuItem>
+            </Link>
+          </Menu>
           <Link
             href={`/${locale}/portfolio`}
             title="Portfolio"
-            className=" font-medium text-[7.82px] lg:text-[10px] xl:text-[12.81px] 2xl:text-[14.67px] desktop:text-[17.52px] mx-[38px] lg:mx-[49px] xl:mx-[62px] 2xl:mx-[72px] desktop:mx-[85px] hover:text-primary duration-300"
+            className="flex items-center font-medium text-[7.82px] lg:text-[10px] xl:text-[12.81px] 2xl:text-[14.67px] desktop:text-[17.52px]  hover:text-primary duration-300 mx-[38px] lg:mx-[49px] xl:mx-[62px] 2xl:mx-[72px] desktop:mx-[85px]"
           >
-            Portfolio
+            <Menu setActive={setActive}>
+              <div className="hidden 3xl:flex">
+                <MenuItem
+                  setActive={setActive}
+                  active={active}
+                  item="Portfolio"
+                >
+                  <div className="text-sm grid  grid-cols-2 gap-10 p-4">
+                    <ProductItem
+                      title="Quizportal"
+                      href={`/${locale}/portfolio/quizportal`}
+                      src="/images/navbar/quizportal.png"
+                      description={portfolioTranslation("quizportalNavbar")}
+                    />
+                    <ProductItem
+                      title="Złote Głosy Musicalu"
+                      href={`/${locale}/portfolio/zlote-glosy`}
+                      src="/images/navbar/zlote.png"
+                      description={portfolioTranslation("musical")}
+                    />
+                    <ProductItem
+                      title="Pous"
+                      href={`/${locale}/portfolio/${
+                        locale == "pl"
+                          ? "pous-marka-odziezowa-dokumentacja"
+                          : "POUS-Project-Documentation"
+                      }`}
+                      src="/images/navbar/pous.png"
+                      description={portfolioTranslation("clothes")}
+                    />
+                    <ProductItem
+                      title="Renovation"
+                      href={`/${locale}/portfolio/${
+                        locale == "pl" ? "renowacje" : "renovation"
+                      }`}
+                      src="/images/navbar/renovation.png"
+                      description={portfolioTranslation("renovations")}
+                    />
+                  </div>
+                </MenuItem>
+              </div>
+            </Menu>
+            <p className=" 3xl:hidden block">Portfolio</p>
           </Link>
           <Link
             href={`/${locale}#about`}

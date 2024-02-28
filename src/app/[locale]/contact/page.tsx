@@ -1,7 +1,5 @@
-import Contact from "@/components/contact/Contact";
 import { Metadata } from "next";
 
-interface Props {}
 export const metadata: Metadata = {
   description:
     "Tworzymy profesjonalne i tanie strony internetowe. Skontaktuj się z nami, aby dowiedzieć się więcej o naszych usługach.",

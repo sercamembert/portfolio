@@ -55,15 +55,7 @@ export default function Home({ params: { locale } }: { params: any }) {
           catchtext={creativeText("catchtext")}
           eye={creativeText("eye")}
         />
-        <Portfolio
-          clothes={portfolioText("clothes")}
-          company={portfolioText("company")}
-          more={portfolioText("more")}
-          quizportal={portfolioText("quizportal")}
-          renovations={portfolioText("renovations")}
-          websites={portfolioText("websites")}
-          locale={locale}
-        />
+        <Portfolio more={portfolioText("more")} locale={locale} />
         <Team title={teamText("title")} />
         <MarqueeText talk={navbarText("talk")} locale={locale} />
       </div>

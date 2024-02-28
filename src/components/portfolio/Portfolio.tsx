@@ -1,29 +1,19 @@
-"use client";
 import React from "react";
 import PortfolioBlock from "./PortfolioBlock";
 import Link from "next/link";
 import Image from "next/image";
-import { motion } from "framer-motion";
+import { getPortfolioThumbnailsHome } from "@/lib/contentful";
 
 interface Props {
-  websites: string;
-  company: string;
-  renovations: string;
-  quizportal: string;
-  clothes: string;
   more: string;
   locale: string;
 }
 
-const Portfolio = ({
-  websites,
-  company,
-  renovations,
-  quizportal,
-  clothes,
-  more,
-  locale,
-}: Props) => {
+const Portfolio = async ({ more, locale }: Props) => {
+  if (locale == "uk") {
+    locale = "en";
+  }
+  const portfolioThumbnails = await getPortfolioThumbnailsHome(locale);
   return (
     <div className="padding flex flex-col">
       <div className="w-full ">
@@ -41,50 +31,20 @@ const Portfolio = ({
         gap-y-[60px] md:gap-x-[47px] lg:gap-x-[61px] xl:gap-x-[78px] 2xl:gap-x-[81px] 3xl:gap-x-[91px] desktop:gap-x-[100px]
       "
       >
-        <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ duration: 0.3 }}
-          viewport={{ once: true }}
-        >
+        {portfolioThumbnails?.map((thumbnail, key) => (
           <PortfolioBlock
-            path="/images/portfolio/renovation.png"
-            type={websites}
-            text={renovations}
+            // @ts-expect-error
+            path={"https:" + thumbnail.fields.image?.fields.file?.url}
+            // @ts-expect-error
+            text={thumbnail.fields.title}
+            // @ts-expect-error
+            type={thumbnail.fields.category}
+            // @ts-expect-error
+            link={thumbnail.fields.link}
             locale={locale}
-            link="renovations"
+            key={key}
           />
-        </motion.div>
-
-        <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ duration: 0.3, delay: 0.4 }}
-          viewport={{ once: true }}
-        >
-          {" "}
-          <PortfolioBlock
-            path="/images/portfolio/quizportal.png"
-            type={company}
-            text={quizportal}
-            locale={locale}
-            link="quizportal"
-          />
-        </motion.div>
-        <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ duration: 0.3, delay: 0.8 }}
-          viewport={{ once: true }}
-        >
-          <PortfolioBlock
-            path="/images/portfolio/clothes.png"
-            type="Design"
-            text={clothes}
-            locale={locale}
-            link="pous"
-          />
-        </motion.div>
+        ))}
       </div>
       <Link href={`${locale}/portfolio`} className="mx-auto" title="Więcej">
         <button

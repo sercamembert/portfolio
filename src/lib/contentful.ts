@@ -46,3 +46,32 @@ export const getBlogPost = async (locale: string, link: string) => {
 
   return response.items;
 };
+
+export const getPortfolioThumbnails = async (locale: string) => {
+  const response = await client.getEntries({
+    content_type: "portfolioThumbnail",
+    locale: locale,
+  });
+
+  return response.items;
+};
+
+export const getPortfolioThumbnailsHome = async (locale: string) => {
+  const response = await client.getEntries({
+    content_type: "portfolioThumbnail",
+    locale: locale,
+    limit: 3,
+  });
+
+  return response.items;
+};
+
+export const getPortfolioPost = async (locale: string, link: string) => {
+  const response = await client.getEntries({
+    content_type: "portfolio",
+    locale: locale,
+    "fields.link": link,
+  });
+
+  return response.items;
+};
