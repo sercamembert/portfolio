@@ -11,7 +11,7 @@ html {
   }
 
   .blog-padding {
-    @apply px-[20px] sm:px-[40px] md:px-[134px] lg:px-[178px] xl:px-[223px] 2xl:px-[250px] 3xl:px-[270px] desktop:px-[300px];
+    @apply px-[20px] sm:px-[40px] md:px-[180px] lg:px-[240px] xl:px-[300px] 2xl:px-[333px] 3xl:px-[360px] desktop:px-[400px];
   }
 
   .title {
