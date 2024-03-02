@@ -9,6 +9,8 @@ export const getPostThumbnails = async (locale: string) => {
   const response = await client.getEntries({
     content_type: "blogThumbnail",
     locale: locale,
+    // @ts-expect-error
+    order: "-fields.date",
   });
 
   return response.items;
@@ -31,6 +33,7 @@ export const getPostThumbnailsWithCategory = async (
   const response = await client.getEntries({
     content_type: "blogThumbnail",
     locale: locale,
+
     "fields.category": category,
   });
 
