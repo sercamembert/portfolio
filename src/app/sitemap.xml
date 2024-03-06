@@ -4,262 +4,302 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 
 <url>
-  <loc>https://outofplace.space/en</loc>
-  <lastmod>2024-02-10T10:14:38+00:00</lastmod>
+  <loc>https://www.outofplace.space/en</loc>
+  <lastmod>2024-03-06T08:03:36+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://outofplace.space/en/services</loc>
-  <lastmod>2024-02-10T10:14:38+00:00</lastmod>
+  <loc>https://www.outofplace.space/pl</loc>
+  <lastmod>2024-03-06T08:03:36+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://www.outofplace.space/en/services</loc>
+  <lastmod>2024-03-06T08:03:36+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://outofplace.space/en/portfolio</loc>
-  <lastmod>2024-02-10T10:14:38+00:00</lastmod>
+  <loc>https://www.outofplace.space/en/portfolio</loc>
+  <lastmod>2024-03-06T08:03:36+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://outofplace.space/en/contact</loc>
-  <lastmod>2024-02-10T10:14:38+00:00</lastmod>
+  <loc>https://www.outofplace.space/en/contact</loc>
+  <lastmod>2024-03-06T08:03:36+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://outofplace.space/en/blog/all</loc>
-  <lastmod>2024-02-10T10:14:38+00:00</lastmod>
+  <loc>https://www.outofplace.space/en/blog/all</loc>
+  <lastmod>2024-03-06T08:03:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://www.outofplace.space/uk</loc>
+  <lastmod>2024-03-06T08:03:36+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://outofplace.space/pl</loc>
-  <lastmod>2024-02-10T10:14:38+00:00</lastmod>
+  <loc>https://www.outofplace.space/en/portfolio/zlote-glosy</loc>
+  <lastmod>2024-03-06T08:03:36+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://outofplace.space/uk</loc>
-  <lastmod>2024-02-10T10:14:38+00:00</lastmod>
+  <loc>https://www.outofplace.space/en/portfolio/POUS-Project-Documentation</loc>
+  <lastmod>2024-03-06T08:03:36+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://outofplace.space/en/portfolio/renovations</loc>
-  <lastmod>2024-02-10T10:14:38+00:00</lastmod>
+  <loc>https://www.outofplace.space/en/portfolio/agromalz</loc>
+  <lastmod>2024-03-06T08:03:36+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://outofplace.space/en/portfolio/quizportal</loc>
-  <lastmod>2024-02-10T10:14:38+00:00</lastmod>
+  <loc>https://www.outofplace.space/en/portfolio/quizportal</loc>
+  <lastmod>2024-03-06T08:03:36+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://outofplace.space/en/portfolio/pous</loc>
-  <lastmod>2024-02-10T10:14:38+00:00</lastmod>
+  <loc>https://www.outofplace.space/statue/statue_en.pdf</loc>
+  <lastmod>2024-03-06T08:03:36+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://outofplace.space/en/portfolio/real</loc>
-  <lastmod>2024-02-10T10:14:38+00:00</lastmod>
+  <loc>https://www.outofplace.space/en/portfolio/recipes</loc>
+  <lastmod>2024-03-06T08:03:36+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://outofplace.space/en/portfolio/roof</loc>
-  <lastmod>2024-02-10T10:14:38+00:00</lastmod>
+  <loc>https://www.outofplace.space/en/portfolio/real</loc>
+  <lastmod>2024-03-06T08:03:36+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://outofplace.space/en/portfolio/recipes</loc>
-  <lastmod>2024-02-10T10:14:38+00:00</lastmod>
+  <loc>https://www.outofplace.space/en/portfolio/renovation</loc>
+  <lastmod>2024-03-06T08:03:36+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://outofplace.space/en/blog/News</loc>
-  <lastmod>2024-02-10T10:14:38+00:00</lastmod>
+  <loc>https://www.outofplace.space/en/blog/News</loc>
+  <lastmod>2024-03-06T08:03:36+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://outofplace.space/en/blog/Marketing</loc>
-  <lastmod>2024-02-10T10:14:38+00:00</lastmod>
+  <loc>https://www.outofplace.space/en/blog/Marketing</loc>
+  <lastmod>2024-03-06T08:03:36+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://outofplace.space/en/blog/Business</loc>
-  <lastmod>2024-02-10T10:14:38+00:00</lastmod>
+  <loc>https://www.outofplace.space/en/blog/Business</loc>
+  <lastmod>2024-03-06T08:03:36+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://outofplace.space/en/blog/Design</loc>
-  <lastmod>2024-02-10T10:14:38+00:00</lastmod>
+  <loc>https://www.outofplace.space/en/blog/Design</loc>
+  <lastmod>2024-03-06T08:03:36+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://outofplace.space/en/blog/Technology</loc>
-  <lastmod>2024-02-10T10:14:38+00:00</lastmod>
+  <loc>https://www.outofplace.space/en/blog/Technology</loc>
+  <lastmod>2024-03-06T08:03:36+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://outofplace.space/en/article/What-is-CMS-and-what-are-its-functions-in-creating-websites</loc>
-  <lastmod>2024-02-10T10:14:38+00:00</lastmod>
+  <loc>https://www.outofplace.space/en/article/web-design-essentials-create-captivating-websites</loc>
+  <lastmod>2024-03-06T08:03:36+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://outofplace.space/pl/services</loc>
-  <lastmod>2024-02-10T10:14:38+00:00</lastmod>
+  <loc>https://www.outofplace.space/en/article/revolutionary-innovations-in-artificial-intelligence</loc>
+  <lastmod>2024-03-06T08:03:36+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://outofplace.space/pl/portfolio</loc>
-  <lastmod>2024-02-10T10:14:38+00:00</lastmod>
+  <loc>https://www.outofplace.space/en/article/Website-Security-Key-Issues-You-Need-to-Know</loc>
+  <lastmod>2024-03-06T08:03:36+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://outofplace.space/pl/contact</loc>
-  <lastmod>2024-02-10T10:14:38+00:00</lastmod>
+  <loc>https://www.outofplace.space/en/article/Maximizing-Brand-Visibility-with-Efficient-Content-Management-Solutions</loc>
+  <lastmod>2024-03-06T08:03:36+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://outofplace.space/pl/blog/all</loc>
-  <lastmod>2024-02-10T10:14:38+00:00</lastmod>
+  <loc>https://www.outofplace.space/en/article/Enhancing-Your-Business-Outreach-with-Cutting-Edge-Hybrid-Apps</loc>
+  <lastmod>2024-03-06T08:03:36+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://outofplace.space/pl/portfolio/renovations</loc>
-  <lastmod>2024-02-10T10:14:38+00:00</lastmod>
+  <loc>https://www.outofplace.space/en/article/What-is-CMS-and-what-are-its-functions-in-creating-websites</loc>
+  <lastmod>2024-03-06T08:03:36+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://outofplace.space/pl/portfolio/quizportal</loc>
-  <lastmod>2024-02-10T10:14:38+00:00</lastmod>
+  <loc>https://www.outofplace.space/pl/services</loc>
+  <lastmod>2024-03-06T08:03:36+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://outofplace.space/pl/portfolio/pous</loc>
-  <lastmod>2024-02-10T10:14:38+00:00</lastmod>
+  <loc>https://www.outofplace.space/pl/portfolio</loc>
+  <lastmod>2024-03-06T08:03:36+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://outofplace.space/statue/statue_pl.pdf</loc>
-  <lastmod>2024-02-10T10:14:38+00:00</lastmod>
+  <loc>https://www.outofplace.space/pl/contact</loc>
+  <lastmod>2024-03-06T08:03:36+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://outofplace.space/uk/services</loc>
-  <lastmod>2024-02-10T10:14:38+00:00</lastmod>
+  <loc>https://www.outofplace.space/pl/blog/all</loc>
+  <lastmod>2024-03-06T08:03:36+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://outofplace.space/uk/portfolio</loc>
-  <lastmod>2024-02-10T10:14:38+00:00</lastmod>
+  <loc>https://www.outofplace.space/pl/portfolio/zlote-glosy</loc>
+  <lastmod>2024-03-06T08:03:36+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://outofplace.space/uk/contact</loc>
-  <lastmod>2024-02-10T10:14:38+00:00</lastmod>
+  <loc>https://www.outofplace.space/pl/portfolio/pous-marka-odziezowa-dokumentacja</loc>
+  <lastmod>2024-03-06T08:03:36+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://outofplace.space/uk/blog/all</loc>
-  <lastmod>2024-02-10T10:14:38+00:00</lastmod>
+  <loc>https://www.outofplace.space/pl/portfolio/agromalz</loc>
+  <lastmod>2024-03-06T08:03:36+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://outofplace.space/uk/portfolio/renovations</loc>
-  <lastmod>2024-02-10T10:14:38+00:00</lastmod>
+  <loc>https://www.outofplace.space/pl/portfolio/quizportal</loc>
+  <lastmod>2024-03-06T08:03:36+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://outofplace.space/uk/portfolio/quizportal</loc>
-  <lastmod>2024-02-10T10:14:38+00:00</lastmod>
+  <loc>https://www.outofplace.space/statue/statue_pl.pdf</loc>
+  <lastmod>2024-03-06T08:03:36+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://outofplace.space/uk/portfolio/pous</loc>
-  <lastmod>2024-02-10T10:14:38+00:00</lastmod>
+  <loc>https://www.outofplace.space/uk/services</loc>
+  <lastmod>2024-03-06T08:03:36+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://outofplace.space/pl/portfolio/real</loc>
-  <lastmod>2024-02-10T10:14:38+00:00</lastmod>
+  <loc>https://www.outofplace.space/uk/portfolio</loc>
+  <lastmod>2024-03-06T08:03:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.outofplace.space/uk/contact</loc>
+  <lastmod>2024-03-06T08:03:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.outofplace.space/uk/blog/all</loc>
+  <lastmod>2024-03-06T08:03:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.outofplace.space/uk/portfolio/quizportal</loc>
+  <lastmod>2024-03-06T08:03:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.outofplace.space/pl/portfolio/recipes</loc>
+  <lastmod>2024-03-06T08:03:36+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://outofplace.space/pl/portfolio/roof</loc>
-  <lastmod>2024-02-10T10:14:38+00:00</lastmod>
+  <loc>https://www.outofplace.space/pl/portfolio/real</loc>
+  <lastmod>2024-03-06T08:03:36+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://outofplace.space/pl/portfolio/recipes</loc>
-  <lastmod>2024-02-10T10:14:38+00:00</lastmod>
+  <loc>https://www.outofplace.space/pl/portfolio/renowacje</loc>
+  <lastmod>2024-03-06T08:03:36+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://outofplace.space/pl/blog/Aktualno%C5%9Bci</loc>
-  <lastmod>2024-02-10T10:14:38+00:00</lastmod>
+  <loc>https://www.outofplace.space/pl/blog/Aktualno%C5%9Bci</loc>
+  <lastmod>2024-03-06T08:03:36+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://outofplace.space/pl/blog/Marketing</loc>
-  <lastmod>2024-02-10T10:14:38+00:00</lastmod>
+  <loc>https://www.outofplace.space/pl/blog/Marketing</loc>
+  <lastmod>2024-03-06T08:03:36+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://outofplace.space/pl/blog/Biznes</loc>
-  <lastmod>2024-02-10T10:14:38+00:00</lastmod>
+  <loc>https://www.outofplace.space/pl/blog/Biznes</loc>
+  <lastmod>2024-03-06T08:03:36+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://outofplace.space/pl/blog/Projektowanie</loc>
-  <lastmod>2024-02-10T10:14:38+00:00</lastmod>
+  <loc>https://www.outofplace.space/pl/blog/Projektowanie</loc>
+  <lastmod>2024-03-06T08:03:36+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://outofplace.space/pl/blog/Technologia</loc>
-  <lastmod>2024-02-10T10:14:38+00:00</lastmod>
+  <loc>https://www.outofplace.space/pl/blog/Technologia</loc>
+  <lastmod>2024-03-06T08:03:36+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://outofplace.space/pl/article/Co-to-jest-CMS-i-jakie-s%C4%85-jego-funkcje-w-tworzeniu-stron-internetowych?</loc>
-  <lastmod>2024-02-10T10:14:38+00:00</lastmod>
+  <loc>https://www.outofplace.space/pl/article/projektowanie-stron-jak-stworzyc-atrakcyjna-strone</loc>
+  <lastmod>2024-03-06T08:03:36+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://outofplace.space/uk/portfolio/real</loc>
-  <lastmod>2024-02-10T10:14:38+00:00</lastmod>
+  <loc>https://www.outofplace.space/pl/article/przelomowe-innowacje-w-sztucznej-inteligencji</loc>
+  <lastmod>2024-03-06T08:03:36+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://outofplace.space/uk/portfolio/roof</loc>
-  <lastmod>2024-02-10T10:14:38+00:00</lastmod>
+  <loc>https://www.outofplace.space/pl/article/Bezpieczenstwo-Stron-Internetowych-Kluczowe-Kwestie-Ktore-Warto-Znac</loc>
+  <lastmod>2024-03-06T08:03:36+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://outofplace.space/uk/portfolio/recipes</loc>
-  <lastmod>2024-02-10T10:14:38+00:00</lastmod>
+  <loc>https://www.outofplace.space/pl/article/Maksymalizuj-widocznosci-marki-dzieki-wydajnym-rozwiazaniom-do-zarzadzania-trescia</loc>
+  <lastmod>2024-03-06T08:03:36+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://outofplace.space/uk/blog/News</loc>
-  <lastmod>2024-02-10T10:14:38+00:00</lastmod>
+  <loc>https://www.outofplace.space/pl/article/Zwiekszenie-Skutecznosci-Dzialalnosci-Biznesowej-Dzieki-Nowoczesnym-Aplikacjom-Hybrydowym</loc>
+  <lastmod>2024-03-06T08:03:36+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://outofplace.space/uk/blog/Marketing</loc>
-  <lastmod>2024-02-10T10:14:38+00:00</lastmod>
+  <loc>https://www.outofplace.space/pl/article/Co-to-jest-CMS-i-jakie-sa-jego-funkcje-w-tworzeniu-stron-internetowych</loc>
+  <lastmod>2024-03-06T08:03:36+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://outofplace.space/uk/blog/Business</loc>
-  <lastmod>2024-02-10T10:14:38+00:00</lastmod>
+  <loc>https://www.outofplace.space/uk/blog/News</loc>
+  <lastmod>2024-03-06T08:03:36+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://outofplace.space/uk/blog/Design</loc>
-  <lastmod>2024-02-10T10:14:38+00:00</lastmod>
+  <loc>https://www.outofplace.space/uk/blog/Marketing</loc>
+  <lastmod>2024-03-06T08:03:36+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://outofplace.space/uk/blog/Technology</loc>
-  <lastmod>2024-02-10T10:14:38+00:00</lastmod>
+  <loc>https://www.outofplace.space/uk/blog/Business</loc>
+  <lastmod>2024-03-06T08:03:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.outofplace.space/uk/blog/Design</loc>
+  <lastmod>2024-03-06T08:03:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.outofplace.space/uk/blog/Technology</loc>
+  <lastmod>2024-03-06T08:03:36+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 
