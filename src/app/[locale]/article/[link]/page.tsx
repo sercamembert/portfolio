@@ -2,14 +2,22 @@
 import { getBlogPost, getOtherThumbnails } from "@/lib/contentful";
 import React from "react";
 import { documentToReactComponents as renderRichText } from "@contentful/rich-text-react-renderer";
-import BlogAuthor from "@/components/blog/BlogAuthor";
 import { format, parseISO } from "date-fns";
-import OpinionsScroll from "@/components/opinions/OpinionsScroll";
-import BlogThumbnail from "@/components/blog/BlogThumbnail";
 import Image from "next/image";
 import ArticleAuthor from "@/components/article/ArticleAuthor";
-import { useTranslations } from "next-intl";
 import OtherArticles from "@/components/article/OtherArticles";
+
+export async function generateMetadata(
+  { params: { locale, link } }: { params: any },
+  parent: ResolvingMetadata
+): Promise<Metadata> {
+  const currentPost = await getBlogPost(locale, link);
+
+  return {
+    title: currentPost[0].fields.title,
+    description: currentPost[0].fields.seoDescription,
+  };
+}
 
 const page = async ({ params: { locale, link } }: { params: any }) => {
   if (locale === "uk") {
@@ -35,7 +43,6 @@ const page = async ({ params: { locale, link } }: { params: any }) => {
 
   const formattedDate = format(parsedDate, "dd.MM.yyyy");
 
-  // eslint-disable-next-line react-hooks/rules-of-hooks
   return (
     <>
       <div className="blog-padding flex flex-col mb-[100px] mt-[100px] lg:mt-[150px] min-h-screen">
