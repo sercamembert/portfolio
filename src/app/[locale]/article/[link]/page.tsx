@@ -14,7 +14,7 @@ export async function generateMetadata(
   const currentPost = await getBlogPost(locale, link);
 
   return {
-    title: currentPost[0].fields.title,
+    title: currentPost[0].fields.seoTitle,
     description: currentPost[0].fields.seoDescription,
   };
 }
