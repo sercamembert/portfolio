@@ -261,7 +261,11 @@ const FooterMobile = ({
             <div className="group-open:animate-fadeIn flex flex-col mt-[12px] gap-[11px]">
               <p className="text-[11px] font-medium">
                 <Link
-                  href={`/${locale}/portfolio/renovations`}
+                  href={
+                    locale === "pl"
+                      ? `/${locale}/portfolio/renowacje`
+                      : `/${locale}/portfolio/renovation`
+                  }
                   title="Renowacje"
                 >
                   {renovation}
@@ -276,7 +280,14 @@ const FooterMobile = ({
                 </Link>
               </p>
               <p className="text-[11px] font-medium">
-                <Link href={`/${locale}/portfolio/pous`} title="Pous">
+                <Link
+                  href={`${
+                    locale === "pl"
+                      ? `/${locale}/portfolio/pous-marka-odziezowa-dokumentacja`
+                      : `/${locale}/portfolio/POUS-Project-Documentation`
+                  }`}
+                  title="Pous"
+                >
                   Pous
                 </Link>
               </p>
@@ -498,7 +509,11 @@ const FooterMain = ({
             </h6>
             <p className="link-text">
               <Link
-                href={`/${locale}/portfolio/renovations`}
+                href={
+                  locale === "pl"
+                    ? `/${locale}/portfolio/renowacje`
+                    : `/${locale}/portfolio/renovation`
+                }
                 className="md:hover:brightness-[80%] hover:scale-110 duration-300"
                 title="Renowacje"
               >
@@ -516,7 +531,11 @@ const FooterMain = ({
             </p>
             <p className="link-text">
               <Link
-                href={`/${locale}/portfolio/pous`}
+                href={`${
+                  locale === "pl"
+                    ? `/${locale}/portfolio/pous-marka-odziezowa-dokumentacja`
+                    : `/${locale}/portfolio/POUS-Project-Documentation`
+                }`}
                 className="md:hover:brightness-[80%] hover:scale-110 duration-300"
                 title="Pous"
               >
